@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!-- fix Minimal theme weird nested list spacing -->
+    <style>
+      li * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+    </style>
+</head>
+<body>
+
+  {{ content }}
+
+    <!-- Optional: Minimal footer if needed
+    <footer>
+	<p><a href="alpha60.co">a60</a></p>
+    </footer>
+
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+     -->
+</body>
+</html>
