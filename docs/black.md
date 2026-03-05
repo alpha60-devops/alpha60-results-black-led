@@ -55,7 +55,7 @@ layout: default
 
 ### Maps
 
-[His & Hers](https://bmcbride.github.io/geojson-share-maps/?fields=dl_size&src=https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/his-and-hers-2026-01-cumulative_flattened.geojson)
+[His & Hers](https://mapshaper.org/?url=https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/his-and-hers-2026-01-cumulative_flattened.geojson)
 
 <div style="height: 50px;"></div>
 
