@@ -16,21 +16,21 @@ layout: default
 
 ### Tables
 
-{% include animation-meta-collection-table.html %}
+{% include blackled-meta-collection-table.html %}
 <div style="height: 50px;"></div>
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-hover"
 	src="../resources/izzi-script-table-sort-inline.js">
 </script>
 
-{% include animation-media-objects-table.html %}
+{% include blackled-media-objects-table.html %}
 <div style="height: 50px;"></div>
 
 
 ### Graphs
 
 {::nomarkdown}
-{% include animation-downloads-by-week-cumulative-normalized-start.svg %}
+{% include blackled-downloads-by-week-cumulative-normalized-start.svg %}
 {:/}
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-hover"
@@ -42,9 +42,19 @@ layout: default
 
 ## Commentary, Questions
 
-### Asian Country and Region Slices 
+### USA x World Duration Slices
 
-{% include animation-geo-slices-aapi.html %}
+{% include black-led_usa_weeks_1-5-10-20.html %}
+<div style="height: 50px;"></div>
+
+### Africa Region Slices
+
+{% include black-led-geo-slices-africa.html %}
+<div style="height: 50px;"></div>
+
+### Asia Region Slices
+
+{% include black-led-geo-slices-asia.html %}
 <div style="height: 50px;"></div>
 
 {::nomarkdown}
