@@ -9,40 +9,24 @@ layout: default
 <div style="height: 50px;"></div>
 
 
-# Black-led
+# Black-Led
 
 ## Results
 <div style="height: 50px;"></div>
 
 ### Tables
 
-{% include blackled-meta-collection-table.html %}
-<div style="height: 50px;"></div>
-
 <script type="text/javascript" crossorigin="anonymous" id="graph-hover"
 	src="../resources/izzi-script-table-sort-inline.js">
 </script>
 
+{% include blackled-meta-collection-table.html %}
+<div style="height: 50px;"></div>
+
 {% include blackled-media-objects-table.html %}
 <div style="height: 50px;"></div>
 
-
-### Graphs
-
-{::nomarkdown}
-{% include blackled-downloads-by-week-cumulative-normalized-start.svg %}
-{:/}
-
-<script type="text/javascript" crossorigin="anonymous" id="graph-hover"
-	src="../resources/izzi-script-graph-hover-txt-polyline.js">
-</script>
-<div style="height: 50px;"></div>
-
-
-
-## Commentary, Questions
-
-### USA x World Duration Slices
+### USA x World Slices by 1,5,10,15,20 Week Duration
 
 {% include black-led_usa_weeks_1-5-10-20.html %}
 <div style="height: 50px;"></div>
@@ -56,6 +40,29 @@ layout: default
 
 {% include black-led-geo-slices-asia.html %}
 <div style="height: 50px;"></div>
+
+### Graphs
+
+<script type="text/javascript" crossorigin="anonymous" id="graph-hover"
+	src="../resources/izzi-script-graph-hover-txt-polyline.js">
+</script>
+
+{::nomarkdown}
+{% include blackled-downloads-by-week-cumulative-normalized-start.svg %}
+{:/}
+<div style="height: 50px;"></div>
+
+
+### Maps
+
+[His & Hers](https://bmcbride.github.io/geojson-share-maps/?fields=dl_size&src=https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/his-and-hers-2026-01-cumulative_flattened.geojson)
+
+<div style="height: 50px;"></div>
+
+
+
+## Commentary, Questions
+
 
 {::nomarkdown}
 <svg width="100" height=100>
