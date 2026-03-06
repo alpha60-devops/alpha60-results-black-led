@@ -2,8 +2,8 @@
 // Version 15.1 - Fixed Extended Activation
 (function() {
     // ==================== CONFIGURATION ====================
-    const text_radius = 5;      // px around text bounding box for activation
-    const vec_radius = 10;      // px around polyline points for extended activation
+    const text_radius = 10;      // px around text bounding box for activation
+    const vec_radius = 25;      // px around polyline points for extended activation
     const verbosep = true;      // console logging on/off
 
     // Style Constants
