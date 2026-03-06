@@ -17,7 +17,7 @@ layout: default
 ### Graphs
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-hover"
-	src="../resources/izzi-script-graph-hover-txt-polyline.js">
+	src="../resources/izzi-script-graph-hover-txt-polyline-v15.js">
 </script>
 
 {::nomarkdown}
