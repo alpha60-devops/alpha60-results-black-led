@@ -61,6 +61,11 @@ layout: default
 
 [His & Hers]({leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/his-and-hers-2026-01-cumulative.geojson')})
 
+<a href="#" onclick="leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/watchmen-109-cumulative.geojson'); return false;">Watchmen 109</a>
+
+<a href="#" onclick="leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/underground-railroad-01-cumulative.geojson'); return false;">Underground Railroad</a>
+
+
 <div style="height: 50px;"></div>
 
 
