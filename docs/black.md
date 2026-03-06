@@ -32,12 +32,10 @@ layout: default
 	src="../resources/izzi-leaflet-map-geojson.js">
 </script>
 
-[His & Hers](javascript:leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/his-and-hers-2026-01-cumulative.geojson'))
-
-<a href="#" onclick="javascript:leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/watchmen-109-cumulative.geojson'); return false;">Watchmen 109</a>
-
-<a href="#" onclick="javascript:leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/underground-railroad-01-cumulative.geojson'); return false;">Underground Railroad</a>
-
+| | | | |
+|---|---|---|---|
+| Cell 1 | Cell 2 | Cell 3 | Cell 4 |
+| [His & Hers](javascript:leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/his-and-hers-2026-01-cumulative.geojson')) | [Watchmen 109](javascript:leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/watchmen-109-cumulative.geojson')) | [Underground Railroad](javascript:leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/underground-railroad-01-cumulative.geojson')) | [The Madness](javascript:leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/madness-01-cumulative.geojson')) |
 <div style="height: 50px;"></div>
 
 
