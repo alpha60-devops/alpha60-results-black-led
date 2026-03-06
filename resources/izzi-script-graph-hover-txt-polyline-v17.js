@@ -2,8 +2,8 @@
 // Version 17 - True Polyline Buffer Zone
 (function() {
     // ==================== CONFIGURATION ====================
-    const text_radius = 5;      // px around text bounding box for activation
-    const vec_radius = 10;      // px perpendicular distance from polyline for activation
+    const text_radius = 10;      // px around text bounding box for activation
+    const vec_radius = 30;      // px perpendicular distance from polyline for activation
     const verbosep = true;      // console logging on/off
 
     // Style Constants
