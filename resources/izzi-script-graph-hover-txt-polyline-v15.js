@@ -3,7 +3,7 @@
 (function() {
     // ==================== CONFIGURATION ====================
     const text_radius = 10;      // px around text bounding box for activation
-    const vec_radius = 25;      // px around polyline points for extended activation
+    const vec_radius = 50;      // px around polyline for extended activation
     const verbosep = true;      // console logging on/off
 
     // Style Constants
