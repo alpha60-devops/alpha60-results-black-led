@@ -16,7 +16,7 @@ layout: default
 
 ### Tables
 
-<script type="text/javascript" crossorigin="anonymous" id="graph-hover"
+<script type="text/javascript" crossorigin="anonymous" id="table-sort"
 	src="../resources/izzi-script-table-sort-inline.js">
 </script>
 
@@ -55,7 +55,11 @@ layout: default
 
 ### Maps
 
-[His & Hers](https://mapshaper.org/?url=https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/his-and-hers-2026-01-cumulative_flattened.geojson)
+<script type="text/javascript" crossorigin="anonymous" id="geojson-map"
+	src="../resources/izzi-leaflet-map-geojson.js">
+</script>
+
+[His & Hers](leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/his-and-hers-2026-01-cumulative.geojson'))
 
 <div style="height: 50px;"></div>
 
