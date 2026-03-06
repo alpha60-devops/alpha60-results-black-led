@@ -59,7 +59,7 @@ layout: default
 	src="../resources/izzi-leaflet-map-geojson.js">
 </script>
 
-[His & Hers](leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/his-and-hers-2026-01-cumulative.geojson'))
+[His & Hers]({leaflet_map_geojson('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-black-led/main/data/his-and-hers-2026-01-cumulative.geojson')})
 
 <div style="height: 50px;"></div>
 
