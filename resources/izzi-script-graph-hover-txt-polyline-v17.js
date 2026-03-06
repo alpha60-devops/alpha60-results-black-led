@@ -3,7 +3,7 @@
 (function() {
     // ==================== CONFIGURATION ====================
     const text_radius = 10;      // px around text bounding box for activation
-    const vec_radius = 30;      // px perpendicular distance from polyline for activation
+    const vec_radius = 50;      // px perpendicular distance from polyline for activation
     const verbosep = true;      // console logging on/off
 
     // Style Constants
