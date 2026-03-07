@@ -66,17 +66,11 @@ and a row looks like
 {% include blackled-media-objects-table.html %}
 <div style="height: 50px;"></div>
 
-### USA x World Slices by 1,5,10,15,20 Week Duration
-
 {% include black-led_usa_weeks_1-5-10-20.html %}
 <div style="height: 50px;"></div>
 
-### Africa Region Slices
-
 {% include black-led-geo-slices-africa.html %}
 <div style="height: 50px;"></div>
-
-### Asia Region Slices
 
 {% include black-led-geo-slices-asia.html %}
 <div style="height: 50px;"></div>
