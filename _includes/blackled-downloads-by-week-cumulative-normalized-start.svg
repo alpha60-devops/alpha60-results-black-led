@@ -6,12 +6,15 @@
      xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:html="http://www.w3.org/1999/xhtml"
 id="blackled-downloads-by-week-cumulative-normalized-start" x="0px" y="0px"
-width="100%" height="auto"
+width="1920.000000px" height="1080.000000px"
 viewBox="0 0 1920.000000 1080.000000" enable-background="new 0 0 1920.000000 1080.000000" role="img">
 
 <title>
 blackled-downloads-by-week-cumulative-normalized-start
 </title>
+<desc>
+Line graph of media objects as peer swarms over time, from week 1 to week 26. The y-xis is the number of downloaders in millions. The x-axis is the week number of the sample, starting at 1 and ending at or before 26.
+</desc>
  <g id="annotations">
 <text x="960.000000" y="126.000000" font-family="Apercu" font-size="26.000000pt" text-anchor="middle" text-align="center" font-weight="600" font-style="normal"  style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5"> Black-Led Downloads by Week Cumulative (Normalized Start)</text>
  <g id="axes-lines">
