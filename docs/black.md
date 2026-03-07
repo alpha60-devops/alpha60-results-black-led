@@ -78,6 +78,11 @@ and a row looks like
 
 ## Commentary, Questions
 
+### Africa 60 Most Popular
+
+Media objects with black females in romantic roles over-perform in Africa, witness the high percentages of African traffic for *lovebirds* and the *queen charlotte* media objects.
+
+Given this, results for still-sampling media objects that meet this criteria look to be over-performers as well: *bridgerton-04.1*, and *his-and-hers* will be watched closely to see if they fit this pattern.
 
 {::nomarkdown}
 <svg width="100" height=100>
