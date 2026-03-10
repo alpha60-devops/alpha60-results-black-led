@@ -1,1 +1,1 @@
-./a60-graph-meta-collection.exe ../data "Black-Led" "" ""
+./a60-meta-collection.exe ../data "Black-Led" "" "" 0
