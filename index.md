@@ -7,18 +7,18 @@
 
 
 ## About
-- [Alpha60](http://alpha60.co) Grouping: Black-led
-- Media Objects
-  - altered-carbon-resleeved
 
+These are results from sampling peer swarms associated with *media objects* being *shared* on the internet. In this case *media objects* means any instances of media (film, television, books, streaming video, podcast, any video really) that that represent a specific film, television series or episode, or recorded event as a file or archive. And *sharing* means any peer-to-peer file sharing protocol used on the internet, namely BitTorrent.
 
-- Dates
-  - 2019 to 2026
-<!-- - [analysis notebook](/notebooks/analysis_2025.ipynb) -->
+Sample dates: 2019 to 2026
+
+{% include black-led-media-objects-list.html %}
+<div style="height: 50px;"></div>
 
 
 ## Results, Commentary
 - [black-led](/docs/black.md)
+<div style="height: 50px;"></div>
 
 
 ## Data

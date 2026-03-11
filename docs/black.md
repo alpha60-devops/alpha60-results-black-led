@@ -48,7 +48,7 @@ layout: default
 {% include blackled-media-objects-table.html %}
 <div style="height: 50px;"></div>
 
-{% include black-led_usa_weeks_1-5-10-20.html %}
+{% include black-led-geo-slices-usa-weeks-1-5-10-20.html %}
 <div style="height: 50px;"></div>
 
 {% include black-led-geo-slices-africa.html %}
