@@ -7,77 +7,18 @@
 
 
 ## About
-- [Alpha60](http://alpha60.co) Grouping: Black-led
-- Media Objects
-  - acolyte-101, acolyte-107
-  - ahsoka-101, ahsoka-108
-  - all-the-old-knives
-  - altered-carbon-02
-  - american-fiction
-  - atlanta-301, atlanta-410
-  - beverly-hills-cop-axel-f
-  - blackaf-01
-  - black-monday-110
-  - black-panther
-  - black-panther-wakanda-forever
-  - blink-twice
-  - coming-2-america
-  - da-5-bloods
-  - dolemite-is-my-name
-  - dope-thief-101
-  - euphoria-208, euphoria-special
-  - falcon-and-the-winter-soldier-101, falcon-and-the-winter-soldier-106
-  - full-circle-01
-  - gen-v-101, gen-v-201, gen-v-206
-  - hamilton
-  - harder-they-fall
-  - highest-2-lowest
-  - high-fidelity-01
-  - hijack-101
-  - his-and-hers-2026-01
-  - idol-101
-  - intergalactic-01
-  - ironheart-01
-  - killer-2024
-  - kimi
-  - kindred-01
-  - lovebirds
-  - lovecraft-country-101
-  - luke-cage-02
-  - madness-01
-  - malcolm-and-marie
-  - mr-and-mrs-smith-2024-01
-  - no-sudden-move
-  - one-night-in-miami
-  - outside-the-wire
-  - pose-307
-  - queen-charlotte-01
-  - random-acts-of-flyness-106
-  - sinners-2025
-  - sly-lives
-  - snowpiercer-401
-  - special-ops-lioness-201
-  - star-trek-discovery-101
-  - star-trek-discovery-201
-  - summer-of-soul
-  - tenet
-  - they-cloned-tyrone
-  - true-detective-301, true-detective-308
-  - twisted-metal-01
-  - underground-railroad-01
-  - upload-01
-  - watchmen-104, watchmen-109
-  - westworld-210, westworld-408
-  - wicked-for-good-2025
 
+These are results from sampling peer swarms associated with *media objects* being *shared* on the internet. In this case *media objects* means any instances of media (film, television, books, streaming video, podcast, any video really) that that represent a specific film, television series or episode, or recorded event as a file or archive. And *sharing* means any peer-to-peer file sharing protocol used on the internet, namely BitTorrent.
 
-- Dates
-  - 2017 to 2026
-<!-- - [analysis notebook](/notebooks/analysis_2025.ipynb) -->
+Sample dates: 2019 to 2026
+
+{% include black-led-media-objects-list.html %}
+<div style="height: 50px;"></div>
 
 
 ## Results, Commentary
 - [black-led](/docs/black.md)
+<div style="height: 50px;"></div>
 
 
 ## Data
