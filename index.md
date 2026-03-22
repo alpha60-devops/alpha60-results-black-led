@@ -8,7 +8,7 @@
 
 ## About
 
-These are results from sampling peer swarms associated with *media objects* being *shared* on the internet. In this case *media objects* means any instances of media (film, television, books, streaming video, podcast, any video really) that that represent a specific film, television series or episode, or recorded event as a file or archive. And *sharing* means any peer-to-peer file sharing protocol used on the internet, namely BitTorrent.
+These are results from sampling peer swarms associated with *media objects* being *shared* on the internet. In this case *media objects* means any instances of media (film, television, books, streaming video, podcast, any video really) that that represent a specific film, television series or episode, or recorded event as a file or archive. And *sharing* means any peer-to-peer file sharing protocol used on the internet, namely BitTorrent. This is part of a long-term project called [Alpha60](https://alpha60.co/).
 
 Sample dates: 2019 to 2026
 
