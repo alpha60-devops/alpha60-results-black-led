@@ -10,6 +10,15 @@
 
 These are results from sampling peer swarms associated with *media objects* being *shared* on the internet. In this case *media objects* means any instances of media (film, television, books, streaming video, podcast, any video really) that that represent a specific film, television series or episode, or recorded event as a file or archive. And *sharing* means any peer-to-peer file sharing protocol used on the internet, namely BitTorrent. This is part of a long-term project called [Alpha60](https://alpha60.co/).
 
+## Black-led
+
+Definition: Texts produced by US production companies (co-productions are acceptable as long as one major partner is a US company) that feature African American characters, actors, creators, and/or storylines. A text does not need all four (Black characters, actors, creators, and/or storylines) to qualify.
+
+This excludes: texts that are not produced by US production companies (regardless of African American involvement otherwise); texts that exclusively feature non-US Black characters, actors, creators, and/or storylines (e.g. a Black British actor would not be counted).
+
+Edge cases to consider:Queen Charlotte. English characters, english actors, us creators. And so while a text doesn’t need to meet all four AAPI criteria, it likely has to meet more than one… 
+
+
 Sample dates: 2019 to 2026
 
 {% include black-led-media-objects-list.html %}
