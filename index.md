@@ -19,7 +19,7 @@ This excludes: texts that are not produced by US production companies (regardles
 Edge cases to consider:Queen Charlotte. English characters, english actors, us creators. And so while a text doesn’t need to meet all four AAPI criteria, it likely has to meet more than one… 
 
 
-Sample dates: 2019 to 2026
+Sample dates: 2017 to 2026
 
 {% include black-led-media-objects-list.html %}
 <div style="height: 50px;"></div>
