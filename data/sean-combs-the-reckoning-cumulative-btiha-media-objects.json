@@ -5,7 +5,7 @@
     "collection_notes": "",
     "data_version": "2025-09-22",
     "data_btiha_sort": 1,
-    "ip_geolocation_version": "6:1759565215",
+    "ip_geolocation_version": "3:1777968300",
     "collection_btiha_duplicates": [
         {
             "duplicate_id": 0,
@@ -3584,63 +3584,7 @@
     ],
     "collection_cumulative_by_btiha": [
         {
-            "id": 1648,
-            "name": "multi-btih-16-3-x-Sean.Combs.The.Reckoning.S01E03.XviD-AFG.avi_[1080p]_[YTSTV.hair]",
-            "btih": "15aecf09ed860025e2a64e91432a62aaf7c25f87",
-            "resolution": "1080",
-            "encoding": "xvid",
-            "gigabytes": 0.739391504,
-            "creation": "2025-12-02T19:14:48.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 442845,
-            "uuploaders": 2619
-        },
-        {
-            "id": 1639,
-            "name": "multi-btih-7-2-x-Sean.Combs.The.Reckoning.S01E02.1080p.HEVC.x265-MeGusta.mkv_[1080p]_[YTSTV.hair]",
-            "btih": "ac6e136542135efa666ce1409b206f2810832e1d",
-            "resolution": "1080",
-            "encoding": "265",
-            "gigabytes": 1.039025217,
-            "creation": "2025-12-02T19:14:45.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 437240,
-            "uuploaders": 32219
-        },
-        {
-            "id": 1635,
-            "name": "multi-btih-3-2-x-Sean.Combs.The.Reckoning.S01E01.1080p.WEB.h264-GRACE.mkv_[1080p]_[YTSTV.hair]",
-            "btih": "9426dcc8c8d3737449c75adc38a7b52fdfbbda61",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.585798755,
-            "creation": "2025-12-02T19:15:00.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 406138,
-            "uuploaders": 102536
-        },
-        {
-            "id": 1650,
-            "name": "multi-btih-18-2-x-Sean.Combs.The.Reckoning.S01E04.1080p.WEB.h264-GRACE.mkv_[1080p]_[YTSTV.hair]",
-            "btih": "52cfa9b9be9a4ad372619d47614ca5d6dddbc20c",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.84569096,
-            "creation": "2025-12-02T19:15:00.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 386345,
-            "uuploaders": 37664
-        },
-        {
-            "id": 1644,
+            "id": 2288,
             "name": "multi-btih-12-2-x-Sean.Combs.The.Reckoning.S01E03.1080p.HEVC.x265-MeGusta.mkv_[1080p]_[YTSTV.hair]",
             "btih": "cec978334a66223a7c65fc1a91a56a91adb0024d",
             "resolution": "1080",
@@ -3650,11 +3594,25 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 366401,
-            "uuploaders": 28304
+            "udownloaders": 578670,
+            "uuploaders": 30395
         },
         {
-            "id": 1652,
+            "id": 2292,
+            "name": "multi-btih-16-3-x-Sean.Combs.The.Reckoning.S01E03.XviD-AFG.avi_[1080p]_[YTSTV.hair]",
+            "btih": "15aecf09ed860025e2a64e91432a62aaf7c25f87",
+            "resolution": "1080",
+            "encoding": "xvid",
+            "gigabytes": 0.739391504,
+            "creation": "2025-12-02T19:14:48.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 528768,
+            "uuploaders": 3774
+        },
+        {
+            "id": 2296,
             "name": "multi-btih-20-2-x-Sean.Combs.The.Reckoning.S01E04.720p.HEVC.x265-MeGusta.mkv_[720p]_[YTSTV.hair]",
             "btih": "924467ee3d4bc02d83e2da8f6f733e174972badd",
             "resolution": "720",
@@ -3664,11 +3622,67 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 359460,
-            "uuploaders": 27110
+            "udownloaders": 516425,
+            "uuploaders": 29211
         },
         {
-            "id": 1643,
+            "id": 2283,
+            "name": "multi-btih-7-2-x-Sean.Combs.The.Reckoning.S01E02.1080p.HEVC.x265-MeGusta.mkv_[1080p]_[YTSTV.hair]",
+            "btih": "ac6e136542135efa666ce1409b206f2810832e1d",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 1.039025217,
+            "creation": "2025-12-02T19:14:45.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 513173,
+            "uuploaders": 34250
+        },
+        {
+            "id": 2279,
+            "name": "multi-btih-3-2-x-Sean.Combs.The.Reckoning.S01E01.1080p.WEB.h264-GRACE.mkv_[1080p]_[YTSTV.hair]",
+            "btih": "9426dcc8c8d3737449c75adc38a7b52fdfbbda61",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.585798755,
+            "creation": "2025-12-02T19:15:00.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 503606,
+            "uuploaders": 105572
+        },
+        {
+            "id": 2295,
+            "name": "multi-btih-19-2-x-Sean.Combs.The.Reckoning.S01E04.480p.x264-mSD.mkv_[480p]_[YTSTV.hair]",
+            "btih": "4a11267f568b5607a52d648945344de3d3c6a7b8",
+            "resolution": "sd",
+            "encoding": "264",
+            "gigabytes": 0.646340039,
+            "creation": "2025-12-02T19:14:57.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 498745,
+            "uuploaders": 9401
+        },
+        {
+            "id": 2294,
+            "name": "multi-btih-18-2-x-Sean.Combs.The.Reckoning.S01E04.1080p.WEB.h264-GRACE.mkv_[1080p]_[YTSTV.hair]",
+            "btih": "52cfa9b9be9a4ad372619d47614ca5d6dddbc20c",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.84569096,
+            "creation": "2025-12-02T19:15:00.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 478069,
+            "uuploaders": 40062
+        },
+        {
+            "id": 2287,
             "name": "multi-btih-11-2-x-Sean.Combs.The.Reckoning.S01E02.XviD-AFG.avi_[1080p]_[YTSTV.hair]",
             "btih": "a8bf4740b193b92882fa1f65fc2cb1f1f204f198",
             "resolution": "1080",
@@ -3678,8 +3692,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 337018,
-            "uuploaders": 3145
+            "udownloaders": 459651,
+            "uuploaders": 4174
         },
         {
             "id": 119,
@@ -3692,137 +3706,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 323714,
-            "uuploaders": 2242
+            "udownloaders": 452191,
+            "uuploaders": 2320
         },
         {
-            "id": 1645,
-            "name": "multi-btih-13-2-x-Sean.Combs.The.Reckoning.S01E03.1080p.WEB.h264-GRACE.mkv_[1080p]_[YTSTV.hair]",
-            "btih": "7d5884ee4a501e24306218aedcdc08f863731a55",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.291846839,
-            "creation": "2025-12-02T19:15:02.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 319238,
-            "uuploaders": 76896
-        },
-        {
-            "id": 1637,
-            "name": "multi-btih-5-2-x-Sean.Combs.The.Reckoning.S01E01.720p.HEVC.x265-MeGusta.mkv_[720p]_[YTSTV.hair]",
-            "btih": "c2bef6efb1b2beab75c12e8814ee3f36e20c2e3b",
-            "resolution": "720",
-            "encoding": "265",
-            "gigabytes": 0.736065595,
-            "creation": "2025-12-02T19:14:51.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 312610,
-            "uuploaders": 21495
-        },
-        {
-            "id": 1640,
-            "name": "multi-btih-8-2-x-Sean.Combs.The.Reckoning.S01E02.1080p.WEB.h264-GRACE.mkv_[1080p]_[YTSTV.hair]",
-            "btih": "73c3cc9b3c019d80b631e379f48b65a3c8f6ce8b",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.527388256,
-            "creation": "2025-12-02T19:15:01.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 305451,
-            "uuploaders": 84519
-        },
-        {
-            "id": 1651,
-            "name": "multi-btih-19-2-x-Sean.Combs.The.Reckoning.S01E04.480p.x264-mSD.mkv_[480p]_[YTSTV.hair]",
-            "btih": "4a11267f568b5607a52d648945344de3d3c6a7b8",
-            "resolution": "sd",
-            "encoding": "264",
-            "gigabytes": 0.646340039,
-            "creation": "2025-12-02T19:14:57.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 302410,
-            "uuploaders": 8061
-        },
-        {
-            "id": 1649,
-            "name": "multi-btih-17-2-x-Sean.Combs.The.Reckoning.S01E04.1080p.HEVC.x265-MeGusta.mkv_[1080p]_[YTSTV.hair]",
-            "btih": "45a2d0eb836ff59aab128467cfad0a5ef8843a16",
-            "resolution": "1080",
-            "encoding": "265",
-            "gigabytes": 1.192854389,
-            "creation": "2025-12-02T19:14:37.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 302063,
-            "uuploaders": 22509
-        },
-        {
-            "id": 1634,
-            "name": "multi-btih-2-2-x-Sean.Combs.The.Reckoning.S01E01.1080p.HEVC.x265-MeGusta.mkv_[1080p]_[YTSTV.hair]",
-            "btih": "28995aa1f0f9af7eabf8fa50a17bf915e7f4fcf0",
-            "resolution": "1080",
-            "encoding": "265",
-            "gigabytes": 1.022477861,
-            "creation": "2025-12-02T19:14:51.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 299633,
-            "uuploaders": 52441
-        },
-        {
-            "id": 1642,
-            "name": "multi-btih-10-2-x-Sean.Combs.The.Reckoning.S01E02.720p.HEVC.x265-MeGusta.mkv_[720p]_[YTSTV.hair]",
-            "btih": "1f67f7e1a1402e88f14f775283528f63d77237cb",
-            "resolution": "720",
-            "encoding": "265",
-            "gigabytes": 0.729274219,
-            "creation": "2025-12-02T19:14:55.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 295533,
-            "uuploaders": 19664
-        },
-        {
-            "id": 1641,
-            "name": "multi-btih-9-2-x-Sean.Combs.The.Reckoning.S01E02.480p.x264-mSD.mkv_[480p]_[YTSTV.hair]",
-            "btih": "e1dbc22c94c9355f0cf4ad8810807992899b04d4",
-            "resolution": "sd",
-            "encoding": "264",
-            "gigabytes": 0.574811514,
-            "creation": "2025-12-02T19:14:59.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 276039,
-            "uuploaders": 5568
-        },
-        {
-            "id": 1638,
-            "name": "multi-btih-6-2-x-Sean.Combs.The.Reckoning.S01E01.XviD-AFG.avi_[720p]_[YTSTV.hair]",
-            "btih": "e221f59c4765000416570872ef5895e7c9fad468",
-            "resolution": "720",
-            "encoding": "xvid",
-            "gigabytes": 0.801134228,
-            "creation": "2025-12-02T19:14:54.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 274204,
-            "uuploaders": 3230
-        },
-        {
-            "id": 1654,
+            "id": 2298,
             "name": "multi-btih-22-2-x-Sean.Combs.The.Reckoning.S01E04.XviD-AFG.avi_[1080p]_[YTSTV.hair]",
             "btih": "fff7e879666dd3c2c9633b4bd1bfbbf19535bcab",
             "resolution": "1080",
@@ -3832,11 +3720,109 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 261265,
-            "uuploaders": 3671
+            "udownloaders": 439354,
+            "uuploaders": 4696
         },
         {
-            "id": 1632,
+            "id": 2281,
+            "name": "multi-btih-5-2-x-Sean.Combs.The.Reckoning.S01E01.720p.HEVC.x265-MeGusta.mkv_[720p]_[YTSTV.hair]",
+            "btih": "c2bef6efb1b2beab75c12e8814ee3f36e20c2e3b",
+            "resolution": "720",
+            "encoding": "265",
+            "gigabytes": 0.736065595,
+            "creation": "2025-12-02T19:14:51.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 407530,
+            "uuploaders": 23523
+        },
+        {
+            "id": 2286,
+            "name": "multi-btih-10-2-x-Sean.Combs.The.Reckoning.S01E02.720p.HEVC.x265-MeGusta.mkv_[720p]_[YTSTV.hair]",
+            "btih": "1f67f7e1a1402e88f14f775283528f63d77237cb",
+            "resolution": "720",
+            "encoding": "265",
+            "gigabytes": 0.729274219,
+            "creation": "2025-12-02T19:14:55.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 404359,
+            "uuploaders": 21670
+        },
+        {
+            "id": 2289,
+            "name": "multi-btih-13-2-x-Sean.Combs.The.Reckoning.S01E03.1080p.WEB.h264-GRACE.mkv_[1080p]_[YTSTV.hair]",
+            "btih": "7d5884ee4a501e24306218aedcdc08f863731a55",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.291846839,
+            "creation": "2025-12-02T19:15:02.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 401500,
+            "uuploaders": 79947
+        },
+        {
+            "id": 2284,
+            "name": "multi-btih-8-2-x-Sean.Combs.The.Reckoning.S01E02.1080p.WEB.h264-GRACE.mkv_[1080p]_[YTSTV.hair]",
+            "btih": "73c3cc9b3c019d80b631e379f48b65a3c8f6ce8b",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.527388256,
+            "creation": "2025-12-02T19:15:01.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 382103,
+            "uuploaders": 87971
+        },
+        {
+            "id": 2293,
+            "name": "multi-btih-17-2-x-Sean.Combs.The.Reckoning.S01E04.1080p.HEVC.x265-MeGusta.mkv_[1080p]_[YTSTV.hair]",
+            "btih": "45a2d0eb836ff59aab128467cfad0a5ef8843a16",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 1.192854389,
+            "creation": "2025-12-02T19:14:37.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 379793,
+            "uuploaders": 24514
+        },
+        {
+            "id": 2278,
+            "name": "multi-btih-2-2-x-Sean.Combs.The.Reckoning.S01E01.1080p.HEVC.x265-MeGusta.mkv_[1080p]_[YTSTV.hair]",
+            "btih": "28995aa1f0f9af7eabf8fa50a17bf915e7f4fcf0",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 1.022477861,
+            "creation": "2025-12-02T19:14:51.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 361706,
+            "uuploaders": 55079
+        },
+        {
+            "id": 2282,
+            "name": "multi-btih-6-2-x-Sean.Combs.The.Reckoning.S01E01.XviD-AFG.avi_[720p]_[YTSTV.hair]",
+            "btih": "e221f59c4765000416570872ef5895e7c9fad468",
+            "resolution": "720",
+            "encoding": "xvid",
+            "gigabytes": 0.801134228,
+            "creation": "2025-12-02T19:14:54.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 354238,
+            "uuploaders": 4448
+        },
+        {
+            "id": 2276,
             "name": "multi-btih-0-2-x-Sean Combs The Reckoning S01E01 Pain vs Love 720p NF WEB-DL DDP5 1 Atmos H 264-FLUX[EZTVx.to].mkv",
             "btih": "d09dc277cfbe77f99c8ed5b5606861c3b8065b7b",
             "resolution": "720",
@@ -3846,25 +3832,25 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 254036,
-            "uuploaders": 7528
+            "udownloaders": 353205,
+            "uuploaders": 8668
         },
         {
-            "id": 1646,
-            "name": "multi-btih-14-2-x-Sean.Combs.The.Reckoning.S01E03.480p.x264-mSD.mkv_[480p]_[YTSTV.hair]",
-            "btih": "cfcb5eb7e55110314bb55544e62d58b825dbc436",
+            "id": 2285,
+            "name": "multi-btih-9-2-x-Sean.Combs.The.Reckoning.S01E02.480p.x264-mSD.mkv_[480p]_[YTSTV.hair]",
+            "btih": "e1dbc22c94c9355f0cf4ad8810807992899b04d4",
             "resolution": "sd",
             "encoding": "264",
-            "gigabytes": 0.553598949,
-            "creation": "2025-12-02T19:14:56.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "gigabytes": 0.574811514,
+            "creation": "2025-12-02T19:14:59.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 234859,
-            "uuploaders": 6620
+            "udownloaders": 353153,
+            "uuploaders": 6812
         },
         {
-            "id": 1647,
+            "id": 2291,
             "name": "multi-btih-15-2-x-Sean.Combs.The.Reckoning.S01E03.720p.HEVC.x265-MeGusta.mkv_[720p]_[YTSTV.hair]",
             "btih": "5214c4b4ed4d09e57a2975fe87b98b7b22b9d447",
             "resolution": "720",
@@ -3874,11 +3860,11 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 232044,
-            "uuploaders": 16847
+            "udownloaders": 327252,
+            "uuploaders": 18511
         },
         {
-            "id": 1633,
+            "id": 2277,
             "name": "multi-btih-1-2-x-Sean Combs The Reckoning S01E02 What Goes Down Must Come Up 720p NF WEB-DL DDP5 1 Atmos H 264-FLUX[EZTVx.to].mkv",
             "btih": "40c976e38e5431c8286140474db9076db17a38fb",
             "resolution": "720",
@@ -3888,8 +3874,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 221272,
-            "uuploaders": 8486
+            "udownloaders": 318213,
+            "uuploaders": 9574
+        },
+        {
+            "id": 2290,
+            "name": "multi-btih-14-2-x-Sean.Combs.The.Reckoning.S01E03.480p.x264-mSD.mkv_[480p]_[YTSTV.hair]",
+            "btih": "cfcb5eb7e55110314bb55544e62d58b825dbc436",
+            "resolution": "sd",
+            "encoding": "264",
+            "gigabytes": 0.553598949,
+            "creation": "2025-12-02T19:14:56.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 318015,
+            "uuploaders": 7849
         },
         {
             "id": 128,
@@ -3902,36 +3902,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 205554,
-            "uuploaders": 1275
-        },
-        {
-            "id": 1636,
-            "name": "multi-btih-4-2-x-Sean.Combs.The.Reckoning.S01E01.480p.x264-mSD.mkv_[480p]_[YTSTV.hair]",
-            "btih": "3a876383444d4f235790d8fb0f056fb4c723a610",
-            "resolution": "sd",
-            "encoding": "264",
-            "gigabytes": 0.597320303,
-            "creation": "2025-12-08T22:32:24.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 185109,
-            "uuploaders": 7798
-        },
-        {
-            "id": 131,
-            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E04.1080p.AV1.10bit-MeGusta",
-            "btih": "dc35db654b1d9b172f48f5d3f9f11153ff36c8a4",
-            "resolution": "1080",
-            "encoding": "none",
-            "gigabytes": 1.053505643,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 179675,
-            "uuploaders": 619
+            "udownloaders": 254690,
+            "uuploaders": 1919
         },
         {
             "id": 2,
@@ -3944,8 +3916,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 175024,
-            "uuploaders": 6033
+            "udownloaders": 243541,
+            "uuploaders": 7731
+        },
+        {
+            "id": 131,
+            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E04.1080p.AV1.10bit-MeGusta",
+            "btih": "dc35db654b1d9b172f48f5d3f9f11153ff36c8a4",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 1.053505643,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 242741,
+            "uuploaders": 809
+        },
+        {
+            "id": 2280,
+            "name": "multi-btih-4-2-x-Sean.Combs.The.Reckoning.S01E01.480p.x264-mSD.mkv_[480p]_[YTSTV.hair]",
+            "btih": "3a876383444d4f235790d8fb0f056fb4c723a610",
+            "resolution": "sd",
+            "encoding": "264",
+            "gigabytes": 0.597320303,
+            "creation": "2025-12-08T22:32:24.000000000Z,YTS TV - http://ytstv.lol,Torrent Downloaded from => https://ytstv.hair",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 242280,
+            "uuploaders": 9196
         },
         {
             "id": 120,
@@ -3958,50 +3958,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 165070,
-            "uuploaders": 2724
-        },
-        {
-            "id": 5,
-            "name": "Sean Combs Rozliczenie",
-            "btih": "1523445bf02cc4b885243a1c1779fa30c7dabd2e",
-            "resolution": "1080",
-            "encoding": "none",
-            "gigabytes": 11.41232234,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 163914,
-            "uuploaders": 1014
-        },
-        {
-            "id": 118,
-            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E01.1080p.AV1.10bit-MeGusta",
-            "btih": "0d745c14489156098381f13d594c0735946e48f8",
-            "resolution": "1080",
-            "encoding": "none",
-            "gigabytes": 0.918361068,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 163628,
-            "uuploaders": 4422
-        },
-        {
-            "id": 127,
-            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E03.1080p.HEVC.x265-MeGusta",
-            "btih": "d358b47e249e34845688f534b5aec1f9e1d31239",
-            "resolution": "1080",
-            "encoding": "265",
-            "gigabytes": 0.985416448,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 162039,
-            "uuploaders": 4175
+            "udownloaders": 232351,
+            "uuploaders": 3373
         },
         {
             "id": 34,
@@ -4014,22 +3972,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 160705,
-            "uuploaders": 1083
+            "udownloaders": 228662,
+            "uuploaders": 1306
         },
         {
-            "id": 134,
-            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E04.720p.HEVC.x265-MeGusta",
-            "btih": "42a7ace6231031fea00116337e5f6f970cf892c6",
-            "resolution": "720",
+            "id": 127,
+            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E03.1080p.HEVC.x265-MeGusta",
+            "btih": "d358b47e249e34845688f534b5aec1f9e1d31239",
+            "resolution": "1080",
             "encoding": "265",
-            "gigabytes": 0.859002931,
+            "gigabytes": 0.985416448,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 159211,
-            "uuploaders": 1164
+            "udownloaders": 226913,
+            "uuploaders": 4965
         },
         {
             "id": 111,
@@ -4042,22 +4000,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 152774,
-            "uuploaders": 4122
-        },
-        {
-            "id": 126,
-            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E03.1080p.AV1.10bit-MeGusta",
-            "btih": "c2eb30a798c691500e95955a830dd51c6bbb07b3",
-            "resolution": "1080",
-            "encoding": "none",
-            "gigabytes": 0.853389752,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 150733,
-            "uuploaders": 887
+            "udownloaders": 211983,
+            "uuploaders": 4920
         },
         {
             "id": 117,
@@ -4070,8 +4014,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 149399,
-            "uuploaders": 2173
+            "udownloaders": 211549,
+            "uuploaders": 3175
         },
         {
             "id": 116,
@@ -4084,78 +4028,36 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 138955,
-            "uuploaders": 2380
+            "udownloaders": 211374,
+            "uuploaders": 3381
         },
         {
-            "id": 135,
-            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E04.720p.WEB.H264-SYLiX",
-            "btih": "1e7c5376a47044177ce5d00402b8b62f32a9a0bc",
-            "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 1.439943661,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 138339,
-            "uuploaders": 2268
-        },
-        {
-            "id": 123,
-            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E02.1080p.WEB.h264-GRACE",
-            "btih": "2c71c844e5eff334948208e9dcfc2a1558175d3d",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.535630336,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 135959,
-            "uuploaders": 2701
-        },
-        {
-            "id": 122,
-            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E02.1080p.HEVC.x265-MeGusta",
-            "btih": "38d9baaca54787c29fa3e7c566b8da7edf95b9ff",
-            "resolution": "1080",
-            "encoding": "265",
-            "gigabytes": 1.063855217,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 135209,
-            "uuploaders": 2981
-        },
-        {
-            "id": 4,
-            "name": "Sean Combs Ajuste de cuentas [HDTV 1080p][Cap.102]",
-            "btih": "93cade3a6b6cb6ca19c13e02460e3951449d62cc",
+            "id": 118,
+            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E01.1080p.AV1.10bit-MeGusta",
+            "btih": "0d745c14489156098381f13d594c0735946e48f8",
             "resolution": "1080",
             "encoding": "none",
-            "gigabytes": 2.81172151,
+            "gigabytes": 0.918361068,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 133266,
-            "uuploaders": 481
+            "udownloaders": 209745,
+            "uuploaders": 4995
         },
         {
-            "id": 113,
-            "name": "www.UIndex.org    -    Sean Combs The Reckoning S01E01 Pain vs Love 1080p NF WEB-DL DD 5 1 Atmos H 264-playWEB",
-            "btih": "6cba1c30dc9dfb379819fb54f37e0e4489e6fc40",
+            "id": 126,
+            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E03.1080p.AV1.10bit-MeGusta",
+            "btih": "c2eb30a798c691500e95955a830dd51c6bbb07b3",
             "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.58583315,
+            "encoding": "none",
+            "gigabytes": 0.853389752,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 133089,
-            "uuploaders": 2457
+            "udownloaders": 209665,
+            "uuploaders": 1152
         },
         {
             "id": 6,
@@ -4168,36 +4070,78 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 128302,
-            "uuploaders": 531
+            "udownloaders": 209431,
+            "uuploaders": 636
         },
         {
-            "id": 133,
-            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E04.1080p.WEB.h264-GRACE",
-            "btih": "dbe3f6e91ea8bb54ba3070cec0286233edd17c44",
+            "id": 5,
+            "name": "Sean Combs Rozliczenie",
+            "btih": "1523445bf02cc4b885243a1c1779fa30c7dabd2e",
             "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.855599264,
+            "encoding": "none",
+            "gigabytes": 11.41232234,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 121346,
-            "uuploaders": 7098
+            "udownloaders": 203833,
+            "uuploaders": 1202
         },
         {
-            "id": 30,
-            "name": "Sean Diddy Combs Netflix Documentary The Reckoning Part 1-2-3-4 720p  English Subtitles 264-Beats⭐",
-            "btih": "b1636364819efd5ed38987bde7503c46c73c4db7",
+            "id": 135,
+            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E04.720p.WEB.H264-SYLiX",
+            "btih": "1e7c5376a47044177ce5d00402b8b62f32a9a0bc",
             "resolution": "720",
             "encoding": "264",
-            "gigabytes": 4.011902046,
+            "gigabytes": 1.439943661,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 120705,
-            "uuploaders": 3324
+            "udownloaders": 201890,
+            "uuploaders": 2559
+        },
+        {
+            "id": 134,
+            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E04.720p.HEVC.x265-MeGusta",
+            "btih": "42a7ace6231031fea00116337e5f6f970cf892c6",
+            "resolution": "720",
+            "encoding": "265",
+            "gigabytes": 0.859002931,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 198934,
+            "uuploaders": 1299
+        },
+        {
+            "id": 113,
+            "name": "www.UIndex.org    -    Sean Combs The Reckoning S01E01 Pain vs Love 1080p NF WEB-DL DD 5 1 Atmos H 264-playWEB",
+            "btih": "6cba1c30dc9dfb379819fb54f37e0e4489e6fc40",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.58583315,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 196326,
+            "uuploaders": 3183
+        },
+        {
+            "id": 123,
+            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E02.1080p.WEB.h264-GRACE",
+            "btih": "2c71c844e5eff334948208e9dcfc2a1558175d3d",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.535630336,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 191991,
+            "uuploaders": 3504
         },
         {
             "id": 129,
@@ -4210,64 +4154,50 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 120433,
-            "uuploaders": 487
+            "udownloaders": 182715,
+            "uuploaders": 653
         },
         {
-            "id": 114,
-            "name": "www.UIndex.org    -    Sean Combs The Reckoning S01E01 Pain vs Love 1080p NF WEB-DL DDP5 1 Atmos H 264-FLUX",
-            "btih": "f1a561ba99d0a7d63f9768ee950ed191e9a7569a",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.586269648,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 119508,
-            "uuploaders": 4042
-        },
-        {
-            "id": 3,
-            "name": "Sean Combs Ajuste de cuentas 1X1X2 HDTV XviD Castellano",
-            "btih": "054fa83226f67e40c05f3c3a257a9132d4b04f08",
-            "resolution": "1080",
-            "encoding": "xvid",
-            "gigabytes": 1.645432078,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 115270,
-            "uuploaders": 661
-        },
-        {
-            "id": 125,
-            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E02.720p.WEB.H264-SYLiX",
-            "btih": "7ba9b3c9526f7e59620a69a23e13a11bc7198981",
+            "id": 30,
+            "name": "Sean Diddy Combs Netflix Documentary The Reckoning Part 1-2-3-4 720p  English Subtitles 264-Beats⭐",
+            "btih": "b1636364819efd5ed38987bde7503c46c73c4db7",
             "resolution": "720",
             "encoding": "264",
-            "gigabytes": 1.343084051,
+            "gigabytes": 4.011902046,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 111996,
-            "uuploaders": 1884
+            "udownloaders": 179417,
+            "uuploaders": 4973
         },
         {
-            "id": 130,
-            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E03.720p.WEB.H264-SYLiX",
-            "btih": "81704f232e587ada86760eccf87af21773a4af6c",
-            "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 1.247799252,
+            "id": 122,
+            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E02.1080p.HEVC.x265-MeGusta",
+            "btih": "38d9baaca54787c29fa3e7c566b8da7edf95b9ff",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 1.063855217,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 110892,
-            "uuploaders": 1252
+            "udownloaders": 179065,
+            "uuploaders": 3204
+        },
+        {
+            "id": 4,
+            "name": "Sean Combs Ajuste de cuentas [HDTV 1080p][Cap.102]",
+            "btih": "93cade3a6b6cb6ca19c13e02460e3951449d62cc",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 2.81172151,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 174183,
+            "uuploaders": 729
         },
         {
             "id": 112,
@@ -4280,50 +4210,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 110246,
-            "uuploaders": 4291
-        },
-        {
-            "id": 124,
-            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E02.720p.HEVC.x265-MeGusta",
-            "btih": "8b23c454d87faea49dd33aacd2f0e101b82768ba",
-            "resolution": "720",
-            "encoding": "265",
-            "gigabytes": 0.741120289,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 109246,
-            "uuploaders": 862
-        },
-        {
-            "id": 31,
-            "name": "Sean.Combs.The.Reckoning.2025.S01.MULTI.1080p.WEB.H264-DYDHZO",
-            "btih": "1fe4e36dfa4c5c576d7b47a5eb5a870a90849a04",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 6.922171009,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 106309,
-            "uuploaders": 416
-        },
-        {
-            "id": 136,
-            "name": "【高清剧集网发布 www.BPHDTV.com】肖恩·库姆斯：清算[全4集][简繁英字幕].Sean.Combs.The.Reckoning.S01.1080p.NF.WEB-DL.DDP.5.1.Atmos.H.264-BlackTV",
-            "btih": "404a538673adda1194cb6ea29e58d299b016599a",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 10.255487799,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 106293,
-            "uuploaders": 580
+            "udownloaders": 171619,
+            "uuploaders": 5286
         },
         {
             "id": 132,
@@ -4336,8 +4224,120 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 98315,
-            "uuploaders": 1119
+            "udownloaders": 169913,
+            "uuploaders": 1238
+        },
+        {
+            "id": 133,
+            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E04.1080p.WEB.h264-GRACE",
+            "btih": "dbe3f6e91ea8bb54ba3070cec0286233edd17c44",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.855599264,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 167243,
+            "uuploaders": 8037
+        },
+        {
+            "id": 125,
+            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E02.720p.WEB.H264-SYLiX",
+            "btih": "7ba9b3c9526f7e59620a69a23e13a11bc7198981",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 1.343084051,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 166665,
+            "uuploaders": 2081
+        },
+        {
+            "id": 124,
+            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E02.720p.HEVC.x265-MeGusta",
+            "btih": "8b23c454d87faea49dd33aacd2f0e101b82768ba",
+            "resolution": "720",
+            "encoding": "265",
+            "gigabytes": 0.741120289,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 162312,
+            "uuploaders": 1135
+        },
+        {
+            "id": 114,
+            "name": "www.UIndex.org    -    Sean Combs The Reckoning S01E01 Pain vs Love 1080p NF WEB-DL DDP5 1 Atmos H 264-FLUX",
+            "btih": "f1a561ba99d0a7d63f9768ee950ed191e9a7569a",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.586269648,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 160305,
+            "uuploaders": 5117
+        },
+        {
+            "id": 3,
+            "name": "Sean Combs Ajuste de cuentas 1X1X2 HDTV XviD Castellano",
+            "btih": "054fa83226f67e40c05f3c3a257a9132d4b04f08",
+            "resolution": "1080",
+            "encoding": "xvid",
+            "gigabytes": 1.645432078,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 159795,
+            "uuploaders": 926
+        },
+        {
+            "id": 136,
+            "name": "【高清剧集网发布 www.BPHDTV.com】肖恩·库姆斯：清算[全4集][简繁英字幕].Sean.Combs.The.Reckoning.S01.1080p.NF.WEB-DL.DDP.5.1.Atmos.H.264-BlackTV",
+            "btih": "404a538673adda1194cb6ea29e58d299b016599a",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 10.255487799,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 157047,
+            "uuploaders": 875
+        },
+        {
+            "id": 130,
+            "name": "www.UIndex.org    -    Sean.Combs.The.Reckoning.S01E03.720p.WEB.H264-SYLiX",
+            "btih": "81704f232e587ada86760eccf87af21773a4af6c",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 1.247799252,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 154878,
+            "uuploaders": 1416
+        },
+        {
+            "id": 31,
+            "name": "Sean.Combs.The.Reckoning.2025.S01.MULTI.1080p.WEB.H264-DYDHZO",
+            "btih": "1fe4e36dfa4c5c576d7b47a5eb5a870a90849a04",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 6.922171009,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 147831,
+            "uuploaders": 605
         },
         {
             "id": 29,
@@ -4350,8 +4350,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 94796,
-            "uuploaders": 619
+            "udownloaders": 142516,
+            "uuploaders": 890
         },
         {
             "id": 115,
@@ -4364,8 +4364,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 88642,
-            "uuploaders": 1521
+            "udownloaders": 132486,
+            "uuploaders": 1719
         },
         {
             "id": 32,
@@ -4378,22 +4378,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 84770,
-            "uuploaders": 2182
-        },
-        {
-            "id": 33,
-            "name": "Sean.Combs.The.Reckoning.S01.1080p.NF.WEB-DL.DDP5.1.H.264-SPiLNO",
-            "btih": "4768bf1896e28f0e0c9a9e84980c02005a06817c",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 11.485556933,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": false,
-            "i2p": false,
-            "udownloaders": 74864,
-            "uuploaders": 340
+            "udownloaders": 126994,
+            "uuploaders": 3275
         },
         {
             "id": 108,
@@ -4406,8 +4392,22 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 57953,
-            "uuploaders": 566
+            "udownloaders": 125613,
+            "uuploaders": 1294
+        },
+        {
+            "id": 33,
+            "name": "Sean.Combs.The.Reckoning.S01.1080p.NF.WEB-DL.DDP5.1.H.264-SPiLNO",
+            "btih": "4768bf1896e28f0e0c9a9e84980c02005a06817c",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 11.485556933,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 113151,
+            "uuploaders": 648
         },
         {
             "id": 121,
@@ -4420,8 +4420,8 @@
             "ssl": false,
             "private": false,
             "i2p": false,
-            "udownloaders": 53489,
-            "uuploaders": 1128
+            "udownloaders": 101386,
+            "uuploaders": 1865
         },
         {
             "id": 8,
@@ -4434,8 +4434,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 15147,
-            "uuploaders": 4797
+            "udownloaders": 18010,
+            "uuploaders": 5701
         },
         {
             "id": 36,
@@ -4448,8 +4448,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 4178,
-            "uuploaders": 1423
+            "udownloaders": 4805,
+            "uuploaders": 1578
         },
         {
             "id": 54,
@@ -4462,8 +4462,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 4093,
-            "uuploaders": 1370
+            "udownloaders": 4783,
+            "uuploaders": 1545
         },
         {
             "id": 90,
@@ -4476,8 +4476,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 4062,
-            "uuploaders": 1357
+            "udownloaders": 4753,
+            "uuploaders": 1531
         },
         {
             "id": 12,
@@ -4490,22 +4490,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 3285,
-            "uuploaders": 1076
-        },
-        {
-            "id": 7,
-            "name": "Sean Combs The Reckoning S01 1080p NF WEB-DL DD 5 1 Atmos H 264-playWEB [IPT]",
-            "btih": "a6d518aace7646f5db8f0d74db84a94d8fcac16e",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 10.250875895,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 2568,
-            "uuploaders": 1033
+            "udownloaders": 4183,
+            "uuploaders": 1386
         },
         {
             "id": 1,
@@ -4518,8 +4504,22 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 2351,
-            "uuploaders": 1008
+            "udownloaders": 2938,
+            "uuploaders": 1244
+        },
+        {
+            "id": 7,
+            "name": "Sean Combs The Reckoning S01 1080p NF WEB-DL DD 5 1 Atmos H 264-playWEB [IPT]",
+            "btih": "a6d518aace7646f5db8f0d74db84a94d8fcac16e",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 10.250875895,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 2899,
+            "uuploaders": 1207
         },
         {
             "id": 9,
@@ -4532,8 +4532,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 1823,
-            "uuploaders": 822
+            "udownloaders": 2049,
+            "uuploaders": 967
         },
         {
             "id": 11,
@@ -4546,8 +4546,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 1376,
-            "uuploaders": 470
+            "udownloaders": 1480,
+            "uuploaders": 528
         },
         {
             "id": 10,
@@ -4560,8 +4560,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 1167,
-            "uuploaders": 596
+            "udownloaders": 1372,
+            "uuploaders": 719
         },
         {
             "id": 45,
@@ -4574,8 +4574,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 986,
-            "uuploaders": 521
+            "udownloaders": 1285,
+            "uuploaders": 634
         },
         {
             "id": 63,
@@ -4588,36 +4588,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 792,
-            "uuploaders": 433
-        },
-        {
-            "id": 48,
-            "name": "Sean.Combs.The.Reckoning.S01E01.720p.WEB.H264-SYLiX [IPT]",
-            "btih": "52f7ee03ac2fc3372fd22f448fbaa3e7521f077e",
-            "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 1.182475225,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 763,
-            "uuploaders": 397
-        },
-        {
-            "id": 99,
-            "name": "Sean.Combs.The.Reckoning.S01E04.720p.HEVC.x265-MeGusta [IPT]",
-            "btih": "437382ecd4f627974d6041b7066213391df209bd",
-            "resolution": "720",
-            "encoding": "265",
-            "gigabytes": 0.859002802,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 749,
-            "uuploaders": 399
+            "udownloaders": 1043,
+            "uuploaders": 529
         },
         {
             "id": 80,
@@ -4630,8 +4602,22 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 732,
-            "uuploaders": 365
+            "udownloaders": 1011,
+            "uuploaders": 457
+        },
+        {
+            "id": 99,
+            "name": "Sean.Combs.The.Reckoning.S01E04.720p.HEVC.x265-MeGusta [IPT]",
+            "btih": "437382ecd4f627974d6041b7066213391df209bd",
+            "resolution": "720",
+            "encoding": "265",
+            "gigabytes": 0.859002802,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 1005,
+            "uuploaders": 494
         },
         {
             "id": 93,
@@ -4644,8 +4630,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 731,
-            "uuploaders": 460
+            "udownloaders": 923,
+            "uuploaders": 612
         },
         {
             "id": 57,
@@ -4658,8 +4644,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 723,
-            "uuploaders": 452
+            "udownloaders": 906,
+            "uuploaders": 600
         },
         {
             "id": 39,
@@ -4672,22 +4658,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 719,
-            "uuploaders": 453
-        },
-        {
-            "id": 66,
-            "name": "Sean.Combs.The.Reckoning.S01E02.720p.WEB.H264-SYLiX [IPT]",
-            "btih": "733c80de9c84e175afe2f8316b114f2bd2dba2d0",
-            "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 1.343083922,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 715,
-            "uuploaders": 384
+            "udownloaders": 902,
+            "uuploaders": 603
         },
         {
             "id": 74,
@@ -4700,22 +4672,36 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 711,
-            "uuploaders": 454
+            "udownloaders": 900,
+            "uuploaders": 611
         },
         {
-            "id": 102,
-            "name": "Sean.Combs.The.Reckoning.S01E04.720p.WEB.H264-SYLiX [IPT]",
-            "btih": "4d476a8d8c1a483d8985b3a2492b9dd92feb8823",
+            "id": 48,
+            "name": "Sean.Combs.The.Reckoning.S01E01.720p.WEB.H264-SYLiX [IPT]",
+            "btih": "52f7ee03ac2fc3372fd22f448fbaa3e7521f077e",
             "resolution": "720",
             "encoding": "264",
-            "gigabytes": 1.439943532,
+            "gigabytes": 1.182475225,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 675,
-            "uuploaders": 342
+            "udownloaders": 822,
+            "uuploaders": 435
+        },
+        {
+            "id": 66,
+            "name": "Sean.Combs.The.Reckoning.S01E02.720p.WEB.H264-SYLiX [IPT]",
+            "btih": "733c80de9c84e175afe2f8316b114f2bd2dba2d0",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 1.343083922,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 804,
+            "uuploaders": 452
         },
         {
             "id": 67,
@@ -4728,8 +4714,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 656,
-            "uuploaders": 329
+            "udownloaders": 782,
+            "uuploaders": 402
         },
         {
             "id": 103,
@@ -4742,8 +4728,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 647,
-            "uuploaders": 312
+            "udownloaders": 775,
+            "uuploaders": 384
         },
         {
             "id": 84,
@@ -4756,22 +4742,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 643,
-            "uuploaders": 326
-        },
-        {
-            "id": 83,
-            "name": "Sean.Combs.The.Reckoning.S01E03.720p.WEB.H264-SYLiX [IPT]",
-            "btih": "c056cb7155177847a2db75936bd6f5a6ed8c2bb2",
-            "resolution": "720",
-            "encoding": "264",
-            "gigabytes": 1.247799123,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 642,
-            "uuploaders": 349
+            "udownloaders": 763,
+            "uuploaders": 398
         },
         {
             "id": 49,
@@ -4784,22 +4756,36 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 634,
-            "uuploaders": 311
+            "udownloaders": 763,
+            "uuploaders": 386
         },
         {
-            "id": 35,
-            "name": "Sean.Combs.The.Reckoning.S01E01.1080p.AV1.10bit-MeGusta [IPT]",
-            "btih": "feb899f91da8d50f45e4857675eb4812f480492f",
-            "resolution": "1080",
-            "encoding": "none",
-            "gigabytes": 0.918360939,
+            "id": 102,
+            "name": "Sean.Combs.The.Reckoning.S01E04.720p.WEB.H264-SYLiX [IPT]",
+            "btih": "4d476a8d8c1a483d8985b3a2492b9dd92feb8823",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 1.439943532,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 335,
-            "uuploaders": 213
+            "udownloaders": 745,
+            "uuploaders": 384
+        },
+        {
+            "id": 83,
+            "name": "Sean.Combs.The.Reckoning.S01E03.720p.WEB.H264-SYLiX [IPT]",
+            "btih": "c056cb7155177847a2db75936bd6f5a6ed8c2bb2",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 1.247799123,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 717,
+            "uuploaders": 393
         },
         {
             "id": 50,
@@ -4812,22 +4798,22 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 334,
-            "uuploaders": 116
+            "udownloaders": 372,
+            "uuploaders": 146
         },
         {
-            "id": 71,
-            "name": "Sean.Combs.The.Reckoning.S01E03.1080p.AV1.10bit-MeGusta [IPT]",
-            "btih": "00b05836fa0cdbca176b599b14973dd728d36fdd",
+            "id": 35,
+            "name": "Sean.Combs.The.Reckoning.S01E01.1080p.AV1.10bit-MeGusta [IPT]",
+            "btih": "feb899f91da8d50f45e4857675eb4812f480492f",
             "resolution": "1080",
             "encoding": "none",
-            "gigabytes": 0.853389623,
+            "gigabytes": 0.918360939,
             "creation": "1970-01-01T00:00:00.000000000Z",
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 321,
-            "uuploaders": 193
+            "udownloaders": 367,
+            "uuploaders": 237
         },
         {
             "id": 53,
@@ -4840,8 +4826,22 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 317,
-            "uuploaders": 201
+            "udownloaders": 362,
+            "uuploaders": 224
+        },
+        {
+            "id": 71,
+            "name": "Sean.Combs.The.Reckoning.S01E03.1080p.AV1.10bit-MeGusta [IPT]",
+            "btih": "00b05836fa0cdbca176b599b14973dd728d36fdd",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 0.853389623,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 360,
+            "uuploaders": 211
         },
         {
             "id": 89,
@@ -4854,22 +4854,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 288,
-            "uuploaders": 162
-        },
-        {
-            "id": 68,
-            "name": "Sean.Combs.The.Reckoning.S01E02.XviD-AFG [IPT]",
-            "btih": "8e111101ed19e171efa29517a36dae99a67814f4",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "gigabytes": 0.782010719,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 205,
-            "uuploaders": 119
+            "udownloaders": 326,
+            "uuploaders": 178
         },
         {
             "id": 14,
@@ -4882,8 +4868,22 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 186,
-            "uuploaders": 137
+            "udownloaders": 247,
+            "uuploaders": 193
+        },
+        {
+            "id": 68,
+            "name": "Sean.Combs.The.Reckoning.S01E02.XviD-AFG [IPT]",
+            "btih": "8e111101ed19e171efa29517a36dae99a67814f4",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "gigabytes": 0.782010719,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 246,
+            "uuploaders": 150
         },
         {
             "id": 85,
@@ -4896,50 +4896,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 178,
-            "uuploaders": 104
-        },
-        {
-            "id": 1653,
-            "name": "multi-btih-21-2-x-Sean.Combs.The.Reckoning.S01E04.XviD-AFG [IPT](1)",
-            "btih": "b7869d83b99e84f381f0992048af4980da72d8aa",
-            "resolution": "sd",
-            "encoding": "xvid",
-            "gigabytes": 0.955941114,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 158,
-            "uuploaders": 85
-        },
-        {
-            "id": 26,
-            "name": "Sean Combs The Reckoning S01E04 Blink Again 1080p NF WEB-DL DD 5 1 Atmos H 264-playWEB [IPT]",
-            "btih": "6a7290c650242ffc646af3f756a4cfa97bc8a5f2",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.845730327,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 155,
-            "uuploaders": 90
-        },
-        {
-            "id": 42,
-            "name": "Sean.Combs.The.Reckoning.S01E01.480p.x264-mSD [IPT]",
-            "btih": "809cb9579bf4b3dd17351d23bdd0753e4f5a8c18",
-            "resolution": "sd",
-            "encoding": "264",
-            "gigabytes": 0.598322515,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 154,
-            "uuploaders": 107
+            "udownloaders": 216,
+            "uuploaders": 137
         },
         {
             "id": 19,
@@ -4952,8 +4910,50 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 151,
+            "udownloaders": 197,
+            "uuploaders": 136
+        },
+        {
+            "id": 2297,
+            "name": "multi-btih-21-2-x-Sean.Combs.The.Reckoning.S01E04.XviD-AFG [IPT](1)",
+            "btih": "b7869d83b99e84f381f0992048af4980da72d8aa",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "gigabytes": 0.955941114,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 183,
+            "uuploaders": 108
+        },
+        {
+            "id": 26,
+            "name": "Sean Combs The Reckoning S01E04 Blink Again 1080p NF WEB-DL DD 5 1 Atmos H 264-playWEB [IPT]",
+            "btih": "6a7290c650242ffc646af3f756a4cfa97bc8a5f2",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.845730327,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 176,
             "uuploaders": 93
+        },
+        {
+            "id": 42,
+            "name": "Sean.Combs.The.Reckoning.S01E01.480p.x264-mSD [IPT]",
+            "btih": "809cb9579bf4b3dd17351d23bdd0753e4f5a8c18",
+            "resolution": "sd",
+            "encoding": "264",
+            "gigabytes": 0.598322515,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 175,
+            "uuploaders": 119
         },
         {
             "id": 23,
@@ -4966,22 +4966,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 131,
-            "uuploaders": 86
-        },
-        {
-            "id": 18,
-            "name": "Sean Combs The Reckoning S01E02 What Goes Down Must Come Up 1080p NF WEB-DL DD 5 1 Atmos H 264-playWEB [IPT]",
-            "btih": "8b537efc0dbe0d2d853aafae3cec6f0509555751",
-            "resolution": "1080",
-            "encoding": "264",
-            "gigabytes": 2.527438796,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 126,
-            "uuploaders": 73
+            "udownloaders": 171,
+            "uuploaders": 127
         },
         {
             "id": 27,
@@ -4994,8 +4980,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 121,
-            "uuploaders": 78
+            "udownloaders": 162,
+            "uuploaders": 119
         },
         {
             "id": 22,
@@ -5008,8 +4994,22 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 113,
-            "uuploaders": 60
+            "udownloaders": 133,
+            "uuploaders": 71
+        },
+        {
+            "id": 18,
+            "name": "Sean Combs The Reckoning S01E02 What Goes Down Must Come Up 1080p NF WEB-DL DD 5 1 Atmos H 264-playWEB [IPT]",
+            "btih": "8b537efc0dbe0d2d853aafae3cec6f0509555751",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.527438796,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 129,
+            "uuploaders": 74
         },
         {
             "id": 13,
@@ -5022,50 +5022,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 102,
-            "uuploaders": 62
-        },
-        {
-            "id": 96,
-            "name": "Sean.Combs.The.Reckoning.S01E04.480p.x264-mSD [IPT]",
-            "btih": "0f12b8d7ccaf758a0bed241947472d054b03a5b7",
-            "resolution": "sd",
-            "encoding": "264",
-            "gigabytes": 0.647016871,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 91,
-            "uuploaders": 58
-        },
-        {
-            "id": 77,
-            "name": "Sean.Combs.The.Reckoning.S01E03.480p.x264-mSD [IPT]",
-            "btih": "1d228dd7ab6962abfd8218618f2493a28d0a9266",
-            "resolution": "sd",
-            "encoding": "264",
-            "gigabytes": 0.554375198,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 91,
-            "uuploaders": 61
-        },
-        {
-            "id": 60,
-            "name": "Sean.Combs.The.Reckoning.S01E02.480p.x264-mSD [IPT]",
-            "btih": "6a2c9ac7186b4682144447902b7e295b3bbdee8b",
-            "resolution": "sd",
-            "encoding": "264",
-            "gigabytes": 0.575707726,
-            "creation": "1970-01-01T00:00:00.000000000Z",
-            "ssl": false,
-            "private": true,
-            "i2p": false,
-            "udownloaders": 91,
-            "uuploaders": 61
+            "udownloaders": 114,
+            "uuploaders": 73
         },
         {
             "id": 28,
@@ -5078,8 +5036,50 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 91,
-            "uuploaders": 54
+            "udownloaders": 100,
+            "uuploaders": 59
+        },
+        {
+            "id": 60,
+            "name": "Sean.Combs.The.Reckoning.S01E02.480p.x264-mSD [IPT]",
+            "btih": "6a2c9ac7186b4682144447902b7e295b3bbdee8b",
+            "resolution": "sd",
+            "encoding": "264",
+            "gigabytes": 0.575707726,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 99,
+            "uuploaders": 66
+        },
+        {
+            "id": 77,
+            "name": "Sean.Combs.The.Reckoning.S01E03.480p.x264-mSD [IPT]",
+            "btih": "1d228dd7ab6962abfd8218618f2493a28d0a9266",
+            "resolution": "sd",
+            "encoding": "264",
+            "gigabytes": 0.554375198,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 99,
+            "uuploaders": 66
+        },
+        {
+            "id": 96,
+            "name": "Sean.Combs.The.Reckoning.S01E04.480p.x264-mSD [IPT]",
+            "btih": "0f12b8d7ccaf758a0bed241947472d054b03a5b7",
+            "resolution": "sd",
+            "encoding": "264",
+            "gigabytes": 0.647016871,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 99,
+            "uuploaders": 64
         },
         {
             "id": 24,
@@ -5092,8 +5092,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 76,
-            "uuploaders": 43
+            "udownloaders": 85,
+            "uuploaders": 48
         },
         {
             "id": 15,
@@ -5106,8 +5106,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 73,
-            "uuploaders": 45
+            "udownloaders": 77,
+            "uuploaders": 46
         },
         {
             "id": 20,
@@ -5120,8 +5120,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 64,
-            "uuploaders": 40
+            "udownloaders": 74,
+            "uuploaders": 46
         },
         {
             "id": 17,
@@ -5134,8 +5134,8 @@
             "ssl": false,
             "private": true,
             "i2p": false,
-            "udownloaders": 48,
-            "uuploaders": 28
+            "udownloaders": 50,
+            "uuploaders": 30
         },
         {
             "id": 25,
