@@ -5,993 +5,1049 @@
   </summary>
   <div class="table-container">
       
-<table id="t-mo">
-<caption>Media Objects Itemized Table</caption>
-
-	<thead>
-	  <tr>
-	    <th onclick="sortTable('t-mo', 0)" scope="col" rowspan="2" width="26.6%">media object</th>
-	    <th onclick="sortTable('t-mo', 1)" scope="col" rowspan="2" width="6.6%">weeks</th>
-	    <th onclick="sortTable('t-mo', 2)" scope="col" rowspan="2" width="26.6%">duration</th>
-	    <th onclick="sortTable('t-mo', 3)" scope="col" rowspan="2" width="6.6%">btiha size</th>
-	    <th scope="col" colspan="2" width="16.6%">downloaders</th>
-	    <th scope="col" colspan="2" width="16.6%">uploaders</th>
-	  </tr>
-	  <tr>
-	    <th onclick="sortTable('t-mo', 4)" scope="col">total</th>
-	    <th onclick="sortTable('t-mo', 5)" scope="col">per btiha</th>
-	    <th onclick="sortTable('t-mo', 6)" scope="col">total</th>
-	    <th onclick="sortTable('t-mo', 7)" scope="col">per btiha</th>
-	   </tr>
-	</thead>
-      
-<tbody>
-<tr>
-<td>abbott-elementary-113</td>
-<td>10</td>
-<td><time datetime="2022-04-13" aria-label="April 13, 2022"> 2022-04-13 </time> to <time datetime="2022-06-21" aria-label="June 21, 2022"> 2022-06-21 </time></td>
-<td>44</td>
-<td>418,877</td>
-<td>9,519</td>
-<td>67,833</td>
-<td>1,541</td>
-</tr>
-
-<tr>
-<td>acolyte-101-102-103</td>
-<td>26</td>
-<td><time datetime="2024-06-05" aria-label="June 05, 2024"> 2024-06-05 </time> to <time datetime="2024-12-03" aria-label="December 03, 2024"> 2024-12-03 </time></td>
-<td>286</td>
-<td>35,359,424</td>
-<td>123,634</td>
-<td>2,390,129</td>
-<td>8,357</td>
-</tr>
-
-<tr>
-<td>acolyte-107-108</td>
-<td>26</td>
-<td><time datetime="2024-07-10" aria-label="July 10, 2024"> 2024-07-10 </time> to <time datetime="2025-01-07" aria-label="January 07, 2025"> 2025-01-07 </time></td>
-<td>346</td>
-<td>39,519,362</td>
-<td>114,217</td>
-<td>1,626,997</td>
-<td>4,702</td>
-</tr>
-
-<tr>
-<td>all-the-old-knives</td>
-<td>11</td>
-<td><time datetime="2022-04-08" aria-label="April 08, 2022"> 2022-04-08 </time> to <time datetime="2022-06-23" aria-label="June 23, 2022"> 2022-06-23 </time></td>
-<td>96</td>
-<td>2,760,966</td>
-<td>28,760</td>
-<td>1,064,803</td>
-<td>11,091</td>
-</tr>
-
-<tr>
-<td>altered-carbon-2</td>
-<td>26</td>
-<td><time datetime="2020-02-28" aria-label="February 28, 2020"> 2020-02-28 </time> to <time datetime="2020-08-27" aria-label="August 27, 2020"> 2020-08-27 </time></td>
-<td>242</td>
-<td>12,815,566</td>
-<td>52,956</td>
-<td>1,680,399</td>
-<td>6,943</td>
-</tr>
-
+<table id="t-mo-blackled" class="sortable">
+<caption class="sr-only">Media Objects Itemized Table</caption>
+
+<colgroup>
+  <col style="width: 26.6%;">
+  <col style="width: 6.6%;">
+  <col style="width: 26.6%;">
+  <col style="width: 6.6%;">
+  <!-- downloaders (16.6% total / 2 cols = 8.3% each) -->
+  <col style="width: 8.3%;">
+  <col style="width: 8.3%;">
+  <!-- uploaders (16.6% total / 2 cols = 8.3% each) -->
+  <col style="width: 8.3%;">
+  <col style="width: 8.3%;">
+</colgroup>
+<thead>
+  <tr>
+    <th aria-sort="ascending" column-idx="0" scope="col" rowspan="2">
+      <button>
+	media object
+	 <span aria-hidden="true"></span>
+      </button>
+    </th>
+    <th column-idx="1" scope="col" rowspan="2">
+      <button>
+	weeks
+	 <span aria-hidden="true"></span>
+      </button>
+    </th>
+    <th column-idx="2" scope="col" rowspan="2">
+      <button>
+	duration
+	 <span aria-hidden="true"></span>
+      </button>
+    </th>
+    <th column-idx="3" scope="col" rowspan="2">
+      <button>
+	btiha size
+	 <span aria-hidden="true"></span>
+      </button>
+    </th>
+    <th scope="col" colspan="2">
+	downloaders
+    </th>
+    <th scope="col" colspan="2">
+	uploaders
+    </th>
+   </tr>
+   <tr>
+     <th column-idx="4" scope="col">
+       <button>
+	 total
+	 <span aria-hidden="true"></span>
+      </button>
+     </th>
+     <th column-idx="5" scope="col">
+       <button>
+	 per btiha
+	 <span aria-hidden="true"></span>
+      </button>
+     </th>
+     <th column-idx="6" scope="col">
+       <button>
+	 total
+	 <span aria-hidden="true"></span>
+      </button>
+     </th>
+     <th column-idx="7" scope="col">
+       <button>
+	 per btiha
+	 <span aria-hidden="true"></span>
+      </button>
+     </th>
+  </tr>
+</thead>
+
+<tbody class="tbody-zebra">
+<tr>
+<td scope="row" class="table-cell">abbott-elementary-113</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2022-04-13" aria-label="April 13, 2022"> 2022-04-13 </time> to <time datetime="2022-06-21" aria-label="June 21, 2022"> 2022-06-21 </time></td>
+<td scope="row" class="table-cell">44</td>
+<td scope="row" class="table-cell">418,877</td>
+<td scope="row" class="table-cell">9,519</td>
+<td scope="row" class="table-cell">67,833</td>
+<td scope="row" class="table-cell">1,541</td>
+</tr>
+
+<tr>
+<td scope="row" class="table-cell">acolyte-101</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2024-06-05" aria-label="June 05, 2024"> 2024-06-05 </time> to <time datetime="2024-12-03" aria-label="December 03, 2024"> 2024-12-03 </time></td>
+<td scope="row" class="table-cell">286</td>
+<td scope="row" class="table-cell">35,359,424</td>
+<td scope="row" class="table-cell">123,634</td>
+<td scope="row" class="table-cell">2,390,129</td>
+<td scope="row" class="table-cell">8,357</td>
+</tr>
+
+<tr>
+<td scope="row" class="table-cell">acolyte-107</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2024-07-10" aria-label="July 10, 2024"> 2024-07-10 </time> to <time datetime="2025-01-07" aria-label="January 07, 2025"> 2025-01-07 </time></td>
+<td scope="row" class="table-cell">346</td>
+<td scope="row" class="table-cell">39,519,362</td>
+<td scope="row" class="table-cell">114,217</td>
+<td scope="row" class="table-cell">1,626,997</td>
+<td scope="row" class="table-cell">4,702</td>
+</tr>
+
+<tr>
+<td scope="row" class="table-cell">all-the-old-knives</td>
+<td scope="row" class="table-cell">11</td>
+<td scope="row" class="table-cell"><time datetime="2022-04-08" aria-label="April 08, 2022"> 2022-04-08 </time> to <time datetime="2022-06-23" aria-label="June 23, 2022"> 2022-06-23 </time></td>
+<td scope="row" class="table-cell">96</td>
+<td scope="row" class="table-cell">2,760,966</td>
+<td scope="row" class="table-cell">28,760</td>
+<td scope="row" class="table-cell">1,064,803</td>
+<td scope="row" class="table-cell">11,091</td>
+</tr>
+
+<tr>
+<td scope="row" class="table-cell">altered-carbon-02</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2020-02-28" aria-label="February 28, 2020"> 2020-02-28 </time> to <time datetime="2020-08-27" aria-label="August 27, 2020"> 2020-08-27 </time></td>
+<td scope="row" class="table-cell">242</td>
+<td scope="row" class="table-cell">12,815,566</td>
+<td scope="row" class="table-cell">52,956</td>
+<td scope="row" class="table-cell">1,680,399</td>
+<td scope="row" class="table-cell">6,943</td>
+</tr>
+
 <tr>
-<td>american-fiction</td>
-<td>15</td>
-<td><time datetime="2024-02-06" aria-label="February 06, 2024"> 2024-02-06 </time> to <time datetime="2024-05-20" aria-label="May 20, 2024"> 2024-05-20 </time></td>
-<td>129</td>
-<td>10,483,980</td>
-<td>81,271</td>
-<td>875,252</td>
-<td>6,784</td>
-</tr>
-
+<td scope="row" class="table-cell">american-fiction</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2024-02-06" aria-label="February 06, 2024"> 2024-02-06 </time> to <time datetime="2024-05-20" aria-label="May 20, 2024"> 2024-05-20 </time></td>
+<td scope="row" class="table-cell">129</td>
+<td scope="row" class="table-cell">10,483,980</td>
+<td scope="row" class="table-cell">81,271</td>
+<td scope="row" class="table-cell">875,252</td>
+<td scope="row" class="table-cell">6,784</td>
+</tr>
+
 <tr>
-<td>atlanta-301</td>
-<td>10</td>
-<td><time datetime="2022-03-25" aria-label="March 25, 2022"> 2022-03-25 </time> to <time datetime="2022-06-02" aria-label="June 02, 2022"> 2022-06-02 </time></td>
-<td>76</td>
-<td>1,022,998</td>
-<td>13,460</td>
-<td>245,043</td>
-<td>3,224</td>
-</tr>
-
+<td scope="row" class="table-cell">atlanta-301</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2022-03-25" aria-label="March 25, 2022"> 2022-03-25 </time> to <time datetime="2022-06-02" aria-label="June 02, 2022"> 2022-06-02 </time></td>
+<td scope="row" class="table-cell">76</td>
+<td scope="row" class="table-cell">1,022,998</td>
+<td scope="row" class="table-cell">13,460</td>
+<td scope="row" class="table-cell">245,043</td>
+<td scope="row" class="table-cell">3,224</td>
+</tr>
+
 <tr>
-<td>atlanta-410</td>
-<td>10</td>
-<td><time datetime="2022-11-11" aria-label="November 11, 2022"> 2022-11-11 </time> to <time datetime="2023-01-19" aria-label="January 19, 2023"> 2023-01-19 </time></td>
-<td>42</td>
-<td>656,437</td>
-<td>15,629</td>
-<td>121,231</td>
-<td>2,886</td>
+<td scope="row" class="table-cell">atlanta-410</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2022-11-11" aria-label="November 11, 2022"> 2022-11-11 </time> to <time datetime="2023-01-19" aria-label="January 19, 2023"> 2023-01-19 </time></td>
+<td scope="row" class="table-cell">42</td>
+<td scope="row" class="table-cell">656,437</td>
+<td scope="row" class="table-cell">15,629</td>
+<td scope="row" class="table-cell">121,231</td>
+<td scope="row" class="table-cell">2,886</td>
 </tr>
 
 <tr>
-<td>beacon-23-101</td>
-<td>15</td>
-<td><time datetime="2023-11-12" aria-label="November 12, 2023"> 2023-11-12 </time> to <time datetime="2024-02-24" aria-label="February 24, 2024"> 2024-02-24 </time></td>
-<td>146</td>
-<td>7,077,360</td>
-<td>48,475</td>
-<td>396,742</td>
-<td>2,717</td>
+<td scope="row" class="table-cell">beacon-23-101</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2023-11-12" aria-label="November 12, 2023"> 2023-11-12 </time> to <time datetime="2024-02-24" aria-label="February 24, 2024"> 2024-02-24 </time></td>
+<td scope="row" class="table-cell">146</td>
+<td scope="row" class="table-cell">7,077,360</td>
+<td scope="row" class="table-cell">48,475</td>
+<td scope="row" class="table-cell">396,742</td>
+<td scope="row" class="table-cell">2,717</td>
 </tr>
 
 <tr>
-<td>beacon-23-108</td>
-<td>15</td>
-<td><time datetime="2023-12-17" aria-label="December 17, 2023"> 2023-12-17 </time> to <time datetime="2024-03-30" aria-label="March 30, 2024"> 2024-03-30 </time></td>
-<td>139</td>
-<td>7,977,612</td>
-<td>57,392</td>
-<td>219,499</td>
-<td>1,579</td>
+<td scope="row" class="table-cell">beacon-23-108</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2023-12-17" aria-label="December 17, 2023"> 2023-12-17 </time> to <time datetime="2024-03-30" aria-label="March 30, 2024"> 2024-03-30 </time></td>
+<td scope="row" class="table-cell">139</td>
+<td scope="row" class="table-cell">7,977,612</td>
+<td scope="row" class="table-cell">57,392</td>
+<td scope="row" class="table-cell">219,499</td>
+<td scope="row" class="table-cell">1,579</td>
 </tr>
 
 <tr>
-<td>bear-S02</td>
-<td>26</td>
-<td><time datetime="2023-06-22" aria-label="June 22, 2023"> 2023-06-22 </time> to <time datetime="2023-12-20" aria-label="December 20, 2023"> 2023-12-20 </time></td>
-<td>410</td>
-<td>21,530,308</td>
-<td>52,512</td>
-<td>2,456,076</td>
-<td>5,990</td>
+<td scope="row" class="table-cell">bear-02</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2023-06-22" aria-label="June 22, 2023"> 2023-06-22 </time> to <time datetime="2023-12-20" aria-label="December 20, 2023"> 2023-12-20 </time></td>
+<td scope="row" class="table-cell">410</td>
+<td scope="row" class="table-cell">21,530,308</td>
+<td scope="row" class="table-cell">52,512</td>
+<td scope="row" class="table-cell">2,456,076</td>
+<td scope="row" class="table-cell">5,990</td>
 </tr>
 
 <tr>
-<td>bear-S03</td>
-<td>27</td>
-<td><time datetime="2024-06-27" aria-label="June 27, 2024"> 2024-06-27 </time> to <time datetime="2025-01-01" aria-label="January 01, 2025"> 2025-01-01 </time></td>
-<td>446</td>
-<td>43,202,928</td>
-<td>96,867</td>
-<td>3,716,325</td>
-<td>8,332</td>
+<td scope="row" class="table-cell">bear-03</td>
+<td scope="row" class="table-cell">27</td>
+<td scope="row" class="table-cell"><time datetime="2024-06-27" aria-label="June 27, 2024"> 2024-06-27 </time> to <time datetime="2025-01-01" aria-label="January 01, 2025"> 2025-01-01 </time></td>
+<td scope="row" class="table-cell">446</td>
+<td scope="row" class="table-cell">43,202,928</td>
+<td scope="row" class="table-cell">96,867</td>
+<td scope="row" class="table-cell">3,716,325</td>
+<td scope="row" class="table-cell">8,332</td>
 </tr>
 
 <tr>
-<td>bear-S04</td>
-<td>27</td>
-<td><time datetime="2025-06-26" aria-label="June 26, 2025"> 2025-06-26 </time> to <time datetime="2025-12-31" aria-label="December 31, 2025"> 2025-12-31 </time></td>
-<td>513</td>
-<td>66,562,795</td>
-<td>129,752</td>
-<td>4,786,243</td>
-<td>9,329</td>
+<td scope="row" class="table-cell">bear-04</td>
+<td scope="row" class="table-cell">27</td>
+<td scope="row" class="table-cell"><time datetime="2025-06-26" aria-label="June 26, 2025"> 2025-06-26 </time> to <time datetime="2025-12-31" aria-label="December 31, 2025"> 2025-12-31 </time></td>
+<td scope="row" class="table-cell">513</td>
+<td scope="row" class="table-cell">66,562,795</td>
+<td scope="row" class="table-cell">129,752</td>
+<td scope="row" class="table-cell">4,786,243</td>
+<td scope="row" class="table-cell">9,329</td>
 </tr>
 
 <tr>
-<td>beverly-hills-cop-axel-f</td>
-<td>15</td>
-<td><time datetime="2024-07-03" aria-label="July 03, 2024"> 2024-07-03 </time> to <time datetime="2024-10-15" aria-label="October 15, 2024"> 2024-10-15 </time></td>
-<td>176</td>
-<td>18,257,536</td>
-<td>103,736</td>
-<td>2,499,998</td>
-<td>14,204</td>
+<td scope="row" class="table-cell">beverly-hills-cop-axel-f</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2024-07-03" aria-label="July 03, 2024"> 2024-07-03 </time> to <time datetime="2024-10-15" aria-label="October 15, 2024"> 2024-10-15 </time></td>
+<td scope="row" class="table-cell">176</td>
+<td scope="row" class="table-cell">18,257,536</td>
+<td scope="row" class="table-cell">103,736</td>
+<td scope="row" class="table-cell">2,499,998</td>
+<td scope="row" class="table-cell">14,204</td>
 </tr>
 
 <tr>
-<td>black-is-king</td>
-<td>26</td>
-<td><time datetime="2020-07-31" aria-label="July 31, 2020"> 2020-07-31 </time> to <time datetime="2021-01-28" aria-label="January 28, 2021"> 2021-01-28 </time></td>
-<td>38</td>
-<td>2,215,679</td>
-<td>58,307</td>
-<td>822,468</td>
-<td>21,643</td>
+<td scope="row" class="table-cell">black-is-king</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2020-07-31" aria-label="July 31, 2020"> 2020-07-31 </time> to <time datetime="2021-01-28" aria-label="January 28, 2021"> 2021-01-28 </time></td>
+<td scope="row" class="table-cell">38</td>
+<td scope="row" class="table-cell">2,215,679</td>
+<td scope="row" class="table-cell">58,307</td>
+<td scope="row" class="table-cell">822,468</td>
+<td scope="row" class="table-cell">21,643</td>
 </tr>
 
 <tr>
-<td>black-monday-110</td>
-<td>6</td>
-<td><time datetime="2019-04-01" aria-label="April 01, 2019"> 2019-04-01 </time> to <time datetime="2019-05-12" aria-label="May 12, 2019"> 2019-05-12 </time></td>
-<td>46</td>
-<td>3,198,656</td>
-<td>69,536</td>
-<td>135,963</td>
-<td>2,955</td>
+<td scope="row" class="table-cell">black-monday-110</td>
+<td scope="row" class="table-cell">6</td>
+<td scope="row" class="table-cell"><time datetime="2019-04-01" aria-label="April 01, 2019"> 2019-04-01 </time> to <time datetime="2019-05-12" aria-label="May 12, 2019"> 2019-05-12 </time></td>
+<td scope="row" class="table-cell">46</td>
+<td scope="row" class="table-cell">3,198,656</td>
+<td scope="row" class="table-cell">69,536</td>
+<td scope="row" class="table-cell">135,963</td>
+<td scope="row" class="table-cell">2,955</td>
 </tr>
 
 <tr>
-<td>black-panther</td>
-<td>7</td>
-<td><time datetime="2018-05-02" aria-label="May 02, 2018"> 2018-05-02 </time> to <time datetime="2018-06-22" aria-label="June 22, 2018"> 2018-06-22 </time></td>
-<td>138</td>
-<td>13,948,331</td>
-<td>101,074</td>
-<td>3,332,075</td>
-<td>24,145</td>
+<td scope="row" class="table-cell">black-panther</td>
+<td scope="row" class="table-cell">7</td>
+<td scope="row" class="table-cell"><time datetime="2018-05-02" aria-label="May 02, 2018"> 2018-05-02 </time> to <time datetime="2018-06-22" aria-label="June 22, 2018"> 2018-06-22 </time></td>
+<td scope="row" class="table-cell">138</td>
+<td scope="row" class="table-cell">13,948,331</td>
+<td scope="row" class="table-cell">101,074</td>
+<td scope="row" class="table-cell">3,332,075</td>
+<td scope="row" class="table-cell">24,145</td>
 </tr>
 
 <tr>
-<td>black-panther-wakanda-forever</td>
-<td>26</td>
-<td><time datetime="2023-01-31" aria-label="January 31, 2023"> 2023-01-31 </time> to <time datetime="2023-07-31" aria-label="July 31, 2023"> 2023-07-31 </time></td>
-<td>520</td>
-<td>24,418,245</td>
-<td>46,958</td>
-<td>8,086,649</td>
-<td>15,551</td>
+<td scope="row" class="table-cell">black-panther-wakanda-forever</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2023-01-31" aria-label="January 31, 2023"> 2023-01-31 </time> to <time datetime="2023-07-31" aria-label="July 31, 2023"> 2023-07-31 </time></td>
+<td scope="row" class="table-cell">520</td>
+<td scope="row" class="table-cell">24,418,245</td>
+<td scope="row" class="table-cell">46,958</td>
+<td scope="row" class="table-cell">8,086,649</td>
+<td scope="row" class="table-cell">15,551</td>
 </tr>
 
 <tr>
-<td>blackaf-1</td>
-<td>6</td>
-<td><time datetime="2020-04-18" aria-label="April 18, 2020"> 2020-04-18 </time> to <time datetime="2020-05-29" aria-label="May 29, 2020"> 2020-05-29 </time></td>
-<td>76</td>
-<td>867,812</td>
-<td>11,418</td>
-<td>50,918</td>
-<td>669</td>
+<td scope="row" class="table-cell">blackaf-01</td>
+<td scope="row" class="table-cell">6</td>
+<td scope="row" class="table-cell"><time datetime="2020-04-18" aria-label="April 18, 2020"> 2020-04-18 </time> to <time datetime="2020-05-29" aria-label="May 29, 2020"> 2020-05-29 </time></td>
+<td scope="row" class="table-cell">76</td>
+<td scope="row" class="table-cell">867,812</td>
+<td scope="row" class="table-cell">11,418</td>
+<td scope="row" class="table-cell">50,918</td>
+<td scope="row" class="table-cell">669</td>
 </tr>
 
 <tr>
-<td>blink-twice</td>
-<td>16</td>
-<td><time datetime="2024-09-18" aria-label="September 18, 2024"> 2024-09-18 </time> to <time datetime="2025-01-08" aria-label="January 08, 2025"> 2025-01-08 </time></td>
-<td>168</td>
-<td>15,820,323</td>
-<td>94,168</td>
-<td>2,037,562</td>
-<td>12,128</td>
+<td scope="row" class="table-cell">blink-twice</td>
+<td scope="row" class="table-cell">16</td>
+<td scope="row" class="table-cell"><time datetime="2024-09-18" aria-label="September 18, 2024"> 2024-09-18 </time> to <time datetime="2025-01-08" aria-label="January 08, 2025"> 2025-01-08 </time></td>
+<td scope="row" class="table-cell">168</td>
+<td scope="row" class="table-cell">15,820,323</td>
+<td scope="row" class="table-cell">94,168</td>
+<td scope="row" class="table-cell">2,037,562</td>
+<td scope="row" class="table-cell">12,128</td>
 </tr>
 
 <tr>
-<td>changeling-108</td>
-<td>10</td>
-<td><time datetime="2023-10-13" aria-label="October 13, 2023"> 2023-10-13 </time> to <time datetime="2023-12-21" aria-label="December 21, 2023"> 2023-12-21 </time></td>
-<td>84</td>
-<td>2,784,054</td>
-<td>33,143</td>
-<td>106,186</td>
-<td>1,264</td>
+<td scope="row" class="table-cell">changeling-108</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2023-10-13" aria-label="October 13, 2023"> 2023-10-13 </time> to <time datetime="2023-12-21" aria-label="December 21, 2023"> 2023-12-21 </time></td>
+<td scope="row" class="table-cell">84</td>
+<td scope="row" class="table-cell">2,784,054</td>
+<td scope="row" class="table-cell">33,143</td>
+<td scope="row" class="table-cell">106,186</td>
+<td scope="row" class="table-cell">1,264</td>
 </tr>
 
 <tr>
-<td>coming-2-america</td>
-<td>3</td>
-<td><time datetime="2021-03-05" aria-label="March 05, 2021"> 2021-03-05 </time> to <time datetime="2021-03-27" aria-label="March 27, 2021"> 2021-03-27 </time></td>
-<td>122</td>
-<td>3,341,149</td>
-<td>27,386</td>
-<td>1,168,971</td>
-<td>9,581</td>
+<td scope="row" class="table-cell">coming-2-america</td>
+<td scope="row" class="table-cell">3</td>
+<td scope="row" class="table-cell"><time datetime="2021-03-05" aria-label="March 05, 2021"> 2021-03-05 </time> to <time datetime="2021-03-27" aria-label="March 27, 2021"> 2021-03-27 </time></td>
+<td scope="row" class="table-cell">122</td>
+<td scope="row" class="table-cell">3,341,149</td>
+<td scope="row" class="table-cell">27,386</td>
+<td scope="row" class="table-cell">1,168,971</td>
+<td scope="row" class="table-cell">9,581</td>
 </tr>
 
 <tr>
-<td>da-5-bloods</td>
-<td>10</td>
-<td><time datetime="2020-06-12" aria-label="June 12, 2020"> 2020-06-12 </time> to <time datetime="2020-08-20" aria-label="August 20, 2020"> 2020-08-20 </time></td>
-<td>79</td>
-<td>3,468,080</td>
-<td>43,899</td>
-<td>668,429</td>
-<td>8,461</td>
+<td scope="row" class="table-cell">da-5-bloods</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2020-06-12" aria-label="June 12, 2020"> 2020-06-12 </time> to <time datetime="2020-08-20" aria-label="August 20, 2020"> 2020-08-20 </time></td>
+<td scope="row" class="table-cell">79</td>
+<td scope="row" class="table-cell">3,468,080</td>
+<td scope="row" class="table-cell">43,899</td>
+<td scope="row" class="table-cell">668,429</td>
+<td scope="row" class="table-cell">8,461</td>
 </tr>
 
 <tr>
-<td>debris-1</td>
-<td>10</td>
-<td><time datetime="2021-05-25" aria-label="May 25, 2021"> 2021-05-25 </time> to <time datetime="2021-08-02" aria-label="August 02, 2021"> 2021-08-02 </time></td>
-<td>70</td>
-<td>3,226,712</td>
-<td>46,095</td>
-<td>187,582</td>
-<td>2,679</td>
+<td scope="row" class="table-cell">debris-113</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-05-25" aria-label="May 25, 2021"> 2021-05-25 </time> to <time datetime="2021-08-02" aria-label="August 02, 2021"> 2021-08-02 </time></td>
+<td scope="row" class="table-cell">70</td>
+<td scope="row" class="table-cell">3,226,712</td>
+<td scope="row" class="table-cell">46,095</td>
+<td scope="row" class="table-cell">187,582</td>
+<td scope="row" class="table-cell">2,679</td>
 </tr>
 
 <tr>
-<td>dolemite-is-my-name</td>
-<td>6</td>
-<td><time datetime="2019-10-25" aria-label="October 25, 2019"> 2019-10-25 </time> to <time datetime="2019-12-05" aria-label="December 05, 2019"> 2019-12-05 </time></td>
-<td>52</td>
-<td>3,336,171</td>
-<td>64,157</td>
-<td>544,757</td>
-<td>10,476</td>
+<td scope="row" class="table-cell">dolemite-is-my-name</td>
+<td scope="row" class="table-cell">6</td>
+<td scope="row" class="table-cell"><time datetime="2019-10-25" aria-label="October 25, 2019"> 2019-10-25 </time> to <time datetime="2019-12-05" aria-label="December 05, 2019"> 2019-12-05 </time></td>
+<td scope="row" class="table-cell">52</td>
+<td scope="row" class="table-cell">3,336,171</td>
+<td scope="row" class="table-cell">64,157</td>
+<td scope="row" class="table-cell">544,757</td>
+<td scope="row" class="table-cell">10,476</td>
 </tr>
 
 <tr>
-<td>dope-thief-101</td>
-<td>15</td>
-<td><time datetime="2025-03-14" aria-label="March 14, 2025"> 2025-03-14 </time> to <time datetime="2025-06-26" aria-label="June 26, 2025"> 2025-06-26 </time></td>
-<td>226</td>
-<td>19,069,485</td>
-<td>84,378</td>
-<td>807,450</td>
-<td>3,572</td>
+<td scope="row" class="table-cell">dope-thief-101</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2025-03-14" aria-label="March 14, 2025"> 2025-03-14 </time> to <time datetime="2025-06-26" aria-label="June 26, 2025"> 2025-06-26 </time></td>
+<td scope="row" class="table-cell">226</td>
+<td scope="row" class="table-cell">19,069,485</td>
+<td scope="row" class="table-cell">84,378</td>
+<td scope="row" class="table-cell">807,450</td>
+<td scope="row" class="table-cell">3,572</td>
 </tr>
 
 <tr>
-<td>duster-101-102-103</td>
-<td>15</td>
-<td><time datetime="2025-05-16" aria-label="May 16, 2025"> 2025-05-16 </time> to <time datetime="2025-08-27" aria-label="August 27, 2025"> 2025-08-27 </time></td>
-<td>263</td>
-<td>18,746,778</td>
-<td>71,280</td>
-<td>552,331</td>
-<td>2,100</td>
+<td scope="row" class="table-cell">duster-101</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2025-05-16" aria-label="May 16, 2025"> 2025-05-16 </time> to <time datetime="2025-08-27" aria-label="August 27, 2025"> 2025-08-27 </time></td>
+<td scope="row" class="table-cell">263</td>
+<td scope="row" class="table-cell">18,746,778</td>
+<td scope="row" class="table-cell">71,280</td>
+<td scope="row" class="table-cell">552,331</td>
+<td scope="row" class="table-cell">2,100</td>
 </tr>
 
 <tr>
-<td>duster-106-107-108</td>
-<td>15</td>
-<td><time datetime="2025-06-21" aria-label="June 21, 2025"> 2025-06-21 </time> to <time datetime="2025-10-04" aria-label="October 04, 2025"> 2025-10-04 </time></td>
-<td>263</td>
-<td>17,812,466</td>
-<td>67,728</td>
-<td>369,676</td>
-<td>1,405</td>
+<td scope="row" class="table-cell">duster-106</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2025-06-21" aria-label="June 21, 2025"> 2025-06-21 </time> to <time datetime="2025-10-04" aria-label="October 04, 2025"> 2025-10-04 </time></td>
+<td scope="row" class="table-cell">263</td>
+<td scope="row" class="table-cell">17,812,466</td>
+<td scope="row" class="table-cell">67,728</td>
+<td scope="row" class="table-cell">369,676</td>
+<td scope="row" class="table-cell">1,405</td>
 </tr>
 
 <tr>
-<td>euphoria-208</td>
-<td>11</td>
-<td><time datetime="2022-02-28" aria-label="February 28, 2022"> 2022-02-28 </time> to <time datetime="2022-05-15" aria-label="May 15, 2022"> 2022-05-15 </time></td>
-<td>88</td>
-<td>2,854,416</td>
-<td>32,436</td>
-<td>1,023,835</td>
-<td>11,634</td>
+<td scope="row" class="table-cell">euphoria-208</td>
+<td scope="row" class="table-cell">11</td>
+<td scope="row" class="table-cell"><time datetime="2022-02-28" aria-label="February 28, 2022"> 2022-02-28 </time> to <time datetime="2022-05-15" aria-label="May 15, 2022"> 2022-05-15 </time></td>
+<td scope="row" class="table-cell">88</td>
+<td scope="row" class="table-cell">2,854,416</td>
+<td scope="row" class="table-cell">32,436</td>
+<td scope="row" class="table-cell">1,023,835</td>
+<td scope="row" class="table-cell">11,634</td>
 </tr>
 
 <tr>
-<td>euphoria-special-1</td>
-<td>15</td>
-<td><time datetime="2020-12-05" aria-label="December 05, 2020"> 2020-12-05 </time> to <time datetime="2021-03-19" aria-label="March 19, 2021"> 2021-03-19 </time></td>
-<td>95</td>
-<td>1,133,843</td>
-<td>11,935</td>
-<td>474,337</td>
-<td>4,993</td>
+<td scope="row" class="table-cell">euphoria-special</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2020-12-05" aria-label="December 05, 2020"> 2020-12-05 </time> to <time datetime="2021-03-19" aria-label="March 19, 2021"> 2021-03-19 </time></td>
+<td scope="row" class="table-cell">95</td>
+<td scope="row" class="table-cell">1,133,843</td>
+<td scope="row" class="table-cell">11,935</td>
+<td scope="row" class="table-cell">474,337</td>
+<td scope="row" class="table-cell">4,993</td>
 </tr>
 
 <tr>
-<td>falcon-and-winter-soldier-101</td>
-<td>10</td>
-<td><time datetime="2021-03-19" aria-label="March 19, 2021"> 2021-03-19 </time> to <time datetime="2021-05-27" aria-label="May 27, 2021"> 2021-05-27 </time></td>
-<td>169</td>
-<td>11,505,482</td>
-<td>68,079</td>
-<td>2,131,186</td>
-<td>12,610</td>
+<td scope="row" class="table-cell">falcon-and-the-winter-soldier-101</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-03-19" aria-label="March 19, 2021"> 2021-03-19 </time> to <time datetime="2021-05-27" aria-label="May 27, 2021"> 2021-05-27 </time></td>
+<td scope="row" class="table-cell">169</td>
+<td scope="row" class="table-cell">11,505,482</td>
+<td scope="row" class="table-cell">68,079</td>
+<td scope="row" class="table-cell">2,131,186</td>
+<td scope="row" class="table-cell">12,610</td>
 </tr>
 
 <tr>
-<td>falcon-and-winter-soldier-106</td>
-<td>15</td>
-<td><time datetime="2021-04-23" aria-label="April 23, 2021"> 2021-04-23 </time> to <time datetime="2021-08-05" aria-label="August 05, 2021"> 2021-08-05 </time></td>
-<td>180</td>
-<td>13,457,774</td>
-<td>74,765</td>
-<td>2,157,335</td>
-<td>11,985</td>
+<td scope="row" class="table-cell">falcon-and-the-winter-soldier-106</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2021-04-23" aria-label="April 23, 2021"> 2021-04-23 </time> to <time datetime="2021-08-05" aria-label="August 05, 2021"> 2021-08-05 </time></td>
+<td scope="row" class="table-cell">180</td>
+<td scope="row" class="table-cell">13,457,774</td>
+<td scope="row" class="table-cell">74,765</td>
+<td scope="row" class="table-cell">2,157,335</td>
+<td scope="row" class="table-cell">11,985</td>
 </tr>
 
 <tr>
-<td>full-circle</td>
-<td>16</td>
-<td><time datetime="2023-07-14" aria-label="July 14, 2023"> 2023-07-14 </time> to <time datetime="2023-11-03" aria-label="November 03, 2023"> 2023-11-03 </time></td>
-<td>376</td>
-<td>3,781,204</td>
-<td>10,056</td>
-<td>244,773</td>
-<td>650</td>
+<td scope="row" class="table-cell">full-circle-01</td>
+<td scope="row" class="table-cell">16</td>
+<td scope="row" class="table-cell"><time datetime="2023-07-14" aria-label="July 14, 2023"> 2023-07-14 </time> to <time datetime="2023-11-03" aria-label="November 03, 2023"> 2023-11-03 </time></td>
+<td scope="row" class="table-cell">376</td>
+<td scope="row" class="table-cell">3,781,204</td>
+<td scope="row" class="table-cell">10,056</td>
+<td scope="row" class="table-cell">244,773</td>
+<td scope="row" class="table-cell">650</td>
 </tr>
 
 <tr>
-<td>gen-v-101-102-103</td>
-<td>26</td>
-<td><time datetime="2023-09-29" aria-label="September 29, 2023"> 2023-09-29 </time> to <time datetime="2024-03-28" aria-label="March 28, 2024"> 2024-03-28 </time></td>
-<td>282</td>
-<td>27,162,810</td>
-<td>96,322</td>
-<td>2,665,632</td>
-<td>9,452</td>
+<td scope="row" class="table-cell">gen-v-101</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2023-09-29" aria-label="September 29, 2023"> 2023-09-29 </time> to <time datetime="2024-03-28" aria-label="March 28, 2024"> 2024-03-28 </time></td>
+<td scope="row" class="table-cell">282</td>
+<td scope="row" class="table-cell">27,162,810</td>
+<td scope="row" class="table-cell">96,322</td>
+<td scope="row" class="table-cell">2,665,632</td>
+<td scope="row" class="table-cell">9,452</td>
 </tr>
 
 <tr>
-<td>gen-v-201-202-203</td>
-<td>26</td>
-<td><time datetime="2025-09-17" aria-label="September 17, 2025"> 2025-09-17 </time> to <time datetime="2026-03-17" aria-label="March 17, 2026"> 2026-03-17 </time></td>
-<td>324</td>
-<td>59,186,685</td>
-<td>182,674</td>
-<td>1,734,260</td>
-<td>5,352</td>
+<td scope="row" class="table-cell">gen-v-201</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2025-09-17" aria-label="September 17, 2025"> 2025-09-17 </time> to <time datetime="2026-03-17" aria-label="March 17, 2026"> 2026-03-17 </time></td>
+<td scope="row" class="table-cell">324</td>
+<td scope="row" class="table-cell">59,186,685</td>
+<td scope="row" class="table-cell">182,674</td>
+<td scope="row" class="table-cell">1,734,260</td>
+<td scope="row" class="table-cell">5,352</td>
 </tr>
 
 <tr>
-<td>gen-v-206-207-208</td>
-<td>27</td>
-<td><time datetime="2025-10-08" aria-label="October 08, 2025"> 2025-10-08 </time> to <time datetime="2026-04-14" aria-label="April 14, 2026"> 2026-04-14 </time></td>
-<td>300</td>
-<td>48,429,140</td>
-<td>161,430</td>
-<td>1,242,842</td>
-<td>4,142</td>
+<td scope="row" class="table-cell">gen-v-206</td>
+<td scope="row" class="table-cell">27</td>
+<td scope="row" class="table-cell"><time datetime="2025-10-08" aria-label="October 08, 2025"> 2025-10-08 </time> to <time datetime="2026-04-14" aria-label="April 14, 2026"> 2026-04-14 </time></td>
+<td scope="row" class="table-cell">300</td>
+<td scope="row" class="table-cell">48,429,140</td>
+<td scope="row" class="table-cell">161,430</td>
+<td scope="row" class="table-cell">1,242,842</td>
+<td scope="row" class="table-cell">4,142</td>
 </tr>
 
 <tr>
-<td>good-fight-301</td>
-<td>5</td>
-<td><time datetime="2019-03-15" aria-label="March 15, 2019"> 2019-03-15 </time> to <time datetime="2019-04-18" aria-label="April 18, 2019"> 2019-04-18 </time></td>
-<td>57</td>
-<td>2,023,399</td>
-<td>35,498</td>
-<td>185,911</td>
-<td>3,261</td>
+<td scope="row" class="table-cell">good-fight-301</td>
+<td scope="row" class="table-cell">5</td>
+<td scope="row" class="table-cell"><time datetime="2019-03-15" aria-label="March 15, 2019"> 2019-03-15 </time> to <time datetime="2019-04-18" aria-label="April 18, 2019"> 2019-04-18 </time></td>
+<td scope="row" class="table-cell">57</td>
+<td scope="row" class="table-cell">2,023,399</td>
+<td scope="row" class="table-cell">35,498</td>
+<td scope="row" class="table-cell">185,911</td>
+<td scope="row" class="table-cell">3,261</td>
 </tr>
 
 <tr>
-<td>good-fight-407</td>
-<td>8</td>
-<td><time datetime="2020-05-28" aria-label="May 28, 2020"> 2020-05-28 </time> to <time datetime="2020-07-22" aria-label="July 22, 2020"> 2020-07-22 </time></td>
-<td>78</td>
-<td>562,094</td>
-<td>7,206</td>
-<td>156,042</td>
-<td>2,000</td>
+<td scope="row" class="table-cell">good-fight-407</td>
+<td scope="row" class="table-cell">8</td>
+<td scope="row" class="table-cell"><time datetime="2020-05-28" aria-label="May 28, 2020"> 2020-05-28 </time> to <time datetime="2020-07-22" aria-label="July 22, 2020"> 2020-07-22 </time></td>
+<td scope="row" class="table-cell">78</td>
+<td scope="row" class="table-cell">562,094</td>
+<td scope="row" class="table-cell">7,206</td>
+<td scope="row" class="table-cell">156,042</td>
+<td scope="row" class="table-cell">2,000</td>
 </tr>
 
 <tr>
-<td>hamilton</td>
-<td>26</td>
-<td><time datetime="2020-07-03" aria-label="July 03, 2020"> 2020-07-03 </time> to <time datetime="2020-12-31" aria-label="December 31, 2020"> 2020-12-31 </time></td>
-<td>49</td>
-<td>4,039,414</td>
-<td>82,437</td>
-<td>1,814,071</td>
-<td>37,021</td>
+<td scope="row" class="table-cell">hamilton</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2020-07-03" aria-label="July 03, 2020"> 2020-07-03 </time> to <time datetime="2020-12-31" aria-label="December 31, 2020"> 2020-12-31 </time></td>
+<td scope="row" class="table-cell">49</td>
+<td scope="row" class="table-cell">4,039,414</td>
+<td scope="row" class="table-cell">82,437</td>
+<td scope="row" class="table-cell">1,814,071</td>
+<td scope="row" class="table-cell">37,021</td>
 </tr>
 
 <tr>
-<td>harder-they-fall</td>
-<td>10</td>
-<td><time datetime="2021-11-03" aria-label="November 03, 2021"> 2021-11-03 </time> to <time datetime="2022-01-11" aria-label="January 11, 2022"> 2022-01-11 </time></td>
-<td>90</td>
-<td>2,132,778</td>
-<td>23,697</td>
-<td>809,326</td>
-<td>8,992</td>
+<td scope="row" class="table-cell">harder-they-fall</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-11-03" aria-label="November 03, 2021"> 2021-11-03 </time> to <time datetime="2022-01-11" aria-label="January 11, 2022"> 2022-01-11 </time></td>
+<td scope="row" class="table-cell">90</td>
+<td scope="row" class="table-cell">2,132,778</td>
+<td scope="row" class="table-cell">23,697</td>
+<td scope="row" class="table-cell">809,326</td>
+<td scope="row" class="table-cell">8,992</td>
 </tr>
 
 <tr>
-<td>high-fidelity-1</td>
-<td>26</td>
-<td><time datetime="2020-02-14" aria-label="February 14, 2020"> 2020-02-14 </time> to <time datetime="2020-08-13" aria-label="August 13, 2020"> 2020-08-13 </time></td>
-<td>200</td>
-<td>8,968,358</td>
-<td>44,841</td>
-<td>777,218</td>
-<td>3,886</td>
+<td scope="row" class="table-cell">high-fidelity-01</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2020-02-14" aria-label="February 14, 2020"> 2020-02-14 </time> to <time datetime="2020-08-13" aria-label="August 13, 2020"> 2020-08-13 </time></td>
+<td scope="row" class="table-cell">200</td>
+<td scope="row" class="table-cell">8,968,358</td>
+<td scope="row" class="table-cell">44,841</td>
+<td scope="row" class="table-cell">777,218</td>
+<td scope="row" class="table-cell">3,886</td>
 </tr>
 
 <tr>
-<td>high-flying-bird</td>
-<td>5</td>
-<td><time datetime="2019-02-08" aria-label="February 08, 2019"> 2019-02-08 </time> to <time datetime="2019-03-14" aria-label="March 14, 2019"> 2019-03-14 </time></td>
-<td>28</td>
-<td>852,702</td>
-<td>30,453</td>
-<td>62,173</td>
-<td>2,220</td>
+<td scope="row" class="table-cell">high-flying-bird</td>
+<td scope="row" class="table-cell">5</td>
+<td scope="row" class="table-cell"><time datetime="2019-02-08" aria-label="February 08, 2019"> 2019-02-08 </time> to <time datetime="2019-03-14" aria-label="March 14, 2019"> 2019-03-14 </time></td>
+<td scope="row" class="table-cell">28</td>
+<td scope="row" class="table-cell">852,702</td>
+<td scope="row" class="table-cell">30,453</td>
+<td scope="row" class="table-cell">62,173</td>
+<td scope="row" class="table-cell">2,220</td>
 </tr>
 
 <tr>
-<td>highest-2-lowest</td>
-<td>26</td>
-<td><time datetime="2025-09-05" aria-label="September 05, 2025"> 2025-09-05 </time> to <time datetime="2026-03-05" aria-label="March 05, 2026"> 2026-03-05 </time></td>
-<td>104</td>
-<td>17,254,562</td>
-<td>165,909</td>
-<td>1,084,169</td>
-<td>10,424</td>
+<td scope="row" class="table-cell">highest-2-lowest</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2025-09-05" aria-label="September 05, 2025"> 2025-09-05 </time> to <time datetime="2026-03-05" aria-label="March 05, 2026"> 2026-03-05 </time></td>
+<td scope="row" class="table-cell">104</td>
+<td scope="row" class="table-cell">17,254,562</td>
+<td scope="row" class="table-cell">165,909</td>
+<td scope="row" class="table-cell">1,084,169</td>
+<td scope="row" class="table-cell">10,424</td>
 </tr>
 
 <tr>
-<td>his-and-hers-1</td>
-<td>15</td>
-<td><time datetime="2026-01-08" aria-label="January 08, 2026"> 2026-01-08 </time> to <time datetime="2026-04-22" aria-label="April 22, 2026"> 2026-04-22 </time></td>
-<td>267</td>
-<td>30,265,942</td>
-<td>113,355</td>
-<td>907,185</td>
-<td>3,397</td>
+<td scope="row" class="table-cell">his-and-hers-2026-01</td>
+<td scope="row" class="table-cell">18</td>
+<td scope="row" class="table-cell"><time datetime="2026-01-08" aria-label="January 08, 2026"> 2026-01-08 </time> to <time datetime="2026-05-13" aria-label="May 13, 2026"> 2026-05-13 </time></td>
+<td scope="row" class="table-cell">267</td>
+<td scope="row" class="table-cell">34,959,245</td>
+<td scope="row" class="table-cell">130,933</td>
+<td scope="row" class="table-cell">969,038</td>
+<td scope="row" class="table-cell">3,629</td>
 </tr>
 
 <tr>
-<td>im-a-virgo-1</td>
-<td>10</td>
-<td><time datetime="2023-06-23" aria-label="June 23, 2023"> 2023-06-23 </time> to <time datetime="2023-08-31" aria-label="August 31, 2023"> 2023-08-31 </time></td>
-<td>116</td>
-<td>585,330</td>
-<td>5,045</td>
-<td>72,783</td>
-<td>627</td>
+<td scope="row" class="table-cell">im-a-virgo-01</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2023-06-23" aria-label="June 23, 2023"> 2023-06-23 </time> to <time datetime="2023-08-31" aria-label="August 31, 2023"> 2023-08-31 </time></td>
+<td scope="row" class="table-cell">116</td>
+<td scope="row" class="table-cell">585,330</td>
+<td scope="row" class="table-cell">5,045</td>
+<td scope="row" class="table-cell">72,783</td>
+<td scope="row" class="table-cell">627</td>
 </tr>
 
 <tr>
-<td>industry-401-402-403</td>
-<td>14</td>
-<td><time datetime="2026-01-12" aria-label="January 12, 2026"> 2026-01-12 </time> to <time datetime="2026-04-19" aria-label="April 19, 2026"> 2026-04-19 </time></td>
-<td>212</td>
-<td>16,357,903</td>
-<td>77,159</td>
-<td>339,972</td>
-<td>1,603</td>
+<td scope="row" class="table-cell">industry-401</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2026-01-12" aria-label="January 12, 2026"> 2026-01-12 </time> to <time datetime="2026-04-26" aria-label="April 26, 2026"> 2026-04-26 </time></td>
+<td scope="row" class="table-cell">212</td>
+<td scope="row" class="table-cell">17,446,710</td>
+<td scope="row" class="table-cell">82,295</td>
+<td scope="row" class="table-cell">354,359</td>
+<td scope="row" class="table-cell">1,671</td>
 </tr>
 
 <tr>
-<td>intergalactic-1</td>
-<td>10</td>
-<td><time datetime="2021-05-01" aria-label="May 01, 2021"> 2021-05-01 </time> to <time datetime="2021-07-09" aria-label="July 09, 2021"> 2021-07-09 </time></td>
-<td>167</td>
-<td>5,903,851</td>
-<td>35,352</td>
-<td>225,008</td>
-<td>1,347</td>
+<td scope="row" class="table-cell">intergalactic-01</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-05-01" aria-label="May 01, 2021"> 2021-05-01 </time> to <time datetime="2021-07-09" aria-label="July 09, 2021"> 2021-07-09 </time></td>
+<td scope="row" class="table-cell">167</td>
+<td scope="row" class="table-cell">5,903,851</td>
+<td scope="row" class="table-cell">35,352</td>
+<td scope="row" class="table-cell">225,008</td>
+<td scope="row" class="table-cell">1,347</td>
 </tr>
 
 <tr>
-<td>ironheart-1</td>
-<td>26</td>
-<td><time datetime="2025-06-25" aria-label="June 25, 2025"> 2025-06-25 </time> to <time datetime="2025-12-23" aria-label="December 23, 2025"> 2025-12-23 </time></td>
-<td>601</td>
-<td>82,330,568</td>
-<td>136,989</td>
-<td>2,959,954</td>
-<td>4,925</td>
+<td scope="row" class="table-cell">ironheart-01</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2025-06-25" aria-label="June 25, 2025"> 2025-06-25 </time> to <time datetime="2025-12-23" aria-label="December 23, 2025"> 2025-12-23 </time></td>
+<td scope="row" class="table-cell">601</td>
+<td scope="row" class="table-cell">82,330,568</td>
+<td scope="row" class="table-cell">136,989</td>
+<td scope="row" class="table-cell">2,959,954</td>
+<td scope="row" class="table-cell">4,925</td>
 </tr>
 
 <tr>
-<td>jeen-yuhs-1</td>
-<td>11</td>
-<td><time datetime="2022-03-04" aria-label="March 04, 2022"> 2022-03-04 </time> to <time datetime="2022-05-19" aria-label="May 19, 2022"> 2022-05-19 </time></td>
-<td>66</td>
-<td>733,572</td>
-<td>11,114</td>
-<td>119,849</td>
-<td>1,815</td>
+<td scope="row" class="table-cell">jeen-yuhs-01</td>
+<td scope="row" class="table-cell">11</td>
+<td scope="row" class="table-cell"><time datetime="2022-03-04" aria-label="March 04, 2022"> 2022-03-04 </time> to <time datetime="2022-05-19" aria-label="May 19, 2022"> 2022-05-19 </time></td>
+<td scope="row" class="table-cell">66</td>
+<td scope="row" class="table-cell">733,572</td>
+<td scope="row" class="table-cell">11,114</td>
+<td scope="row" class="table-cell">119,849</td>
+<td scope="row" class="table-cell">1,815</td>
 </tr>
 
 <tr>
-<td>killer-2024</td>
-<td>16</td>
-<td><time datetime="2024-08-23" aria-label="August 23, 2024"> 2024-08-23 </time> to <time datetime="2024-12-14" aria-label="December 14, 2024"> 2024-12-14 </time></td>
-<td>119</td>
-<td>9,841,840</td>
-<td>82,704</td>
-<td>1,362,353</td>
-<td>11,448</td>
+<td scope="row" class="table-cell">killer-2024</td>
+<td scope="row" class="table-cell">16</td>
+<td scope="row" class="table-cell"><time datetime="2024-08-23" aria-label="August 23, 2024"> 2024-08-23 </time> to <time datetime="2024-12-14" aria-label="December 14, 2024"> 2024-12-14 </time></td>
+<td scope="row" class="table-cell">119</td>
+<td scope="row" class="table-cell">9,841,840</td>
+<td scope="row" class="table-cell">82,704</td>
+<td scope="row" class="table-cell">1,362,353</td>
+<td scope="row" class="table-cell">11,448</td>
 </tr>
 
 <tr>
-<td>kimi</td>
-<td>16</td>
-<td><time datetime="2022-02-11" aria-label="February 11, 2022"> 2022-02-11 </time> to <time datetime="2022-06-02" aria-label="June 02, 2022"> 2022-06-02 </time></td>
-<td>103</td>
-<td>3,349,592</td>
-<td>32,520</td>
-<td>1,109,504</td>
-<td>10,771</td>
+<td scope="row" class="table-cell">kimi</td>
+<td scope="row" class="table-cell">16</td>
+<td scope="row" class="table-cell"><time datetime="2022-02-11" aria-label="February 11, 2022"> 2022-02-11 </time> to <time datetime="2022-06-02" aria-label="June 02, 2022"> 2022-06-02 </time></td>
+<td scope="row" class="table-cell">103</td>
+<td scope="row" class="table-cell">3,349,592</td>
+<td scope="row" class="table-cell">32,520</td>
+<td scope="row" class="table-cell">1,109,504</td>
+<td scope="row" class="table-cell">10,771</td>
 </tr>
 
 <tr>
-<td>kindred</td>
-<td>10</td>
-<td><time datetime="2022-12-13" aria-label="December 13, 2022"> 2022-12-13 </time> to <time datetime="2023-02-20" aria-label="February 20, 2023"> 2023-02-20 </time></td>
-<td>183</td>
-<td>1,098,075</td>
-<td>6,000</td>
-<td>104,543</td>
-<td>571</td>
+<td scope="row" class="table-cell">kindred-01</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2022-12-13" aria-label="December 13, 2022"> 2022-12-13 </time> to <time datetime="2023-02-20" aria-label="February 20, 2023"> 2023-02-20 </time></td>
+<td scope="row" class="table-cell">183</td>
+<td scope="row" class="table-cell">1,098,075</td>
+<td scope="row" class="table-cell">6,000</td>
+<td scope="row" class="table-cell">104,543</td>
+<td scope="row" class="table-cell">571</td>
 </tr>
 
 <tr>
-<td>lovebirds</td>
-<td>10</td>
-<td><time datetime="2020-05-22" aria-label="May 22, 2020"> 2020-05-22 </time> to <time datetime="2020-07-30" aria-label="July 30, 2020"> 2020-07-30 </time></td>
-<td>64</td>
-<td>1,776,270</td>
-<td>27,754</td>
-<td>660,345</td>
-<td>10,317</td>
+<td scope="row" class="table-cell">lovebirds</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2020-05-22" aria-label="May 22, 2020"> 2020-05-22 </time> to <time datetime="2020-07-30" aria-label="July 30, 2020"> 2020-07-30 </time></td>
+<td scope="row" class="table-cell">64</td>
+<td scope="row" class="table-cell">1,776,270</td>
+<td scope="row" class="table-cell">27,754</td>
+<td scope="row" class="table-cell">660,345</td>
+<td scope="row" class="table-cell">10,317</td>
 </tr>
 
 <tr>
-<td>lovecraft-country-101</td>
-<td>10</td>
-<td><time datetime="2020-08-17" aria-label="August 17, 2020"> 2020-08-17 </time> to <time datetime="2020-10-25" aria-label="October 25, 2020"> 2020-10-25 </time></td>
-<td>57</td>
-<td>3,046,284</td>
-<td>53,443</td>
-<td>534,767</td>
-<td>9,381</td>
+<td scope="row" class="table-cell">lovecraft-country-101</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2020-08-17" aria-label="August 17, 2020"> 2020-08-17 </time> to <time datetime="2020-10-25" aria-label="October 25, 2020"> 2020-10-25 </time></td>
+<td scope="row" class="table-cell">57</td>
+<td scope="row" class="table-cell">3,046,284</td>
+<td scope="row" class="table-cell">53,443</td>
+<td scope="row" class="table-cell">534,767</td>
+<td scope="row" class="table-cell">9,381</td>
 </tr>
 
 <tr>
-<td>luke-cage-2</td>
-<td>15</td>
-<td><time datetime="2018-06-22" aria-label="June 22, 2018"> 2018-06-22 </time> to <time datetime="2018-10-04" aria-label="October 04, 2018"> 2018-10-04 </time></td>
-<td>229</td>
-<td>13,942,313</td>
-<td>60,883</td>
-<td>2,508,876</td>
-<td>10,955</td>
+<td scope="row" class="table-cell">luke-cage-02</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2018-06-22" aria-label="June 22, 2018"> 2018-06-22 </time> to <time datetime="2018-10-04" aria-label="October 04, 2018"> 2018-10-04 </time></td>
+<td scope="row" class="table-cell">229</td>
+<td scope="row" class="table-cell">13,942,313</td>
+<td scope="row" class="table-cell">60,883</td>
+<td scope="row" class="table-cell">2,508,876</td>
+<td scope="row" class="table-cell">10,955</td>
 </tr>
 
 <tr>
-<td>madness-1</td>
-<td>15</td>
-<td><time datetime="2024-11-28" aria-label="November 28, 2024"> 2024-11-28 </time> to <time datetime="2025-03-12" aria-label="March 12, 2025"> 2025-03-12 </time></td>
-<td>274</td>
-<td>22,561,907</td>
-<td>82,342</td>
-<td>860,397</td>
-<td>3,140</td>
+<td scope="row" class="table-cell">madness-01</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2024-11-28" aria-label="November 28, 2024"> 2024-11-28 </time> to <time datetime="2025-03-12" aria-label="March 12, 2025"> 2025-03-12 </time></td>
+<td scope="row" class="table-cell">274</td>
+<td scope="row" class="table-cell">22,561,907</td>
+<td scope="row" class="table-cell">82,342</td>
+<td scope="row" class="table-cell">860,397</td>
+<td scope="row" class="table-cell">3,140</td>
 </tr>
 
 <tr>
-<td>malcom--marie</td>
-<td>10</td>
-<td><time datetime="2021-02-05" aria-label="February 05, 2021"> 2021-02-05 </time> to <time datetime="2021-04-15" aria-label="April 15, 2021"> 2021-04-15 </time></td>
-<td>68</td>
-<td>2,096,495</td>
-<td>30,830</td>
-<td>330,221</td>
-<td>4,856</td>
+<td scope="row" class="table-cell">malcolm-and-marie</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-02-05" aria-label="February 05, 2021"> 2021-02-05 </time> to <time datetime="2021-04-15" aria-label="April 15, 2021"> 2021-04-15 </time></td>
+<td scope="row" class="table-cell">68</td>
+<td scope="row" class="table-cell">2,096,495</td>
+<td scope="row" class="table-cell">30,830</td>
+<td scope="row" class="table-cell">330,221</td>
+<td scope="row" class="table-cell">4,856</td>
 </tr>
 
 <tr>
-<td>mid-century-modern-1</td>
-<td>15</td>
-<td><time datetime="2025-03-29" aria-label="March 29, 2025"> 2025-03-29 </time> to <time datetime="2025-07-11" aria-label="July 11, 2025"> 2025-07-11 </time></td>
-<td>207</td>
-<td>9,747,499</td>
-<td>47,089</td>
-<td>293,431</td>
-<td>1,417</td>
+<td scope="row" class="table-cell">mid-century-modern-01</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2025-03-29" aria-label="March 29, 2025"> 2025-03-29 </time> to <time datetime="2025-07-11" aria-label="July 11, 2025"> 2025-07-11 </time></td>
+<td scope="row" class="table-cell">207</td>
+<td scope="row" class="table-cell">9,747,499</td>
+<td scope="row" class="table-cell">47,089</td>
+<td scope="row" class="table-cell">293,431</td>
+<td scope="row" class="table-cell">1,417</td>
 </tr>
 
 <tr>
-<td>motherandroid</td>
-<td>10</td>
-<td><time datetime="2021-12-17" aria-label="December 17, 2021"> 2021-12-17 </time> to <time datetime="2022-02-25" aria-label="February 25, 2022"> 2022-02-25 </time></td>
-<td>82</td>
-<td>1,679,407</td>
-<td>20,480</td>
-<td>544,783</td>
-<td>6,643</td>
+<td scope="row" class="table-cell">mother-android</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-12-17" aria-label="December 17, 2021"> 2021-12-17 </time> to <time datetime="2022-02-25" aria-label="February 25, 2022"> 2022-02-25 </time></td>
+<td scope="row" class="table-cell">82</td>
+<td scope="row" class="table-cell">1,679,407</td>
+<td scope="row" class="table-cell">20,480</td>
+<td scope="row" class="table-cell">544,783</td>
+<td scope="row" class="table-cell">6,643</td>
 </tr>
 
 <tr>
-<td>mr--mrs-smith-1</td>
-<td>17</td>
-<td><time datetime="2024-02-02" aria-label="February 02, 2024"> 2024-02-02 </time> to <time datetime="2024-05-30" aria-label="May 30, 2024"> 2024-05-30 </time></td>
-<td>274</td>
-<td>18,179,890</td>
-<td>66,349</td>
-<td>1,050,324</td>
-<td>3,833</td>
+<td scope="row" class="table-cell">mr-and-mrs-smith-2024-01</td>
+<td scope="row" class="table-cell">17</td>
+<td scope="row" class="table-cell"><time datetime="2024-02-02" aria-label="February 02, 2024"> 2024-02-02 </time> to <time datetime="2024-05-30" aria-label="May 30, 2024"> 2024-05-30 </time></td>
+<td scope="row" class="table-cell">274</td>
+<td scope="row" class="table-cell">18,179,890</td>
+<td scope="row" class="table-cell">66,349</td>
+<td scope="row" class="table-cell">1,050,324</td>
+<td scope="row" class="table-cell">3,833</td>
 </tr>
 
 <tr>
-<td>no-sudden-move</td>
-<td>10</td>
-<td><time datetime="2021-07-01" aria-label="July 01, 2021"> 2021-07-01 </time> to <time datetime="2021-09-08" aria-label="September 08, 2021"> 2021-09-08 </time></td>
-<td>87</td>
-<td>4,515,550</td>
-<td>51,902</td>
-<td>827,777</td>
-<td>9,514</td>
+<td scope="row" class="table-cell">no-sudden-move</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-07-01" aria-label="July 01, 2021"> 2021-07-01 </time> to <time datetime="2021-09-08" aria-label="September 08, 2021"> 2021-09-08 </time></td>
+<td scope="row" class="table-cell">87</td>
+<td scope="row" class="table-cell">4,515,550</td>
+<td scope="row" class="table-cell">51,902</td>
+<td scope="row" class="table-cell">827,777</td>
+<td scope="row" class="table-cell">9,514</td>
 </tr>
 
 <tr>
-<td>one-night-in-miami</td>
-<td>10</td>
-<td><time datetime="2021-01-15" aria-label="January 15, 2021"> 2021-01-15 </time> to <time datetime="2021-03-25" aria-label="March 25, 2021"> 2021-03-25 </time></td>
-<td>62</td>
-<td>3,104,582</td>
-<td>50,073</td>
-<td>427,112</td>
-<td>6,888</td>
+<td scope="row" class="table-cell">one-night-in-miami</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-01-15" aria-label="January 15, 2021"> 2021-01-15 </time> to <time datetime="2021-03-25" aria-label="March 25, 2021"> 2021-03-25 </time></td>
+<td scope="row" class="table-cell">62</td>
+<td scope="row" class="table-cell">3,104,582</td>
+<td scope="row" class="table-cell">50,073</td>
+<td scope="row" class="table-cell">427,112</td>
+<td scope="row" class="table-cell">6,888</td>
 </tr>
 
 <tr>
-<td>oprah-with-meghan-and-harry</td>
-<td>10</td>
-<td><time datetime="2021-03-08" aria-label="March 08, 2021"> 2021-03-08 </time> to <time datetime="2021-05-16" aria-label="May 16, 2021"> 2021-05-16 </time></td>
-<td>24</td>
-<td>753,626</td>
-<td>31,401</td>
-<td>177,389</td>
-<td>7,391</td>
+<td scope="row" class="table-cell">oprah-meghan-harry</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-03-08" aria-label="March 08, 2021"> 2021-03-08 </time> to <time datetime="2021-05-16" aria-label="May 16, 2021"> 2021-05-16 </time></td>
+<td scope="row" class="table-cell">24</td>
+<td scope="row" class="table-cell">753,626</td>
+<td scope="row" class="table-cell">31,401</td>
+<td scope="row" class="table-cell">177,389</td>
+<td scope="row" class="table-cell">7,391</td>
 </tr>
 
 <tr>
-<td>orange-is-the-new-black-6</td>
-<td>7</td>
-<td><time datetime="2018-07-27" aria-label="July 27, 2018"> 2018-07-27 </time> to <time datetime="2018-09-14" aria-label="September 14, 2018"> 2018-09-14 </time></td>
-<td>383</td>
-<td>6,461,446</td>
-<td>16,870</td>
-<td>1,498,811</td>
-<td>3,913</td>
+<td scope="row" class="table-cell">orange-is-the-new-black-06</td>
+<td scope="row" class="table-cell">7</td>
+<td scope="row" class="table-cell"><time datetime="2018-07-27" aria-label="July 27, 2018"> 2018-07-27 </time> to <time datetime="2018-09-14" aria-label="September 14, 2018"> 2018-09-14 </time></td>
+<td scope="row" class="table-cell">383</td>
+<td scope="row" class="table-cell">6,461,446</td>
+<td scope="row" class="table-cell">16,870</td>
+<td scope="row" class="table-cell">1,498,811</td>
+<td scope="row" class="table-cell">3,913</td>
 </tr>
 
 <tr>
-<td>orange-is-the-new-black-7</td>
-<td>10</td>
-<td><time datetime="2019-07-26" aria-label="July 26, 2019"> 2019-07-26 </time> to <time datetime="2019-10-03" aria-label="October 03, 2019"> 2019-10-03 </time></td>
-<td>272</td>
-<td>2,408,774</td>
-<td>8,855</td>
-<td>818,163</td>
-<td>3,007</td>
+<td scope="row" class="table-cell">orange-is-the-new-black-07</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2019-07-26" aria-label="July 26, 2019"> 2019-07-26 </time> to <time datetime="2019-10-03" aria-label="October 03, 2019"> 2019-10-03 </time></td>
+<td scope="row" class="table-cell">272</td>
+<td scope="row" class="table-cell">2,408,774</td>
+<td scope="row" class="table-cell">8,855</td>
+<td scope="row" class="table-cell">818,163</td>
+<td scope="row" class="table-cell">3,007</td>
 </tr>
 
 <tr>
-<td>outside-the-wire</td>
-<td>10</td>
-<td><time datetime="2021-01-15" aria-label="January 15, 2021"> 2021-01-15 </time> to <time datetime="2021-03-25" aria-label="March 25, 2021"> 2021-03-25 </time></td>
-<td>108</td>
-<td>5,178,427</td>
-<td>47,948</td>
-<td>2,240,797</td>
-<td>20,748</td>
+<td scope="row" class="table-cell">outside-the-wire</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-01-15" aria-label="January 15, 2021"> 2021-01-15 </time> to <time datetime="2021-03-25" aria-label="March 25, 2021"> 2021-03-25 </time></td>
+<td scope="row" class="table-cell">108</td>
+<td scope="row" class="table-cell">5,178,427</td>
+<td scope="row" class="table-cell">47,948</td>
+<td scope="row" class="table-cell">2,240,797</td>
+<td scope="row" class="table-cell">20,748</td>
 </tr>
 
 <tr>
-<td>pose-3</td>
-<td>10</td>
-<td><time datetime="2021-06-07" aria-label="June 07, 2021"> 2021-06-07 </time> to <time datetime="2021-08-15" aria-label="August 15, 2021"> 2021-08-15 </time></td>
-<td>64</td>
-<td>1,594,984</td>
-<td>24,921</td>
-<td>137,651</td>
-<td>2,150</td>
+<td scope="row" class="table-cell">pose-307</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-06-07" aria-label="June 07, 2021"> 2021-06-07 </time> to <time datetime="2021-08-15" aria-label="August 15, 2021"> 2021-08-15 </time></td>
+<td scope="row" class="table-cell">64</td>
+<td scope="row" class="table-cell">1,594,984</td>
+<td scope="row" class="table-cell">24,921</td>
+<td scope="row" class="table-cell">137,651</td>
+<td scope="row" class="table-cell">2,150</td>
 </tr>
 
 <tr>
-<td>random-acts-of-flyness-106</td>
-<td>3</td>
-<td><time datetime="2018-09-08" aria-label="September 08, 2018"> 2018-09-08 </time> to <time datetime="2018-09-29" aria-label="September 29, 2018"> 2018-09-29 </time></td>
-<td>27</td>
-<td>703,106</td>
-<td>26,040</td>
-<td>9,199</td>
-<td>340</td>
+<td scope="row" class="table-cell">random-acts-of-flyness-106</td>
+<td scope="row" class="table-cell">3</td>
+<td scope="row" class="table-cell"><time datetime="2018-09-08" aria-label="September 08, 2018"> 2018-09-08 </time> to <time datetime="2018-09-29" aria-label="September 29, 2018"> 2018-09-29 </time></td>
+<td scope="row" class="table-cell">27</td>
+<td scope="row" class="table-cell">703,106</td>
+<td scope="row" class="table-cell">26,040</td>
+<td scope="row" class="table-cell">9,199</td>
+<td scope="row" class="table-cell">340</td>
 </tr>
 
 <tr>
-<td>sean-combs-the-reckoning</td>
-<td>15</td>
-<td><time datetime="2025-12-02" aria-label="December 02, 2025"> 2025-12-02 </time> to <time datetime="2026-03-16" aria-label="March 16, 2026"> 2026-03-16 </time></td>
-<td>112</td>
-<td>11,926,444</td>
-<td>106,486</td>
-<td>679,652</td>
-<td>6,068</td>
+<td scope="row" class="table-cell">sean-combs-the-reckoning</td>
+<td scope="row" class="table-cell">22</td>
+<td scope="row" class="table-cell"><time datetime="2025-12-02" aria-label="December 02, 2025"> 2025-12-02 </time> to <time datetime="2026-05-04" aria-label="May 04, 2026"> 2026-05-04 </time></td>
+<td scope="row" class="table-cell">112</td>
+<td scope="row" class="table-cell">16,398,820</td>
+<td scope="row" class="table-cell">146,418</td>
+<td scope="row" class="table-cell">744,703</td>
+<td scope="row" class="table-cell">6,649</td>
 </tr>
 
 <tr>
-<td>silo-201-202</td>
-<td>26</td>
-<td><time datetime="2024-11-15" aria-label="November 15, 2024"> 2024-11-15 </time> to <time datetime="2025-05-15" aria-label="May 15, 2025"> 2025-05-15 </time></td>
-<td>281</td>
-<td>46,319,561</td>
-<td>164,838</td>
-<td>3,253,934</td>
-<td>11,579</td>
+<td scope="row" class="table-cell">silo-201</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2024-11-15" aria-label="November 15, 2024"> 2024-11-15 </time> to <time datetime="2025-05-15" aria-label="May 15, 2025"> 2025-05-15 </time></td>
+<td scope="row" class="table-cell">281</td>
+<td scope="row" class="table-cell">46,319,561</td>
+<td scope="row" class="table-cell">164,838</td>
+<td scope="row" class="table-cell">3,253,934</td>
+<td scope="row" class="table-cell">11,579</td>
 </tr>
 
 <tr>
-<td>sinners-2025</td>
-<td>26</td>
-<td><time datetime="2025-05-30" aria-label="May 30, 2025"> 2025-05-30 </time> to <time datetime="2025-11-28" aria-label="November 28, 2025"> 2025-11-28 </time></td>
-<td>322</td>
-<td>59,839,439</td>
-<td>185,836</td>
-<td>5,199,183</td>
-<td>16,146</td>
+<td scope="row" class="table-cell">sinners-2025</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2025-05-30" aria-label="May 30, 2025"> 2025-05-30 </time> to <time datetime="2025-11-28" aria-label="November 28, 2025"> 2025-11-28 </time></td>
+<td scope="row" class="table-cell">322</td>
+<td scope="row" class="table-cell">59,839,439</td>
+<td scope="row" class="table-cell">185,836</td>
+<td scope="row" class="table-cell">5,199,183</td>
+<td scope="row" class="table-cell">16,146</td>
 </tr>
 
 <tr>
-<td>sly-lives</td>
-<td>15</td>
-<td><time datetime="2025-02-14" aria-label="February 14, 2025"> 2025-02-14 </time> to <time datetime="2025-05-29" aria-label="May 29, 2025"> 2025-05-29 </time></td>
-<td>20</td>
-<td>1,048,182</td>
-<td>52,409</td>
-<td>33,633</td>
-<td>1,681</td>
+<td scope="row" class="table-cell">sly-lives</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2025-02-14" aria-label="February 14, 2025"> 2025-02-14 </time> to <time datetime="2025-05-29" aria-label="May 29, 2025"> 2025-05-29 </time></td>
+<td scope="row" class="table-cell">20</td>
+<td scope="row" class="table-cell">1,048,182</td>
+<td scope="row" class="table-cell">52,409</td>
+<td scope="row" class="table-cell">33,633</td>
+<td scope="row" class="table-cell">1,681</td>
 </tr>
 
 <tr>
-<td>snowpiercer-401</td>
-<td>15</td>
-<td><time datetime="2024-07-20" aria-label="July 20, 2024"> 2024-07-20 </time> to <time datetime="2024-11-01" aria-label="November 01, 2024"> 2024-11-01 </time></td>
-<td>141</td>
-<td>9,751,213</td>
-<td>69,157</td>
-<td>497,747</td>
-<td>3,530</td>
+<td scope="row" class="table-cell">snowpiercer-401</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2024-07-20" aria-label="July 20, 2024"> 2024-07-20 </time> to <time datetime="2024-11-01" aria-label="November 01, 2024"> 2024-11-01 </time></td>
+<td scope="row" class="table-cell">141</td>
+<td scope="row" class="table-cell">9,751,213</td>
+<td scope="row" class="table-cell">69,157</td>
+<td scope="row" class="table-cell">497,747</td>
+<td scope="row" class="table-cell">3,530</td>
 </tr>
 
 <tr>
-<td>special-ops-lioness-201</td>
-<td>12</td>
-<td><time datetime="2024-10-28" aria-label="October 28, 2024"> 2024-10-28 </time> to <time datetime="2025-01-19" aria-label="January 19, 2025"> 2025-01-19 </time></td>
-<td>180</td>
-<td>8,742,633</td>
-<td>48,570</td>
-<td>970,885</td>
-<td>5,393</td>
+<td scope="row" class="table-cell">special-ops-lioness-201</td>
+<td scope="row" class="table-cell">12</td>
+<td scope="row" class="table-cell"><time datetime="2024-10-28" aria-label="October 28, 2024"> 2024-10-28 </time> to <time datetime="2025-01-19" aria-label="January 19, 2025"> 2025-01-19 </time></td>
+<td scope="row" class="table-cell">180</td>
+<td scope="row" class="table-cell">8,742,633</td>
+<td scope="row" class="table-cell">48,570</td>
+<td scope="row" class="table-cell">970,885</td>
+<td scope="row" class="table-cell">5,393</td>
 </tr>
 
 <tr>
-<td>spider-man-across-the-spider-verse</td>
-<td>26</td>
-<td><time datetime="2023-08-07" aria-label="August 07, 2023"> 2023-08-07 </time> to <time datetime="2024-02-05" aria-label="February 05, 2024"> 2024-02-05 </time></td>
-<td>366</td>
-<td>32,343,659</td>
-<td>88,370</td>
-<td>5,525,623</td>
-<td>15,097</td>
+<td scope="row" class="table-cell">spider-man-across-the-spider-verse</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2023-08-07" aria-label="August 07, 2023"> 2023-08-07 </time> to <time datetime="2024-02-05" aria-label="February 05, 2024"> 2024-02-05 </time></td>
+<td scope="row" class="table-cell">366</td>
+<td scope="row" class="table-cell">32,343,659</td>
+<td scope="row" class="table-cell">88,370</td>
+<td scope="row" class="table-cell">5,525,623</td>
+<td scope="row" class="table-cell">15,097</td>
 </tr>
 
 <tr>
-<td>star-trek-discovery-101</td>
-<td>4</td>
-<td><time datetime="2017-09-25" aria-label="September 25, 2017"> 2017-09-25 </time> to <time datetime="2017-10-21" aria-label="October 21, 2017"> 2017-10-21 </time></td>
-<td>122</td>
-<td>2,619,236</td>
-<td>21,469</td>
-<td>1,406,315</td>
-<td>11,527</td>
+<td scope="row" class="table-cell">star-trek-discovery-101</td>
+<td scope="row" class="table-cell">4</td>
+<td scope="row" class="table-cell"><time datetime="2017-09-25" aria-label="September 25, 2017"> 2017-09-25 </time> to <time datetime="2017-10-21" aria-label="October 21, 2017"> 2017-10-21 </time></td>
+<td scope="row" class="table-cell">122</td>
+<td scope="row" class="table-cell">2,619,236</td>
+<td scope="row" class="table-cell">21,469</td>
+<td scope="row" class="table-cell">1,406,315</td>
+<td scope="row" class="table-cell">11,527</td>
 </tr>
 
 <tr>
-<td>star-trek-discovery-201</td>
-<td>4</td>
-<td><time datetime="2019-01-18" aria-label="January 18, 2019"> 2019-01-18 </time> to <time datetime="2019-02-14" aria-label="February 14, 2019"> 2019-02-14 </time></td>
-<td>74</td>
-<td>826,147</td>
-<td>11,164</td>
-<td>418,493</td>
-<td>5,655</td>
+<td scope="row" class="table-cell">star-trek-discovery-201</td>
+<td scope="row" class="table-cell">4</td>
+<td scope="row" class="table-cell"><time datetime="2019-01-18" aria-label="January 18, 2019"> 2019-01-18 </time> to <time datetime="2019-02-14" aria-label="February 14, 2019"> 2019-02-14 </time></td>
+<td scope="row" class="table-cell">74</td>
+<td scope="row" class="table-cell">826,147</td>
+<td scope="row" class="table-cell">11,164</td>
+<td scope="row" class="table-cell">418,493</td>
+<td scope="row" class="table-cell">5,655</td>
 </tr>
 
 <tr>
-<td>summer-of-soul</td>
-<td>10</td>
-<td><time datetime="2021-07-03" aria-label="July 03, 2021"> 2021-07-03 </time> to <time datetime="2021-09-10" aria-label="September 10, 2021"> 2021-09-10 </time></td>
-<td>22</td>
-<td>602,197</td>
-<td>27,372</td>
-<td>50,852</td>
-<td>2,311</td>
+<td scope="row" class="table-cell">summer-of-soul</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-07-03" aria-label="July 03, 2021"> 2021-07-03 </time> to <time datetime="2021-09-10" aria-label="September 10, 2021"> 2021-09-10 </time></td>
+<td scope="row" class="table-cell">22</td>
+<td scope="row" class="table-cell">602,197</td>
+<td scope="row" class="table-cell">27,372</td>
+<td scope="row" class="table-cell">50,852</td>
+<td scope="row" class="table-cell">2,311</td>
 </tr>
 
 <tr>
-<td>tenet</td>
-<td>26</td>
-<td><time datetime="2020-08-30" aria-label="August 30, 2020"> 2020-08-30 </time> to <time datetime="2021-02-27" aria-label="February 27, 2021"> 2021-02-27 </time></td>
-<td>285</td>
-<td>21,305,777</td>
-<td>74,757</td>
-<td>7,360,862</td>
-<td>25,827</td>
+<td scope="row" class="table-cell">tenet</td>
+<td scope="row" class="table-cell">26</td>
+<td scope="row" class="table-cell"><time datetime="2020-08-30" aria-label="August 30, 2020"> 2020-08-30 </time> to <time datetime="2021-02-27" aria-label="February 27, 2021"> 2021-02-27 </time></td>
+<td scope="row" class="table-cell">285</td>
+<td scope="row" class="table-cell">21,305,777</td>
+<td scope="row" class="table-cell">74,757</td>
+<td scope="row" class="table-cell">7,360,862</td>
+<td scope="row" class="table-cell">25,827</td>
 </tr>
 
 <tr>
-<td>they-cloned-tyrone</td>
-<td>10</td>
-<td><time datetime="2023-07-21" aria-label="July 21, 2023"> 2023-07-21 </time> to <time datetime="2023-09-28" aria-label="September 28, 2023"> 2023-09-28 </time></td>
-<td>109</td>
-<td>2,343,523</td>
-<td>21,500</td>
-<td>723,590</td>
-<td>6,638</td>
+<td scope="row" class="table-cell">they-cloned-tyrone</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2023-07-21" aria-label="July 21, 2023"> 2023-07-21 </time> to <time datetime="2023-09-28" aria-label="September 28, 2023"> 2023-09-28 </time></td>
+<td scope="row" class="table-cell">109</td>
+<td scope="row" class="table-cell">2,343,523</td>
+<td scope="row" class="table-cell">21,500</td>
+<td scope="row" class="table-cell">723,590</td>
+<td scope="row" class="table-cell">6,638</td>
 </tr>
 
 <tr>
-<td>true-detective-301</td>
-<td>4</td>
-<td><time datetime="2019-01-14" aria-label="January 14, 2019"> 2019-01-14 </time> to <time datetime="2019-02-10" aria-label="February 10, 2019"> 2019-02-10 </time></td>
-<td>107</td>
-<td>1,996,584</td>
-<td>18,659</td>
-<td>980,376</td>
-<td>9,162</td>
+<td scope="row" class="table-cell">true-detective-301</td>
+<td scope="row" class="table-cell">4</td>
+<td scope="row" class="table-cell"><time datetime="2019-01-14" aria-label="January 14, 2019"> 2019-01-14 </time> to <time datetime="2019-02-10" aria-label="February 10, 2019"> 2019-02-10 </time></td>
+<td scope="row" class="table-cell">107</td>
+<td scope="row" class="table-cell">1,996,584</td>
+<td scope="row" class="table-cell">18,659</td>
+<td scope="row" class="table-cell">980,376</td>
+<td scope="row" class="table-cell">9,162</td>
 </tr>
 
 <tr>
-<td>true-detective-308</td>
-<td>7</td>
-<td><time datetime="2019-02-25" aria-label="February 25, 2019"> 2019-02-25 </time> to <time datetime="2019-04-14" aria-label="April 14, 2019"> 2019-04-14 </time></td>
-<td>107</td>
-<td>8,656,567</td>
-<td>80,902</td>
-<td>1,389,279</td>
-<td>12,983</td>
+<td scope="row" class="table-cell">true-detective-308</td>
+<td scope="row" class="table-cell">7</td>
+<td scope="row" class="table-cell"><time datetime="2019-02-25" aria-label="February 25, 2019"> 2019-02-25 </time> to <time datetime="2019-04-14" aria-label="April 14, 2019"> 2019-04-14 </time></td>
+<td scope="row" class="table-cell">107</td>
+<td scope="row" class="table-cell">8,656,567</td>
+<td scope="row" class="table-cell">80,902</td>
+<td scope="row" class="table-cell">1,389,279</td>
+<td scope="row" class="table-cell">12,983</td>
 </tr>
 
 <tr>
-<td>twisted-metal-1</td>
-<td>15</td>
-<td><time datetime="2023-07-27" aria-label="July 27, 2023"> 2023-07-27 </time> to <time datetime="2023-11-08" aria-label="November 08, 2023"> 2023-11-08 </time></td>
-<td>381</td>
-<td>6,889,325</td>
-<td>18,082</td>
-<td>1,014,478</td>
-<td>2,662</td>
+<td scope="row" class="table-cell">twisted-metal-01</td>
+<td scope="row" class="table-cell">15</td>
+<td scope="row" class="table-cell"><time datetime="2023-07-27" aria-label="July 27, 2023"> 2023-07-27 </time> to <time datetime="2023-11-08" aria-label="November 08, 2023"> 2023-11-08 </time></td>
+<td scope="row" class="table-cell">381</td>
+<td scope="row" class="table-cell">6,889,325</td>
+<td scope="row" class="table-cell">18,082</td>
+<td scope="row" class="table-cell">1,014,478</td>
+<td scope="row" class="table-cell">2,662</td>
 </tr>
 
 <tr>
-<td>underground-railroad-1</td>
-<td>10</td>
-<td><time datetime="2021-05-14" aria-label="May 14, 2021"> 2021-05-14 </time> to <time datetime="2021-07-22" aria-label="July 22, 2021"> 2021-07-22 </time></td>
-<td>203</td>
-<td>5,799,662</td>
-<td>28,569</td>
-<td>265,706</td>
-<td>1,308</td>
+<td scope="row" class="table-cell">underground-railroad-01</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2021-05-14" aria-label="May 14, 2021"> 2021-05-14 </time> to <time datetime="2021-07-22" aria-label="July 22, 2021"> 2021-07-22 </time></td>
+<td scope="row" class="table-cell">203</td>
+<td scope="row" class="table-cell">5,799,662</td>
+<td scope="row" class="table-cell">28,569</td>
+<td scope="row" class="table-cell">265,706</td>
+<td scope="row" class="table-cell">1,308</td>
 </tr>
 
 <tr>
-<td>upload-1</td>
-<td>10</td>
-<td><time datetime="2020-05-01" aria-label="May 01, 2020"> 2020-05-01 </time> to <time datetime="2020-07-09" aria-label="July 09, 2020"> 2020-07-09 </time></td>
-<td>158</td>
-<td>2,323,578</td>
-<td>14,706</td>
-<td>774,520</td>
-<td>4,902</td>
+<td scope="row" class="table-cell">upload-01</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2020-05-01" aria-label="May 01, 2020"> 2020-05-01 </time> to <time datetime="2020-07-09" aria-label="July 09, 2020"> 2020-07-09 </time></td>
+<td scope="row" class="table-cell">158</td>
+<td scope="row" class="table-cell">2,323,578</td>
+<td scope="row" class="table-cell">14,706</td>
+<td scope="row" class="table-cell">774,520</td>
+<td scope="row" class="table-cell">4,902</td>
 </tr>
 
 <tr>
-<td>watchmen-104</td>
-<td>5</td>
-<td><time datetime="2019-11-11" aria-label="November 11, 2019"> 2019-11-11 </time> to <time datetime="2019-12-15" aria-label="December 15, 2019"> 2019-12-15 </time></td>
-<td>80</td>
-<td>3,805,177</td>
-<td>47,564</td>
-<td>737,399</td>
-<td>9,217</td>
+<td scope="row" class="table-cell">watchmen-104</td>
+<td scope="row" class="table-cell">5</td>
+<td scope="row" class="table-cell"><time datetime="2019-11-11" aria-label="November 11, 2019"> 2019-11-11 </time> to <time datetime="2019-12-15" aria-label="December 15, 2019"> 2019-12-15 </time></td>
+<td scope="row" class="table-cell">80</td>
+<td scope="row" class="table-cell">3,805,177</td>
+<td scope="row" class="table-cell">47,564</td>
+<td scope="row" class="table-cell">737,399</td>
+<td scope="row" class="table-cell">9,217</td>
 </tr>
 
 <tr>
-<td>watchmen-109</td>
-<td>10</td>
-<td><time datetime="2019-12-16" aria-label="December 16, 2019"> 2019-12-16 </time> to <time datetime="2020-02-23" aria-label="February 23, 2020"> 2020-02-23 </time></td>
-<td>90</td>
-<td>2,988,239</td>
-<td>33,202</td>
-<td>653,194</td>
-<td>7,257</td>
+<td scope="row" class="table-cell">watchmen-109</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2019-12-16" aria-label="December 16, 2019"> 2019-12-16 </time> to <time datetime="2020-02-23" aria-label="February 23, 2020"> 2020-02-23 </time></td>
+<td scope="row" class="table-cell">90</td>
+<td scope="row" class="table-cell">2,988,239</td>
+<td scope="row" class="table-cell">33,202</td>
+<td scope="row" class="table-cell">653,194</td>
+<td scope="row" class="table-cell">7,257</td>
 </tr>
 
 <tr>
-<td>witcher-blood-origin-S01</td>
-<td>10</td>
-<td><time datetime="2022-12-26" aria-label="December 26, 2022"> 2022-12-26 </time> to <time datetime="2023-03-05" aria-label="March 05, 2023"> 2023-03-05 </time></td>
-<td>232</td>
-<td>3,590,946</td>
-<td>15,478</td>
-<td>853,503</td>
-<td>3,678</td>
+<td scope="row" class="table-cell">witcher-blood-origin-01</td>
+<td scope="row" class="table-cell">10</td>
+<td scope="row" class="table-cell"><time datetime="2022-12-26" aria-label="December 26, 2022"> 2022-12-26 </time> to <time datetime="2023-03-05" aria-label="March 05, 2023"> 2023-03-05 </time></td>
+<td scope="row" class="table-cell">232</td>
+<td scope="row" class="table-cell">3,590,946</td>
+<td scope="row" class="table-cell">15,478</td>
+<td scope="row" class="table-cell">853,503</td>
+<td scope="row" class="table-cell">3,678</td>
 </tr>
 
 </tbody>
