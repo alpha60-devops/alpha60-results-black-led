@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Black-Led"
+author: "Benjamin De Kosnik <bkoz@gnu.org>"
+description: "Analysis of Black-Led peer-to-peer distribution"
+---
+
 {::nomarkdown}
 <img src="resources/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
 
@@ -26,7 +33,7 @@ Sample dates: 2017 to 2026
 
 
 ## Results, Commentary
-- [black-led](/docs/black.md)
+- [Black-Led](/docs/black.md)
 <div style="height: 50px;"></div>
 
 

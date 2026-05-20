@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Alpha60 JSON API"
+author: "Benjamin De Kosnik <bkoz@gnu.org>"
+description: "Key fields and files identified."
+---
+
+
 # alpha60 JSON documentation
 
 *Last 2026-01-14*
@@ -24,14 +32,14 @@
 ## cumulative duration data
 - filename: (collection_key)-cumulative.json
   - collection_cumulative : total results
-    - btiha
-    - unique-btiha
+	- btiha
+	- unique-btiha
   - data_transfer : cost of bandwidth
   - media_codecs_resolution
-    - [0] 1080p downloaders
-    - [1] 720p downloaders
-    - [2] sd downloaders
-    - [3] 2160, aka 4k downloaders
+	- [0] 1080p downloaders
+	- [1] 720p downloaders
+	- [2] sd downloaders
+	- [3] 2160, aka 4k downloaders
   - geo_slices_4_cahill_keyes_quadrant_udownloaders: global "quadrant" breakdown
   - geo_slices_continental_udownloaders : continental breakdown of traffic
   - geo_country_top_10_downloaders : top countries by download swarm size
@@ -40,69 +48,69 @@
 
 - filename: (collection_key)-cumulative-ip-swarm.json
   - swarm-analysis
-    - anomalies_and_tor_exit_nodes
-      - global
-      - by_country
-    - carrier_and_mobile_wireless
-      - global
-      - by_country
-    - satellite
-      - global
-      - by_country
-    - privacy
-      - global
-      - by_country
+	- anomalies_and_tor_exit_nodes
+	  - global
+	  - by_country
+	- carrier_and_mobile_wireless
+	  - global
+	  - by_country
+	- satellite
+	  - global
+	  - by_country
+	- privacy
+	  - global
+	  - by_country
 
 - filename: (collection_key)-cumulative-btiha-media-objects.json
   - collection_btiha_duplicates
-    - [0] array of torrent file names that share btih number 1
-    - [n] array of torrent file names that share btih number n
+	- [0] array of torrent file names that share btih number 1
+	- [n] array of torrent file names that share btih number n
   - collection_btiha_metadata
-    - [0] name of 1st torrent file, total file size, names of files contained
-    - [n] name of last torrent file, total file size, names of files contained
+	- [0] name of 1st torrent file, total file size, names of files contained
+	- [n] name of last torrent file, total file size, names of files contained
   - collection_cumulative_by_btiha
-    - [0] cumulative udownloaders first btih in btiha
-    - [n] cumulative udownloaders last btih in btiha
+	- [0] cumulative udownloaders first btih in btiha
+	- [n] cumulative udownloaders last btih in btiha
 
 ## week duration data
 - filename: (collection_key)-week.json
   - collection_week
-    - [0] week 1 udownloaders_total, uuploaders_total
-    - [n] week n + 1 udownloaders_total, uuploaders_total
+	- [0] week 1 udownloaders_total, uuploaders_total
+	- [n] week n + 1 udownloaders_total, uuploaders_total
   - collection_week_by_btiha
-    - [0] week 1 udownloaders each media object in collection
-    - [0][0] week 1 udownloaders first btih in btiha
-    - [0][n] week 1 udownloaders last btih in btiha
+	- [0] week 1 udownloaders each media object in collection
+	- [0][0] week 1 udownloaders first btih in btiha
+	- [0][n] week 1 udownloaders last btih in btiha
   - collection_week_by_country
-    - [0] week 1 udownloaders each media object in collection
-    - [0][00] week 1 udownloaders for country BRA
-    - [0][01] week 1 udownloaders for country CAN
-    - [0][02] week 1 udownloaders for country CHN
-    - [0][03] week 1 udownloaders for country DEU
-    - [0][04] week 1 udownloaders for country ESP
-    - [0][05] week 1 udownloaders for country FRA
-    - [0][06] week 1 udownloaders for country HKG
-    - [0][07] week 1 udownloaders for country JPN
-    - [0][08] week 1 udownloaders for country KOR
-    - [0][09] week 1 udownloaders for country MEX
-    - [0][10] week 1 udownloaders for country NLD
-    - [0][11] week 1 udownloaders for country RUS
-    - [0][12] week 1 udownloaders for country SWE
-    - [0][13] week 1 udownloaders for country TUR
-    - [0][14] week 1 udownloaders for country UKR
-    - [0][15] week 1 udownloaders for country USA
+	- [0] week 1 udownloaders each media object in collection
+	- [0][00] week 1 udownloaders for country BRA
+	- [0][01] week 1 udownloaders for country CAN
+	- [0][02] week 1 udownloaders for country CHN
+	- [0][03] week 1 udownloaders for country DEU
+	- [0][04] week 1 udownloaders for country ESP
+	- [0][05] week 1 udownloaders for country FRA
+	- [0][06] week 1 udownloaders for country HKG
+	- [0][07] week 1 udownloaders for country JPN
+	- [0][08] week 1 udownloaders for country KOR
+	- [0][09] week 1 udownloaders for country MEX
+	- [0][10] week 1 udownloaders for country NLD
+	- [0][11] week 1 udownloaders for country RUS
+	- [0][12] week 1 udownloaders for country SWE
+	- [0][13] week 1 udownloaders for country TUR
+	- [0][14] week 1 udownloaders for country UKR
+	- [0][15] week 1 udownloaders for country USA
 
 ## geolocation data
 - filename: (collection_key)-cumulative.geojson
   - FeatureCollection
-    - [0] feature of swarm
-      - properties object of COUNTRY-GEOID-CITY by largest swarm size
-        - country_code
-        - city
-        - geoname_id
-        - downloaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
-        - uploaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
-      - geometry Point
+	- [0] feature of swarm
+	  - properties object of COUNTRY-GEOID-CITY by largest swarm size
+		- country_code
+		- city
+		- geoname_id
+		- downloaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
+		- uploaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
+	  - geometry Point
 
 ## collection metadata
 - filename: (collection_key).json
@@ -134,14 +142,14 @@
 ```
 {
 // Version number for data migration and feature checks
-    "data_version": "20191004",
+	"data_version": "20191004",
 
 
 // Media object name
-    "collection_name": "Stranger Things",
+	"collection_name": "Stranger Things",
 
 // Media object season or episode number
-    "collection_id": "2",
+	"collection_id": "2",
 
 ```
 
