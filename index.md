@@ -58,7 +58,7 @@ These four studies use the [current Round 3 Black-led and African-led-global sli
 
 ### Annual geographic rankings
 
-- [Top 25 media objects by Africa-60 share](docs/top-25-afica-60.html)
+- [Africa-60 regional rankings](https://alpha60-devops.github.io/alpha60-results/docs/region-top-africa-60.html)
 
 This ranking covers the full 2017–2026 annual collection.
 
