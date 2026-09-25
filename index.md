@@ -55,6 +55,13 @@ These four studies use the [current Round 3 Black-led and African-led-global sli
 - [Black Panther, Ironheart and Eyes of Wakanda in Africa60](docs/wakanda-forever.html)
 
 <!-- END mellon-7.7 -->
+
+### Annual geographic rankings
+
+- [Top 25 media objects by Africa-60 share](docs/top-25-afica-60.html)
+
+This ranking covers the full 2017–2026 annual collection.
+
 <div style="height: 50px;"></div>
 
 
