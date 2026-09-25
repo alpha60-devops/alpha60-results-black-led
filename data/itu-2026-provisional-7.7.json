@@ -1,0 +1,32 @@
+{
+  "method": "global-internet-user-scaling",
+  "reference_year": 2026,
+  "reference_users_billions": 6.1,
+  "reference_status": "provisional_project_estimate_not_official_ITU_2026",
+  "formula": "adjusted_weight = raw_weight * reference_users_billions / source_year_users_billions",
+  "source_year_rule": "sample start year",
+  "official_latest_checked": {
+    "year": 2025,
+    "url": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx"
+  },
+  "schema_version": 1,
+  "checked_at": "2026-09-25",
+  "vintage_policy": "Use as-published annual ITU global estimates. This is not a single revised historical series.",
+  "years": {
+    "2018": {
+      "users_billions": 3.9,
+      "status": "official_estimate_as_published",
+      "source_url": "https://www.itu.int/en/mediacentre/pages/2018-pr40.aspx"
+    },
+    "2023": {
+      "users_billions": 5.4,
+      "status": "official_estimate_as_published",
+      "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2023-11-27-facts-and-figures-measuring-digital-development.aspx"
+    },
+    "2025": {
+      "users_billions": 6.0,
+      "status": "official_estimate_as_published",
+      "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2025-11-17-Facts-and-Figures.aspx"
+    }
+  }
+}

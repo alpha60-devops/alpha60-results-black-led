@@ -1,0 +1,1892 @@
+{
+  "renderer": {
+    "library": "Izzi",
+    "commit": "4ffe3dd84b4f89719168f55b65a196e77c4e18b3",
+    "line_graph_header_sha256": "9568d4a97de6f70cf76a8770c3d5958be4c7175bcd41b5966b71cb520b8144ab",
+    "renderer_sha256": "3e32354612ec8d09d33dfee6cc539216a990acd30d48a5fd9cea2db16f31aa0f",
+    "functions": [
+      "svg::make_line_graph",
+      "svg::transform_to_graph_points",
+      "svg::make_marker_instance"
+    ]
+  },
+  "charts": {
+    "mellon-7.7-wakanda-weekly-itu-2026": {
+      "title": "Black Panther universe · weekly circulation",
+      "subtitle": "Provisional 2026 Internet-user scale · available weeks 1–26 · panel scales differ",
+      "description": "Four Izzi line panels: world and Africa60, downloaders and uploaders. Black Panther stops at week seven; no missing intervals are imputed.",
+      "columns": 2,
+      "xmin": 1,
+      "xmax": 26,
+      "ticks": [
+        [
+          1,
+          "1"
+        ],
+        [
+          5,
+          "5"
+        ],
+        [
+          10,
+          "10"
+        ],
+        [
+          15,
+          "15"
+        ],
+        [
+          20,
+          "20"
+        ],
+        [
+          26,
+          "26"
+        ]
+      ],
+      "xlabel": "Elapsed sampling week",
+      "panels": [
+        {
+          "title": "Worldwide downloaders",
+          "unit": "weight",
+          "ylabel": "2026 adjusted weight",
+          "series": [
+            {
+              "name": "Black Panther",
+              "color": "#175b8c",
+              "dash": "",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 6284850.333333333,
+                  "tooltip": "Black Panther · Worldwide downloaders · week 1 · 2018-05-02-to-2018-05-08 · raw 4,018,183 · 2026 adjusted 6,284,850.33"
+                },
+                {
+                  "x": 2,
+                  "y": 4301388.41025641,
+                  "tooltip": "Black Panther · Worldwide downloaders · week 2 · 2018-05-09-to-2018-05-15 · raw 2,750,068 · 2026 adjusted 4,301,388.41"
+                },
+                {
+                  "x": 3,
+                  "y": 3152941.41025641,
+                  "tooltip": "Black Panther · Worldwide downloaders · week 3 · 2018-05-16-to-2018-05-22 · raw 2,015,815 · 2026 adjusted 3,152,941.41"
+                },
+                {
+                  "x": 4,
+                  "y": 2461777.0,
+                  "tooltip": "Black Panther · Worldwide downloaders · week 4 · 2018-05-23-to-2018-05-29 · raw 1,573,923 · 2026 adjusted 2,461,777.00"
+                },
+                {
+                  "x": 5,
+                  "y": 2118495.5897435895,
+                  "tooltip": "Black Panther · Worldwide downloaders · week 5 · 2018-05-30-to-2018-06-05 · raw 1,354,448 · 2026 adjusted 2,118,495.59"
+                },
+                {
+                  "x": 6,
+                  "y": 2101492.230769231,
+                  "tooltip": "Black Panther · Worldwide downloaders · week 6 · 2018-06-06-to-2018-06-12 · raw 1,343,577 · 2026 adjusted 2,101,492.23"
+                },
+                {
+                  "x": 7,
+                  "y": 3757518.6666666665,
+                  "tooltip": "Black Panther · Worldwide downloaders · week 7 · 2018-06-13-to-2018-06-19 · raw 2,402,348 · 2026 adjusted 3,757,518.67"
+                }
+              ]
+            },
+            {
+              "name": "Wakanda Forever",
+              "color": "#9b4318",
+              "dash": "8 4",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 5892015.981481481,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 1 · 2023-01-31-to-2023-02-06 · raw 5,215,883 · 2026 adjusted 5,892,015.98"
+                },
+                {
+                  "x": 2,
+                  "y": 4225081.407407407,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 2 · 2023-02-07-to-2023-02-13 · raw 3,740,236 · 2026 adjusted 4,225,081.41"
+                },
+                {
+                  "x": 3,
+                  "y": 3236806.8518518517,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 3 · 2023-02-14-to-2023-02-20 · raw 2,865,370 · 2026 adjusted 3,236,806.85"
+                },
+                {
+                  "x": 4,
+                  "y": 2777471.2037037034,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 4 · 2023-02-21-to-2023-02-27 · raw 2,458,745 · 2026 adjusted 2,777,471.20"
+                },
+                {
+                  "x": 5,
+                  "y": 2476208.018518518,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 5 · 2023-02-28-to-2023-03-06-partial · raw 2,192,053 · 2026 adjusted 2,476,208.02"
+                },
+                {
+                  "x": 6,
+                  "y": 2245516.185185185,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 6 · 2023-03-07-to-2023-03-13 · raw 1,987,834 · 2026 adjusted 2,245,516.19"
+                },
+                {
+                  "x": 7,
+                  "y": 2055487.6296296294,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 7 · 2023-03-14-to-2023-03-20 · raw 1,819,612 · 2026 adjusted 2,055,487.63"
+                },
+                {
+                  "x": 8,
+                  "y": 1889830.8333333333,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 8 · 2023-03-21-to-2023-03-27 · raw 1,672,965 · 2026 adjusted 1,889,830.83"
+                },
+                {
+                  "x": 9,
+                  "y": 1825327.8518518517,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 9 · 2023-03-28-to-2023-04-03 · raw 1,615,864 · 2026 adjusted 1,825,327.85"
+                },
+                {
+                  "x": 10,
+                  "y": 1707771.8148148146,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 10 · 2023-04-04-to-2023-04-10 · raw 1,511,798 · 2026 adjusted 1,707,771.81"
+                },
+                {
+                  "x": 11,
+                  "y": 1634313.1296296294,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 11 · 2023-04-11-to-2023-04-17 · raw 1,446,769 · 2026 adjusted 1,634,313.13"
+                },
+                {
+                  "x": 12,
+                  "y": 1511720.074074074,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 12 · 2023-04-18-to-2023-04-24 · raw 1,338,244 · 2026 adjusted 1,511,720.07"
+                },
+                {
+                  "x": 13,
+                  "y": 1373530.222222222,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 13 · 2023-04-25-to-2023-05-01 · raw 1,215,912 · 2026 adjusted 1,373,530.22"
+                },
+                {
+                  "x": 14,
+                  "y": 1291032.2407407407,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 14 · 2023-05-02-to-2023-05-08 · raw 1,142,881 · 2026 adjusted 1,291,032.24"
+                },
+                {
+                  "x": 15,
+                  "y": 1248009.1666666665,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 15 · 2023-05-09-to-2023-05-15 · raw 1,104,795 · 2026 adjusted 1,248,009.17"
+                },
+                {
+                  "x": 16,
+                  "y": 1173844.462962963,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 16 · 2023-05-16-to-2023-05-22 · raw 1,039,141 · 2026 adjusted 1,173,844.46"
+                },
+                {
+                  "x": 17,
+                  "y": 1154309.7777777778,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 17 · 2023-05-23-to-2023-05-29 · raw 1,021,848 · 2026 adjusted 1,154,309.78"
+                },
+                {
+                  "x": 18,
+                  "y": 1117961.6851851852,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 18 · 2023-05-30-to-2023-06-05 · raw 989,671 · 2026 adjusted 1,117,961.69"
+                },
+                {
+                  "x": 19,
+                  "y": 1088872.5925925926,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 19 · 2023-06-06-to-2023-06-12 · raw 963,920 · 2026 adjusted 1,088,872.59"
+                },
+                {
+                  "x": 20,
+                  "y": 1059059.4074074074,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 20 · 2023-06-13-to-2023-06-19 · raw 937,528 · 2026 adjusted 1,059,059.41"
+                },
+                {
+                  "x": 21,
+                  "y": 1029625.7777777778,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 21 · 2023-06-20-to-2023-06-26 · raw 911,472 · 2026 adjusted 1,029,625.78"
+                },
+                {
+                  "x": 22,
+                  "y": 974529.2222222221,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 22 · 2023-06-27-to-2023-07-03 · raw 862,698 · 2026 adjusted 974,529.22"
+                },
+                {
+                  "x": 23,
+                  "y": 975623.8333333333,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 23 · 2023-07-04-to-2023-07-10 · raw 863,667 · 2026 adjusted 975,623.83"
+                },
+                {
+                  "x": 24,
+                  "y": 918417.1296296295,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 24 · 2023-07-11-to-2023-07-17 · raw 813,025 · 2026 adjusted 918,417.13"
+                },
+                {
+                  "x": 25,
+                  "y": 889978.7037037036,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 25 · 2023-07-18-to-2023-07-24 · raw 787,850 · 2026 adjusted 889,978.70"
+                },
+                {
+                  "x": 26,
+                  "y": 878846.2037037036,
+                  "tooltip": "Wakanda Forever · Worldwide downloaders · week 26 · 2023-07-25-to-2023-07-31 · raw 777,995 · 2026 adjusted 878,846.20"
+                }
+              ]
+            },
+            {
+              "name": "Ironheart 01",
+              "color": "#606a24",
+              "dash": "2 4",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 2072402.8166666667,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 1 · 2025-06-25-to-2025-07-01-partial · raw 2,038,429 · 2026 adjusted 2,072,402.82"
+                },
+                {
+                  "x": 2,
+                  "y": 3649389.05,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 2 · 2025-07-02-to-2025-07-08 · raw 3,589,563 · 2026 adjusted 3,649,389.05"
+                },
+                {
+                  "x": 3,
+                  "y": 3576907.833333333,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 3 · 2025-07-09-to-2025-07-15 · raw 3,518,270 · 2026 adjusted 3,576,907.83"
+                },
+                {
+                  "x": 4,
+                  "y": 3602281.8,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 4 · 2025-07-16-to-2025-07-22 · raw 3,543,228 · 2026 adjusted 3,602,281.80"
+                },
+                {
+                  "x": 5,
+                  "y": 4069490.9666666663,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 5 · 2025-07-23-to-2025-07-29 · raw 4,002,778 · 2026 adjusted 4,069,490.97"
+                },
+                {
+                  "x": 6,
+                  "y": 3817140.0666666664,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 6 · 2025-07-30-to-2025-08-05 · raw 3,754,564 · 2026 adjusted 3,817,140.07"
+                },
+                {
+                  "x": 7,
+                  "y": 3838049.8499999996,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 7 · 2025-08-06-to-2025-08-12 · raw 3,775,131 · 2026 adjusted 3,838,049.85"
+                },
+                {
+                  "x": 8,
+                  "y": 3515675.0166666666,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 8 · 2025-08-13-to-2025-08-19 · raw 3,458,041 · 2026 adjusted 3,515,675.02"
+                },
+                {
+                  "x": 9,
+                  "y": 3119089.6166666667,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 9 · 2025-08-20-to-2025-08-26 · raw 3,067,957 · 2026 adjusted 3,119,089.62"
+                },
+                {
+                  "x": 10,
+                  "y": 2988988.8166666664,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 10 · 2025-08-27-to-2025-09-02 · raw 2,939,989 · 2026 adjusted 2,988,988.82"
+                },
+                {
+                  "x": 11,
+                  "y": 3319229.5999999996,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 11 · 2025-09-03-to-2025-09-09 · raw 3,264,816 · 2026 adjusted 3,319,229.60"
+                },
+                {
+                  "x": 12,
+                  "y": 3181904.3666666667,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 12 · 2025-09-10-to-2025-09-16 · raw 3,129,742 · 2026 adjusted 3,181,904.37"
+                },
+                {
+                  "x": 13,
+                  "y": 3359430.6333333333,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 13 · 2025-09-17-to-2025-09-23 · raw 3,304,358 · 2026 adjusted 3,359,430.63"
+                },
+                {
+                  "x": 14,
+                  "y": 3785512.583333333,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 14 · 2025-09-24-to-2025-09-30 · raw 3,723,455 · 2026 adjusted 3,785,512.58"
+                },
+                {
+                  "x": 15,
+                  "y": 3688338.5666666664,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 15 · 2025-10-01-to-2025-10-07 · raw 3,627,874 · 2026 adjusted 3,688,338.57"
+                },
+                {
+                  "x": 16,
+                  "y": 4003192.0999999996,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 16 · 2025-10-08-to-2025-10-14 · raw 3,937,566 · 2026 adjusted 4,003,192.10"
+                },
+                {
+                  "x": 17,
+                  "y": 3771870.9499999997,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 17 · 2025-10-15-to-2025-10-21 · raw 3,710,037 · 2026 adjusted 3,771,870.95"
+                },
+                {
+                  "x": 18,
+                  "y": 4058874.933333333,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 18 · 2025-10-22-to-2025-10-28 · raw 3,992,336 · 2026 adjusted 4,058,874.93"
+                },
+                {
+                  "x": 19,
+                  "y": 3844242.366666666,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 19 · 2025-10-29-to-2025-11-04 · raw 3,781,222 · 2026 adjusted 3,844,242.37"
+                },
+                {
+                  "x": 20,
+                  "y": 3875426.583333333,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 20 · 2025-11-05-to-2025-11-11 · raw 3,811,895 · 2026 adjusted 3,875,426.58"
+                },
+                {
+                  "x": 21,
+                  "y": 3821811.65,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 21 · 2025-11-12-to-2025-11-18 · raw 3,759,159 · 2026 adjusted 3,821,811.65"
+                },
+                {
+                  "x": 22,
+                  "y": 3845136.0166666666,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 22 · 2025-11-19-to-2025-11-25 · raw 3,782,101 · 2026 adjusted 3,845,136.02"
+                },
+                {
+                  "x": 23,
+                  "y": 4281207.733333333,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 23 · 2025-11-26-to-2025-12-02 · raw 4,211,024 · 2026 adjusted 4,281,207.73"
+                },
+                {
+                  "x": 24,
+                  "y": 4605883.283333333,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 24 · 2025-12-03-to-2025-12-09 · raw 4,530,377 · 2026 adjusted 4,605,883.28"
+                },
+                {
+                  "x": 25,
+                  "y": 5107800.433333333,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 25 · 2025-12-10-to-2025-12-16 · raw 5,024,066 · 2026 adjusted 5,107,800.43"
+                },
+                {
+                  "x": 26,
+                  "y": 4651894.566666666,
+                  "tooltip": "Ironheart 01 · Worldwide downloaders · week 26 · 2025-12-17-to-2025-12-23 · raw 4,575,634 · 2026 adjusted 4,651,894.57"
+                }
+              ]
+            },
+            {
+              "name": "Eyes of Wakanda 01",
+              "color": "#4d405d",
+              "dash": "8 3 2 3",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 733848.2999999999,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 1 · 2025-08-01-to-2025-08-07-partial · raw 721,818 · 2026 adjusted 733,848.30"
+                },
+                {
+                  "x": 2,
+                  "y": 1390525.5,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 2 · 2025-08-08-to-2025-08-14 · raw 1,367,730 · 2026 adjusted 1,390,525.50"
+                },
+                {
+                  "x": 3,
+                  "y": 1161715.5166666666,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 3 · 2025-08-15-to-2025-08-21 · raw 1,142,671 · 2026 adjusted 1,161,715.52"
+                },
+                {
+                  "x": 4,
+                  "y": 966992.3333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 4 · 2025-08-22-to-2025-08-28 · raw 951,140 · 2026 adjusted 966,992.33"
+                },
+                {
+                  "x": 5,
+                  "y": 1150918.5166666666,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 5 · 2025-08-29-to-2025-09-04 · raw 1,132,051 · 2026 adjusted 1,150,918.52"
+                },
+                {
+                  "x": 6,
+                  "y": 1135019.8833333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 6 · 2025-09-05-to-2025-09-11 · raw 1,116,413 · 2026 adjusted 1,135,019.88"
+                },
+                {
+                  "x": 7,
+                  "y": 1120113.5166666666,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 7 · 2025-09-12-to-2025-09-18 · raw 1,101,751 · 2026 adjusted 1,120,113.52"
+                },
+                {
+                  "x": 8,
+                  "y": 1261136.3666666667,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 8 · 2025-09-19-to-2025-09-25 · raw 1,240,462 · 2026 adjusted 1,261,136.37"
+                },
+                {
+                  "x": 9,
+                  "y": 1346507.9,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 9 · 2025-09-26-to-2025-10-02 · raw 1,324,434 · 2026 adjusted 1,346,507.90"
+                },
+                {
+                  "x": 10,
+                  "y": 1357273.3833333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 10 · 2025-10-03-to-2025-10-09 · raw 1,335,023 · 2026 adjusted 1,357,273.38"
+                },
+                {
+                  "x": 11,
+                  "y": 1439656.9333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 11 · 2025-10-10-to-2025-10-16 · raw 1,416,056 · 2026 adjusted 1,439,656.93"
+                },
+                {
+                  "x": 12,
+                  "y": 1347957.6666666665,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 12 · 2025-10-17-to-2025-10-23 · raw 1,325,860 · 2026 adjusted 1,347,957.67"
+                },
+                {
+                  "x": 13,
+                  "y": 1422995.7999999998,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 13 · 2025-10-24-to-2025-10-30 · raw 1,399,668 · 2026 adjusted 1,422,995.80"
+                },
+                {
+                  "x": 14,
+                  "y": 1463693.9833333332,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 14 · 2025-10-31-to-2025-11-06 · raw 1,439,699 · 2026 adjusted 1,463,693.98"
+                },
+                {
+                  "x": 15,
+                  "y": 1417103.2,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 15 · 2025-11-07-to-2025-11-13 · raw 1,393,872 · 2026 adjusted 1,417,103.20"
+                },
+                {
+                  "x": 16,
+                  "y": 1341652.2999999998,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 16 · 2025-11-14-to-2025-11-20 · raw 1,319,658 · 2026 adjusted 1,341,652.30"
+                },
+                {
+                  "x": 17,
+                  "y": 1343696.8166666667,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 17 · 2025-11-21-to-2025-11-27 · raw 1,321,669 · 2026 adjusted 1,343,696.82"
+                },
+                {
+                  "x": 18,
+                  "y": 1480020.6333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 18 · 2025-11-28-to-2025-12-04 · raw 1,455,758 · 2026 adjusted 1,480,020.63"
+                },
+                {
+                  "x": 19,
+                  "y": 1752236.183333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 19 · 2025-12-05-to-2025-12-11 · raw 1,723,511 · 2026 adjusted 1,752,236.18"
+                },
+                {
+                  "x": 20,
+                  "y": 1866017.45,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 20 · 2025-12-12-to-2025-12-18 · raw 1,835,427 · 2026 adjusted 1,866,017.45"
+                },
+                {
+                  "x": 21,
+                  "y": 1463387.9666666666,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 21 · 2025-12-19-to-2025-12-25 · raw 1,439,398 · 2026 adjusted 1,463,387.97"
+                },
+                {
+                  "x": 22,
+                  "y": 1566120.0999999999,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 22 · 2025-12-26-to-2026-01-01 · raw 1,540,446 · 2026 adjusted 1,566,120.10"
+                },
+                {
+                  "x": 23,
+                  "y": 1735107.3833333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 23 · 2026-01-02-to-2026-01-08 · raw 1,706,663 · 2026 adjusted 1,735,107.38"
+                },
+                {
+                  "x": 24,
+                  "y": 1735901.4,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 24 · 2026-01-09-to-2026-01-15 · raw 1,707,444 · 2026 adjusted 1,735,901.40"
+                },
+                {
+                  "x": 25,
+                  "y": 1671318.6666666665,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 25 · 2026-01-16-to-2026-01-22 · raw 1,643,920 · 2026 adjusted 1,671,318.67"
+                },
+                {
+                  "x": 26,
+                  "y": 1733789.7833333332,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide downloaders · week 26 · 2026-01-23-to-2026-01-29 · raw 1,705,367 · 2026 adjusted 1,733,789.78"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Africa60 downloaders",
+          "unit": "weight",
+          "ylabel": "2026 adjusted weight",
+          "series": [
+            {
+              "name": "Black Panther",
+              "color": "#175b8c",
+              "dash": "",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 585255.8974358974,
+                  "tooltip": "Black Panther · Africa60 downloaders · week 1 · 2018-05-02-to-2018-05-08 · raw 374,180 · 2026 adjusted 585,255.90"
+                },
+                {
+                  "x": 2,
+                  "y": 440681.2051282051,
+                  "tooltip": "Black Panther · Africa60 downloaders · week 2 · 2018-05-09-to-2018-05-15 · raw 281,747 · 2026 adjusted 440,681.21"
+                },
+                {
+                  "x": 3,
+                  "y": 367731.46153846156,
+                  "tooltip": "Black Panther · Africa60 downloaders · week 3 · 2018-05-16-to-2018-05-22 · raw 235,107 · 2026 adjusted 367,731.46"
+                },
+                {
+                  "x": 4,
+                  "y": 311034.3076923077,
+                  "tooltip": "Black Panther · Africa60 downloaders · week 4 · 2018-05-23-to-2018-05-29 · raw 198,858 · 2026 adjusted 311,034.31"
+                },
+                {
+                  "x": 5,
+                  "y": 279403.46153846156,
+                  "tooltip": "Black Panther · Africa60 downloaders · week 5 · 2018-05-30-to-2018-06-05 · raw 178,635 · 2026 adjusted 279,403.46"
+                },
+                {
+                  "x": 6,
+                  "y": 247511.41025641025,
+                  "tooltip": "Black Panther · Africa60 downloaders · week 6 · 2018-06-06-to-2018-06-12 · raw 158,245 · 2026 adjusted 247,511.41"
+                },
+                {
+                  "x": 7,
+                  "y": 276655.3333333333,
+                  "tooltip": "Black Panther · Africa60 downloaders · week 7 · 2018-06-13-to-2018-06-19 · raw 176,878 · 2026 adjusted 276,655.33"
+                }
+              ]
+            },
+            {
+              "name": "Wakanda Forever",
+              "color": "#9b4318",
+              "dash": "8 4",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 762936.037037037,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 1 · 2023-01-31-to-2023-02-06 · raw 675,386 · 2026 adjusted 762,936.04"
+                },
+                {
+                  "x": 2,
+                  "y": 594386.2592592592,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 2 · 2023-02-07-to-2023-02-13 · raw 526,178 · 2026 adjusted 594,386.26"
+                },
+                {
+                  "x": 3,
+                  "y": 459262.2222222222,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 3 · 2023-02-14-to-2023-02-20 · raw 406,560 · 2026 adjusted 459,262.22"
+                },
+                {
+                  "x": 4,
+                  "y": 400223.2592592592,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 4 · 2023-02-21-to-2023-02-27 · raw 354,296 · 2026 adjusted 400,223.26"
+                },
+                {
+                  "x": 5,
+                  "y": 393102.07407407404,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 5 · 2023-02-28-to-2023-03-06-partial · raw 347,992 · 2026 adjusted 393,102.07"
+                },
+                {
+                  "x": 6,
+                  "y": 363747.5185185185,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 6 · 2023-03-07-to-2023-03-13 · raw 322,006 · 2026 adjusted 363,747.52"
+                },
+                {
+                  "x": 7,
+                  "y": 332656.7222222222,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 7 · 2023-03-14-to-2023-03-20 · raw 294,483 · 2026 adjusted 332,656.72"
+                },
+                {
+                  "x": 8,
+                  "y": 300356.0925925926,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 8 · 2023-03-21-to-2023-03-27 · raw 265,889 · 2026 adjusted 300,356.09"
+                },
+                {
+                  "x": 9,
+                  "y": 298233.5185185185,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 9 · 2023-03-28-to-2023-04-03 · raw 264,010 · 2026 adjusted 298,233.52"
+                },
+                {
+                  "x": 10,
+                  "y": 270825.3148148148,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 10 · 2023-04-04-to-2023-04-10 · raw 239,747 · 2026 adjusted 270,825.31"
+                },
+                {
+                  "x": 11,
+                  "y": 253820.99999999997,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 11 · 2023-04-11-to-2023-04-17 · raw 224,694 · 2026 adjusted 253,821.00"
+                },
+                {
+                  "x": 12,
+                  "y": 230722.3333333333,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 12 · 2023-04-18-to-2023-04-24 · raw 204,246 · 2026 adjusted 230,722.33"
+                },
+                {
+                  "x": 13,
+                  "y": 213939.4259259259,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 13 · 2023-04-25-to-2023-05-01 · raw 189,389 · 2026 adjusted 213,939.43"
+                },
+                {
+                  "x": 14,
+                  "y": 206314.4259259259,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 14 · 2023-05-02-to-2023-05-08 · raw 182,639 · 2026 adjusted 206,314.43"
+                },
+                {
+                  "x": 15,
+                  "y": 194630.66666666666,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 15 · 2023-05-09-to-2023-05-15 · raw 172,296 · 2026 adjusted 194,630.67"
+                },
+                {
+                  "x": 16,
+                  "y": 182515.38888888888,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 16 · 2023-05-16-to-2023-05-22 · raw 161,571 · 2026 adjusted 182,515.39"
+                },
+                {
+                  "x": 17,
+                  "y": 174263.44444444444,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 17 · 2023-05-23-to-2023-05-29 · raw 154,266 · 2026 adjusted 174,263.44"
+                },
+                {
+                  "x": 18,
+                  "y": 163450.6296296296,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 18 · 2023-05-30-to-2023-06-05 · raw 144,694 · 2026 adjusted 163,450.63"
+                },
+                {
+                  "x": 19,
+                  "y": 156337.35185185182,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 19 · 2023-06-06-to-2023-06-12 · raw 138,397 · 2026 adjusted 156,337.35"
+                },
+                {
+                  "x": 20,
+                  "y": 151508.18518518517,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 20 · 2023-06-13-to-2023-06-19 · raw 134,122 · 2026 adjusted 151,508.19"
+                },
+                {
+                  "x": 21,
+                  "y": 141764.0,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 21 · 2023-06-20-to-2023-06-26 · raw 125,496 · 2026 adjusted 141,764.00"
+                },
+                {
+                  "x": 22,
+                  "y": 131117.24074074073,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 22 · 2023-06-27-to-2023-07-03 · raw 116,071 · 2026 adjusted 131,117.24"
+                },
+                {
+                  "x": 23,
+                  "y": 131666.24074074073,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 23 · 2023-07-04-to-2023-07-10 · raw 116,557 · 2026 adjusted 131,666.24"
+                },
+                {
+                  "x": 24,
+                  "y": 131558.92592592593,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 24 · 2023-07-11-to-2023-07-17 · raw 116,462 · 2026 adjusted 131,558.93"
+                },
+                {
+                  "x": 25,
+                  "y": 123345.38888888888,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 25 · 2023-07-18-to-2023-07-24 · raw 109,191 · 2026 adjusted 123,345.39"
+                },
+                {
+                  "x": 26,
+                  "y": 117150.49999999999,
+                  "tooltip": "Wakanda Forever · Africa60 downloaders · week 26 · 2023-07-25-to-2023-07-31 · raw 103,707 · 2026 adjusted 117,150.50"
+                }
+              ]
+            },
+            {
+              "name": "Ironheart 01",
+              "color": "#606a24",
+              "dash": "2 4",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 116222.28333333333,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 1 · 2025-06-25-to-2025-07-01-partial · raw 114,317 · 2026 adjusted 116,222.28"
+                },
+                {
+                  "x": 2,
+                  "y": 210307.66666666666,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 2 · 2025-07-02-to-2025-07-08 · raw 206,860 · 2026 adjusted 210,307.67"
+                },
+                {
+                  "x": 3,
+                  "y": 153616.3,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 3 · 2025-07-09-to-2025-07-15 · raw 151,098 · 2026 adjusted 153,616.30"
+                },
+                {
+                  "x": 4,
+                  "y": 105337.84999999999,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 4 · 2025-07-16-to-2025-07-22 · raw 103,611 · 2026 adjusted 105,337.85"
+                },
+                {
+                  "x": 5,
+                  "y": 90481.29999999999,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 5 · 2025-07-23-to-2025-07-29 · raw 88,998 · 2026 adjusted 90,481.30"
+                },
+                {
+                  "x": 6,
+                  "y": 79870.34999999999,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 6 · 2025-07-30-to-2025-08-05 · raw 78,561 · 2026 adjusted 79,870.35"
+                },
+                {
+                  "x": 7,
+                  "y": 69964.96666666666,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 7 · 2025-08-06-to-2025-08-12 · raw 68,818 · 2026 adjusted 69,964.97"
+                },
+                {
+                  "x": 8,
+                  "y": 59097.816666666666,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 8 · 2025-08-13-to-2025-08-19 · raw 58,129 · 2026 adjusted 59,097.82"
+                },
+                {
+                  "x": 9,
+                  "y": 56233.86666666666,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 9 · 2025-08-20-to-2025-08-26 · raw 55,312 · 2026 adjusted 56,233.87"
+                },
+                {
+                  "x": 10,
+                  "y": 48855.916666666664,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 10 · 2025-08-27-to-2025-09-02 · raw 48,055 · 2026 adjusted 48,855.92"
+                },
+                {
+                  "x": 11,
+                  "y": 50457.166666666664,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 11 · 2025-09-03-to-2025-09-09 · raw 49,630 · 2026 adjusted 50,457.17"
+                },
+                {
+                  "x": 12,
+                  "y": 45323.0,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 12 · 2025-09-10-to-2025-09-16 · raw 44,580 · 2026 adjusted 45,323.00"
+                },
+                {
+                  "x": 13,
+                  "y": 44179.25,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 13 · 2025-09-17-to-2025-09-23 · raw 43,455 · 2026 adjusted 44,179.25"
+                },
+                {
+                  "x": 14,
+                  "y": 45242.683333333334,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 14 · 2025-09-24-to-2025-09-30 · raw 44,501 · 2026 adjusted 45,242.68"
+                },
+                {
+                  "x": 15,
+                  "y": 42503.78333333333,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 15 · 2025-10-01-to-2025-10-07 · raw 41,807 · 2026 adjusted 42,503.78"
+                },
+                {
+                  "x": 16,
+                  "y": 47417.33333333333,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 16 · 2025-10-08-to-2025-10-14 · raw 46,640 · 2026 adjusted 47,417.33"
+                },
+                {
+                  "x": 17,
+                  "y": 52261.75,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 17 · 2025-10-15-to-2025-10-21 · raw 51,405 · 2026 adjusted 52,261.75"
+                },
+                {
+                  "x": 18,
+                  "y": 46340.68333333333,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 18 · 2025-10-22-to-2025-10-28 · raw 45,581 · 2026 adjusted 46,340.68"
+                },
+                {
+                  "x": 19,
+                  "y": 44382.58333333333,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 19 · 2025-10-29-to-2025-11-04 · raw 43,655 · 2026 adjusted 44,382.58"
+                },
+                {
+                  "x": 20,
+                  "y": 43936.26666666666,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 20 · 2025-11-05-to-2025-11-11 · raw 43,216 · 2026 adjusted 43,936.27"
+                },
+                {
+                  "x": 21,
+                  "y": 43140.21666666667,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 21 · 2025-11-12-to-2025-11-18 · raw 42,433 · 2026 adjusted 43,140.22"
+                },
+                {
+                  "x": 22,
+                  "y": 40144.1,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 22 · 2025-11-19-to-2025-11-25 · raw 39,486 · 2026 adjusted 40,144.10"
+                },
+                {
+                  "x": 23,
+                  "y": 46029.58333333333,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 23 · 2025-11-26-to-2025-12-02 · raw 45,275 · 2026 adjusted 46,029.58"
+                },
+                {
+                  "x": 24,
+                  "y": 43696.33333333333,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 24 · 2025-12-03-to-2025-12-09 · raw 42,980 · 2026 adjusted 43,696.33"
+                },
+                {
+                  "x": 25,
+                  "y": 38788.88333333333,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 25 · 2025-12-10-to-2025-12-16 · raw 38,153 · 2026 adjusted 38,788.88"
+                },
+                {
+                  "x": 26,
+                  "y": 34152.88333333333,
+                  "tooltip": "Ironheart 01 · Africa60 downloaders · week 26 · 2025-12-17-to-2025-12-23 · raw 33,593 · 2026 adjusted 34,152.88"
+                }
+              ]
+            },
+            {
+              "name": "Eyes of Wakanda 01",
+              "color": "#4d405d",
+              "dash": "8 3 2 3",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 44939.71666666667,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 1 · 2025-08-01-to-2025-08-07-partial · raw 44,203 · 2026 adjusted 44,939.72"
+                },
+                {
+                  "x": 2,
+                  "y": 38770.58333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 2 · 2025-08-08-to-2025-08-14 · raw 38,135 · 2026 adjusted 38,770.58"
+                },
+                {
+                  "x": 3,
+                  "y": 26660.05,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 3 · 2025-08-15-to-2025-08-21 · raw 26,223 · 2026 adjusted 26,660.05"
+                },
+                {
+                  "x": 4,
+                  "y": 21290.016666666666,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 4 · 2025-08-22-to-2025-08-28 · raw 20,941 · 2026 adjusted 21,290.02"
+                },
+                {
+                  "x": 5,
+                  "y": 17707.283333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 5 · 2025-08-29-to-2025-09-04 · raw 17,417 · 2026 adjusted 17,707.28"
+                },
+                {
+                  "x": 6,
+                  "y": 16520.833333333332,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 6 · 2025-09-05-to-2025-09-11 · raw 16,250 · 2026 adjusted 16,520.83"
+                },
+                {
+                  "x": 7,
+                  "y": 14522.066666666666,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 7 · 2025-09-12-to-2025-09-18 · raw 14,284 · 2026 adjusted 14,522.07"
+                },
+                {
+                  "x": 8,
+                  "y": 15737.999999999998,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 8 · 2025-09-19-to-2025-09-25 · raw 15,480 · 2026 adjusted 15,738.00"
+                },
+                {
+                  "x": 9,
+                  "y": 15388.266666666666,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 9 · 2025-09-26-to-2025-10-02 · raw 15,136 · 2026 adjusted 15,388.27"
+                },
+                {
+                  "x": 10,
+                  "y": 15601.766666666666,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 10 · 2025-10-03-to-2025-10-09 · raw 15,346 · 2026 adjusted 15,601.77"
+                },
+                {
+                  "x": 11,
+                  "y": 17868.93333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 11 · 2025-10-10-to-2025-10-16 · raw 17,576 · 2026 adjusted 17,868.93"
+                },
+                {
+                  "x": 12,
+                  "y": 17988.899999999998,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 12 · 2025-10-17-to-2025-10-23 · raw 17,694 · 2026 adjusted 17,988.90"
+                },
+                {
+                  "x": 13,
+                  "y": 14871.8,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 13 · 2025-10-24-to-2025-10-30 · raw 14,628 · 2026 adjusted 14,871.80"
+                },
+                {
+                  "x": 14,
+                  "y": 16308.349999999999,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 14 · 2025-10-31-to-2025-11-06 · raw 16,041 · 2026 adjusted 16,308.35"
+                },
+                {
+                  "x": 15,
+                  "y": 15300.833333333332,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 15 · 2025-11-07-to-2025-11-13 · raw 15,050 · 2026 adjusted 15,300.83"
+                },
+                {
+                  "x": 16,
+                  "y": 14954.15,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 16 · 2025-11-14-to-2025-11-20 · raw 14,709 · 2026 adjusted 14,954.15"
+                },
+                {
+                  "x": 17,
+                  "y": 13761.599999999999,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 17 · 2025-11-21-to-2025-11-27 · raw 13,536 · 2026 adjusted 13,761.60"
+                },
+                {
+                  "x": 18,
+                  "y": 15317.099999999999,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 18 · 2025-11-28-to-2025-12-04 · raw 15,066 · 2026 adjusted 15,317.10"
+                },
+                {
+                  "x": 19,
+                  "y": 14380.75,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 19 · 2025-12-05-to-2025-12-11 · raw 14,145 · 2026 adjusted 14,380.75"
+                },
+                {
+                  "x": 20,
+                  "y": 13443.383333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 20 · 2025-12-12-to-2025-12-18 · raw 13,223 · 2026 adjusted 13,443.38"
+                },
+                {
+                  "x": 21,
+                  "y": 10005.016666666666,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 21 · 2025-12-19-to-2025-12-25 · raw 9,841 · 2026 adjusted 10,005.02"
+                },
+                {
+                  "x": 22,
+                  "y": 10841.733333333334,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 22 · 2025-12-26-to-2026-01-01 · raw 10,664 · 2026 adjusted 10,841.73"
+                },
+                {
+                  "x": 23,
+                  "y": 12899.466666666665,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 23 · 2026-01-02-to-2026-01-08 · raw 12,688 · 2026 adjusted 12,899.47"
+                },
+                {
+                  "x": 24,
+                  "y": 12266.083333333332,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 24 · 2026-01-09-to-2026-01-15 · raw 12,065 · 2026 adjusted 12,266.08"
+                },
+                {
+                  "x": 25,
+                  "y": 12731.716666666665,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 25 · 2026-01-16-to-2026-01-22 · raw 12,523 · 2026 adjusted 12,731.72"
+                },
+                {
+                  "x": 26,
+                  "y": 12816.099999999999,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 downloaders · week 26 · 2026-01-23-to-2026-01-29 · raw 12,606 · 2026 adjusted 12,816.10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Worldwide uploaders",
+          "unit": "weight",
+          "ylabel": "2026 adjusted weight",
+          "series": [
+            {
+              "name": "Black Panther",
+              "color": "#175b8c",
+              "dash": "",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 1381047.8205128205,
+                  "tooltip": "Black Panther · Worldwide uploaders · week 1 · 2018-05-02-to-2018-05-08 · raw 882,965 · 2026 adjusted 1,381,047.82"
+                },
+                {
+                  "x": 2,
+                  "y": 1092151.8205128205,
+                  "tooltip": "Black Panther · Worldwide uploaders · week 2 · 2018-05-09-to-2018-05-15 · raw 698,261 · 2026 adjusted 1,092,151.82"
+                },
+                {
+                  "x": 3,
+                  "y": 877680.5128205129,
+                  "tooltip": "Black Panther · Worldwide uploaders · week 3 · 2018-05-16-to-2018-05-22 · raw 561,140 · 2026 adjusted 877,680.51"
+                },
+                {
+                  "x": 4,
+                  "y": 715612.8974358974,
+                  "tooltip": "Black Panther · Worldwide uploaders · week 4 · 2018-05-23-to-2018-05-29 · raw 457,523 · 2026 adjusted 715,612.90"
+                },
+                {
+                  "x": 5,
+                  "y": 652133.7948717949,
+                  "tooltip": "Black Panther · Worldwide uploaders · week 5 · 2018-05-30-to-2018-06-05 · raw 416,938 · 2026 adjusted 652,133.79"
+                },
+                {
+                  "x": 6,
+                  "y": 741328.3076923077,
+                  "tooltip": "Black Panther · Worldwide uploaders · week 6 · 2018-06-06-to-2018-06-12 · raw 473,964 · 2026 adjusted 741,328.31"
+                },
+                {
+                  "x": 7,
+                  "y": 752658.6666666666,
+                  "tooltip": "Black Panther · Worldwide uploaders · week 7 · 2018-06-13-to-2018-06-19 · raw 481,208 · 2026 adjusted 752,658.67"
+                }
+              ]
+            },
+            {
+              "name": "Wakanda Forever",
+              "color": "#9b4318",
+              "dash": "8 4",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 1859764.611111111,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 1 · 2023-01-31-to-2023-02-06 · raw 1,646,349 · 2026 adjusted 1,859,764.61"
+                },
+                {
+                  "x": 2,
+                  "y": 1530846.962962963,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 2 · 2023-02-07-to-2023-02-13 · raw 1,355,176 · 2026 adjusted 1,530,846.96"
+                },
+                {
+                  "x": 3,
+                  "y": 1178696.222222222,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 3 · 2023-02-14-to-2023-02-20 · raw 1,043,436 · 2026 adjusted 1,178,696.22"
+                },
+                {
+                  "x": 4,
+                  "y": 1080914.3518518517,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 4 · 2023-02-21-to-2023-02-27 · raw 956,875 · 2026 adjusted 1,080,914.35"
+                },
+                {
+                  "x": 5,
+                  "y": 1032447.5925925925,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 5 · 2023-02-28-to-2023-03-06-partial · raw 913,970 · 2026 adjusted 1,032,447.59"
+                },
+                {
+                  "x": 6,
+                  "y": 855203.0555555555,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 6 · 2023-03-07-to-2023-03-13 · raw 757,065 · 2026 adjusted 855,203.06"
+                },
+                {
+                  "x": 7,
+                  "y": 820063.6666666666,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 7 · 2023-03-14-to-2023-03-20 · raw 725,958 · 2026 adjusted 820,063.67"
+                },
+                {
+                  "x": 8,
+                  "y": 744784.0185185184,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 8 · 2023-03-21-to-2023-03-27 · raw 659,317 · 2026 adjusted 744,784.02"
+                },
+                {
+                  "x": 9,
+                  "y": 690980.8888888889,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 9 · 2023-03-28-to-2023-04-03 · raw 611,688 · 2026 adjusted 690,980.89"
+                },
+                {
+                  "x": 10,
+                  "y": 659463.0925925926,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 10 · 2023-04-04-to-2023-04-10 · raw 583,787 · 2026 adjusted 659,463.09"
+                },
+                {
+                  "x": 11,
+                  "y": 574631.2962962963,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 11 · 2023-04-11-to-2023-04-17 · raw 508,690 · 2026 adjusted 574,631.30"
+                },
+                {
+                  "x": 12,
+                  "y": 555180.2037037037,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 12 · 2023-04-18-to-2023-04-24 · raw 491,471 · 2026 adjusted 555,180.20"
+                },
+                {
+                  "x": 13,
+                  "y": 428616.49999999994,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 13 · 2023-04-25-to-2023-05-01 · raw 379,431 · 2026 adjusted 428,616.50"
+                },
+                {
+                  "x": 14,
+                  "y": 349855.3333333333,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 14 · 2023-05-02-to-2023-05-08 · raw 309,708 · 2026 adjusted 349,855.33"
+                },
+                {
+                  "x": 15,
+                  "y": 325409.0185185185,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 15 · 2023-05-09-to-2023-05-15 · raw 288,067 · 2026 adjusted 325,409.02"
+                },
+                {
+                  "x": 16,
+                  "y": 284187.7037037037,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 16 · 2023-05-16-to-2023-05-22 · raw 251,576 · 2026 adjusted 284,187.70"
+                },
+                {
+                  "x": 17,
+                  "y": 271889.4259259259,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 17 · 2023-05-23-to-2023-05-29 · raw 240,689 · 2026 adjusted 271,889.43"
+                },
+                {
+                  "x": 18,
+                  "y": 251253.35185185182,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 18 · 2023-05-30-to-2023-06-05 · raw 222,421 · 2026 adjusted 251,253.35"
+                },
+                {
+                  "x": 19,
+                  "y": 239848.6111111111,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 19 · 2023-06-06-to-2023-06-12 · raw 212,325 · 2026 adjusted 239,848.61"
+                },
+                {
+                  "x": 20,
+                  "y": 231819.20370370368,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 20 · 2023-06-13-to-2023-06-19 · raw 205,217 · 2026 adjusted 231,819.20"
+                },
+                {
+                  "x": 21,
+                  "y": 225183.75925925924,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 21 · 2023-06-20-to-2023-06-26 · raw 199,343 · 2026 adjusted 225,183.76"
+                },
+                {
+                  "x": 22,
+                  "y": 220997.35185185182,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 22 · 2023-06-27-to-2023-07-03 · raw 195,637 · 2026 adjusted 220,997.35"
+                },
+                {
+                  "x": 23,
+                  "y": 214910.9074074074,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 23 · 2023-07-04-to-2023-07-10 · raw 190,249 · 2026 adjusted 214,910.91"
+                },
+                {
+                  "x": 24,
+                  "y": 227491.59259259258,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 24 · 2023-07-11-to-2023-07-17 · raw 201,386 · 2026 adjusted 227,491.59"
+                },
+                {
+                  "x": 25,
+                  "y": 196166.96296296295,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 25 · 2023-07-18-to-2023-07-24 · raw 173,656 · 2026 adjusted 196,166.96"
+                },
+                {
+                  "x": 26,
+                  "y": 185080.77777777775,
+                  "tooltip": "Wakanda Forever · Worldwide uploaders · week 26 · 2023-07-25-to-2023-07-31 · raw 163,842 · 2026 adjusted 185,080.78"
+                }
+              ]
+            },
+            {
+              "name": "Ironheart 01",
+              "color": "#606a24",
+              "dash": "2 4",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 434721.5833333333,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 1 · 2025-06-25-to-2025-07-01-partial · raw 427,595 · 2026 adjusted 434,721.58"
+                },
+                {
+                  "x": 2,
+                  "y": 813102.5499999999,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 2 · 2025-07-02-to-2025-07-08 · raw 799,773 · 2026 adjusted 813,102.55"
+                },
+                {
+                  "x": 3,
+                  "y": 476635.69999999995,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 3 · 2025-07-09-to-2025-07-15 · raw 468,822 · 2026 adjusted 476,635.70"
+                },
+                {
+                  "x": 4,
+                  "y": 279506.06666666665,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 4 · 2025-07-16-to-2025-07-22 · raw 274,924 · 2026 adjusted 279,506.07"
+                },
+                {
+                  "x": 5,
+                  "y": 229454.55,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 5 · 2025-07-23-to-2025-07-29 · raw 225,693 · 2026 adjusted 229,454.55"
+                },
+                {
+                  "x": 6,
+                  "y": 199316.4833333333,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 6 · 2025-07-30-to-2025-08-05 · raw 196,049 · 2026 adjusted 199,316.48"
+                },
+                {
+                  "x": 7,
+                  "y": 139144.05,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 7 · 2025-08-06-to-2025-08-12 · raw 136,863 · 2026 adjusted 139,144.05"
+                },
+                {
+                  "x": 8,
+                  "y": 123048.18333333332,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 8 · 2025-08-13-to-2025-08-19 · raw 121,031 · 2026 adjusted 123,048.18"
+                },
+                {
+                  "x": 9,
+                  "y": 116482.54999999999,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 9 · 2025-08-20-to-2025-08-26 · raw 114,573 · 2026 adjusted 116,482.55"
+                },
+                {
+                  "x": 10,
+                  "y": 105304.29999999999,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 10 · 2025-08-27-to-2025-09-02 · raw 103,578 · 2026 adjusted 105,304.30"
+                },
+                {
+                  "x": 11,
+                  "y": 78503.95,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 11 · 2025-09-03-to-2025-09-09 · raw 77,217 · 2026 adjusted 78,503.95"
+                },
+                {
+                  "x": 12,
+                  "y": 71929.16666666666,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 12 · 2025-09-10-to-2025-09-16 · raw 70,750 · 2026 adjusted 71,929.17"
+                },
+                {
+                  "x": 13,
+                  "y": 70935.88333333333,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 13 · 2025-09-17-to-2025-09-23 · raw 69,773 · 2026 adjusted 70,935.88"
+                },
+                {
+                  "x": 14,
+                  "y": 67963.15,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 14 · 2025-09-24-to-2025-09-30 · raw 66,849 · 2026 adjusted 67,963.15"
+                },
+                {
+                  "x": 15,
+                  "y": 65904.4,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 15 · 2025-10-01-to-2025-10-07 · raw 64,824 · 2026 adjusted 65,904.40"
+                },
+                {
+                  "x": 16,
+                  "y": 62961.149999999994,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 16 · 2025-10-08-to-2025-10-14 · raw 61,929 · 2026 adjusted 62,961.15"
+                },
+                {
+                  "x": 17,
+                  "y": 60407.28333333333,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 17 · 2025-10-15-to-2025-10-21 · raw 59,417 · 2026 adjusted 60,407.28"
+                },
+                {
+                  "x": 18,
+                  "y": 57202.75,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 18 · 2025-10-22-to-2025-10-28 · raw 56,265 · 2026 adjusted 57,202.75"
+                },
+                {
+                  "x": 19,
+                  "y": 58196.03333333333,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 19 · 2025-10-29-to-2025-11-04 · raw 57,242 · 2026 adjusted 58,196.03"
+                },
+                {
+                  "x": 20,
+                  "y": 56347.73333333333,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 20 · 2025-11-05-to-2025-11-11 · raw 55,424 · 2026 adjusted 56,347.73"
+                },
+                {
+                  "x": 21,
+                  "y": 54039.899999999994,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 21 · 2025-11-12-to-2025-11-18 · raw 53,154 · 2026 adjusted 54,039.90"
+                },
+                {
+                  "x": 22,
+                  "y": 53713.549999999996,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 22 · 2025-11-19-to-2025-11-25 · raw 52,833 · 2026 adjusted 53,713.55"
+                },
+                {
+                  "x": 23,
+                  "y": 53058.816666666666,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 23 · 2025-11-26-to-2025-12-02 · raw 52,189 · 2026 adjusted 53,058.82"
+                },
+                {
+                  "x": 24,
+                  "y": 48466.53333333333,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 24 · 2025-12-03-to-2025-12-09 · raw 47,672 · 2026 adjusted 48,466.53"
+                },
+                {
+                  "x": 25,
+                  "y": 47785.36666666666,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 25 · 2025-12-10-to-2025-12-16 · raw 47,002 · 2026 adjusted 47,785.37"
+                },
+                {
+                  "x": 26,
+                  "y": 46362.03333333333,
+                  "tooltip": "Ironheart 01 · Worldwide uploaders · week 26 · 2025-12-17-to-2025-12-23 · raw 45,602 · 2026 adjusted 46,362.03"
+                }
+              ]
+            },
+            {
+              "name": "Eyes of Wakanda 01",
+              "color": "#4d405d",
+              "dash": "8 3 2 3",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 98370.63333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 1 · 2025-08-01-to-2025-08-07-partial · raw 96,758 · 2026 adjusted 98,370.63"
+                },
+                {
+                  "x": 2,
+                  "y": 83789.59999999999,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 2 · 2025-08-08-to-2025-08-14 · raw 82,416 · 2026 adjusted 83,789.60"
+                },
+                {
+                  "x": 3,
+                  "y": 62585.99999999999,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 3 · 2025-08-15-to-2025-08-21 · raw 61,560 · 2026 adjusted 62,586.00"
+                },
+                {
+                  "x": 4,
+                  "y": 54927.45,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 4 · 2025-08-22-to-2025-08-28 · raw 54,027 · 2026 adjusted 54,927.45"
+                },
+                {
+                  "x": 5,
+                  "y": 46971.01666666666,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 5 · 2025-08-29-to-2025-09-04 · raw 46,201 · 2026 adjusted 46,971.02"
+                },
+                {
+                  "x": 6,
+                  "y": 36728.1,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 6 · 2025-09-05-to-2025-09-11 · raw 36,126 · 2026 adjusted 36,728.10"
+                },
+                {
+                  "x": 7,
+                  "y": 35781.58333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 7 · 2025-09-12-to-2025-09-18 · raw 35,195 · 2026 adjusted 35,781.58"
+                },
+                {
+                  "x": 8,
+                  "y": 34019.7,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 8 · 2025-09-19-to-2025-09-25 · raw 33,462 · 2026 adjusted 34,019.70"
+                },
+                {
+                  "x": 9,
+                  "y": 20077.13333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 9 · 2025-09-26-to-2025-10-02 · raw 19,748 · 2026 adjusted 20,077.13"
+                },
+                {
+                  "x": 10,
+                  "y": 19450.866666666665,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 10 · 2025-10-03-to-2025-10-09 · raw 19,132 · 2026 adjusted 19,450.87"
+                },
+                {
+                  "x": 11,
+                  "y": 18824.6,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 11 · 2025-10-10-to-2025-10-16 · raw 18,516 · 2026 adjusted 18,824.60"
+                },
+                {
+                  "x": 12,
+                  "y": 16792.283333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 12 · 2025-10-17-to-2025-10-23 · raw 16,517 · 2026 adjusted 16,792.28"
+                },
+                {
+                  "x": 13,
+                  "y": 16324.616666666665,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 13 · 2025-10-24-to-2025-10-30 · raw 16,057 · 2026 adjusted 16,324.62"
+                },
+                {
+                  "x": 14,
+                  "y": 16432.38333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 14 · 2025-10-31-to-2025-11-06 · raw 16,163 · 2026 adjusted 16,432.38"
+                },
+                {
+                  "x": 15,
+                  "y": 14974.483333333332,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 15 · 2025-11-07-to-2025-11-13 · raw 14,729 · 2026 adjusted 14,974.48"
+                },
+                {
+                  "x": 16,
+                  "y": 15032.433333333332,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 16 · 2025-11-14-to-2025-11-20 · raw 14,786 · 2026 adjusted 15,032.43"
+                },
+                {
+                  "x": 17,
+                  "y": 14887.05,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 17 · 2025-11-21-to-2025-11-27 · raw 14,643 · 2026 adjusted 14,887.05"
+                },
+                {
+                  "x": 18,
+                  "y": 14418.366666666665,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 18 · 2025-11-28-to-2025-12-04 · raw 14,182 · 2026 adjusted 14,418.37"
+                },
+                {
+                  "x": 19,
+                  "y": 13489.133333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 19 · 2025-12-05-to-2025-12-11 · raw 13,268 · 2026 adjusted 13,489.13"
+                },
+                {
+                  "x": 20,
+                  "y": 13163.8,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 20 · 2025-12-12-to-2025-12-18 · raw 12,948 · 2026 adjusted 13,163.80"
+                },
+                {
+                  "x": 21,
+                  "y": 13304.099999999999,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 21 · 2025-12-19-to-2025-12-25 · raw 13,086 · 2026 adjusted 13,304.10"
+                },
+                {
+                  "x": 22,
+                  "y": 12955.383333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 22 · 2025-12-26-to-2026-01-01 · raw 12,743 · 2026 adjusted 12,955.38"
+                },
+                {
+                  "x": 23,
+                  "y": 12845.583333333332,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 23 · 2026-01-02-to-2026-01-08 · raw 12,635 · 2026 adjusted 12,845.58"
+                },
+                {
+                  "x": 24,
+                  "y": 13313.25,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 24 · 2026-01-09-to-2026-01-15 · raw 13,095 · 2026 adjusted 13,313.25"
+                },
+                {
+                  "x": 25,
+                  "y": 13369.166666666666,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 25 · 2026-01-16-to-2026-01-22 · raw 13,150 · 2026 adjusted 13,369.17"
+                },
+                {
+                  "x": 26,
+                  "y": 13224.8,
+                  "tooltip": "Eyes of Wakanda 01 · Worldwide uploaders · week 26 · 2026-01-23-to-2026-01-29 · raw 13,008 · 2026 adjusted 13,224.80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Africa60 uploaders",
+          "unit": "weight",
+          "ylabel": "2026 adjusted weight",
+          "series": [
+            {
+              "name": "Black Panther",
+              "color": "#175b8c",
+              "dash": "",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 170398.02564102563,
+                  "tooltip": "Black Panther · Africa60 uploaders · week 1 · 2018-05-02-to-2018-05-08 · raw 108,943 · 2026 adjusted 170,398.03"
+                },
+                {
+                  "x": 2,
+                  "y": 153726.2564102564,
+                  "tooltip": "Black Panther · Africa60 uploaders · week 2 · 2018-05-09-to-2018-05-15 · raw 98,284 · 2026 adjusted 153,726.26"
+                },
+                {
+                  "x": 3,
+                  "y": 133869.97435897434,
+                  "tooltip": "Black Panther · Africa60 uploaders · week 3 · 2018-05-16-to-2018-05-22 · raw 85,589 · 2026 adjusted 133,869.97"
+                },
+                {
+                  "x": 4,
+                  "y": 118350.94871794872,
+                  "tooltip": "Black Panther · Africa60 uploaders · week 4 · 2018-05-23-to-2018-05-29 · raw 75,667 · 2026 adjusted 118,350.95"
+                },
+                {
+                  "x": 5,
+                  "y": 109577.89743589744,
+                  "tooltip": "Black Panther · Africa60 uploaders · week 5 · 2018-05-30-to-2018-06-05 · raw 70,058 · 2026 adjusted 109,577.90"
+                },
+                {
+                  "x": 6,
+                  "y": 100682.84615384616,
+                  "tooltip": "Black Panther · Africa60 uploaders · week 6 · 2018-06-06-to-2018-06-12 · raw 64,371 · 2026 adjusted 100,682.85"
+                },
+                {
+                  "x": 7,
+                  "y": 93972.84615384616,
+                  "tooltip": "Black Panther · Africa60 uploaders · week 7 · 2018-06-13-to-2018-06-19 · raw 60,081 · 2026 adjusted 93,972.85"
+                }
+              ]
+            },
+            {
+              "name": "Wakanda Forever",
+              "color": "#9b4318",
+              "dash": "8 4",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 192919.27777777775,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 1 · 2023-01-31-to-2023-02-06 · raw 170,781 · 2026 adjusted 192,919.28"
+                },
+                {
+                  "x": 2,
+                  "y": 193384.68518518517,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 2 · 2023-02-07-to-2023-02-13 · raw 171,193 · 2026 adjusted 193,384.69"
+                },
+                {
+                  "x": 3,
+                  "y": 154960.3333333333,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 3 · 2023-02-14-to-2023-02-20 · raw 137,178 · 2026 adjusted 154,960.33"
+                },
+                {
+                  "x": 4,
+                  "y": 151958.9074074074,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 4 · 2023-02-21-to-2023-02-27 · raw 134,521 · 2026 adjusted 151,958.91"
+                },
+                {
+                  "x": 5,
+                  "y": 165732.48148148146,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 5 · 2023-02-28-to-2023-03-06-partial · raw 146,714 · 2026 adjusted 165,732.48"
+                },
+                {
+                  "x": 6,
+                  "y": 137717.66666666666,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 6 · 2023-03-07-to-2023-03-13 · raw 121,914 · 2026 adjusted 137,717.67"
+                },
+                {
+                  "x": 7,
+                  "y": 141030.87037037036,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 7 · 2023-03-14-to-2023-03-20 · raw 124,847 · 2026 adjusted 141,030.87"
+                },
+                {
+                  "x": 8,
+                  "y": 128196.01851851851,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 8 · 2023-03-21-to-2023-03-27 · raw 113,485 · 2026 adjusted 128,196.02"
+                },
+                {
+                  "x": 9,
+                  "y": 118986.14814814813,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 9 · 2023-03-28-to-2023-04-03 · raw 105,332 · 2026 adjusted 118,986.15"
+                },
+                {
+                  "x": 10,
+                  "y": 117515.37037037036,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 10 · 2023-04-04-to-2023-04-10 · raw 104,030 · 2026 adjusted 117,515.37"
+                },
+                {
+                  "x": 11,
+                  "y": 99966.57407407407,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 11 · 2023-04-11-to-2023-04-17 · raw 88,495 · 2026 adjusted 99,966.57"
+                },
+                {
+                  "x": 12,
+                  "y": 98389.61111111111,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 12 · 2023-04-18-to-2023-04-24 · raw 87,099 · 2026 adjusted 98,389.61"
+                },
+                {
+                  "x": 13,
+                  "y": 78023.51851851851,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 13 · 2023-04-25-to-2023-05-01 · raw 69,070 · 2026 adjusted 78,023.52"
+                },
+                {
+                  "x": 14,
+                  "y": 63339.462962962956,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 14 · 2023-05-02-to-2023-05-08 · raw 56,071 · 2026 adjusted 63,339.46"
+                },
+                {
+                  "x": 15,
+                  "y": 56774.05555555555,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 15 · 2023-05-09-to-2023-05-15 · raw 50,259 · 2026 adjusted 56,774.06"
+                },
+                {
+                  "x": 16,
+                  "y": 47333.74074074074,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 16 · 2023-05-16-to-2023-05-22 · raw 41,902 · 2026 adjusted 47,333.74"
+                },
+                {
+                  "x": 17,
+                  "y": 45591.85185185185,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 17 · 2023-05-23-to-2023-05-29 · raw 40,360 · 2026 adjusted 45,591.85"
+                },
+                {
+                  "x": 18,
+                  "y": 41447.24074074074,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 18 · 2023-05-30-to-2023-06-05 · raw 36,691 · 2026 adjusted 41,447.24"
+                },
+                {
+                  "x": 19,
+                  "y": 39437.62962962963,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 19 · 2023-06-06-to-2023-06-12 · raw 34,912 · 2026 adjusted 39,437.63"
+                },
+                {
+                  "x": 20,
+                  "y": 37757.870370370365,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 20 · 2023-06-13-to-2023-06-19 · raw 33,425 · 2026 adjusted 37,757.87"
+                },
+                {
+                  "x": 21,
+                  "y": 35899.62962962963,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 21 · 2023-06-20-to-2023-06-26 · raw 31,780 · 2026 adjusted 35,899.63"
+                },
+                {
+                  "x": 22,
+                  "y": 34937.18518518518,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 22 · 2023-06-27-to-2023-07-03 · raw 30,928 · 2026 adjusted 34,937.19"
+                },
+                {
+                  "x": 23,
+                  "y": 34279.74074074074,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 23 · 2023-07-04-to-2023-07-10 · raw 30,346 · 2026 adjusted 34,279.74"
+                },
+                {
+                  "x": 24,
+                  "y": 38657.055555555555,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 24 · 2023-07-11-to-2023-07-17 · raw 34,221 · 2026 adjusted 38,657.06"
+                },
+                {
+                  "x": 25,
+                  "y": 30624.259259259255,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 25 · 2023-07-18-to-2023-07-24 · raw 27,110 · 2026 adjusted 30,624.26"
+                },
+                {
+                  "x": 26,
+                  "y": 28706.148148148146,
+                  "tooltip": "Wakanda Forever · Africa60 uploaders · week 26 · 2023-07-25-to-2023-07-31 · raw 25,412 · 2026 adjusted 28,706.15"
+                }
+              ]
+            },
+            {
+              "name": "Ironheart 01",
+              "color": "#606a24",
+              "dash": "2 4",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 48512.28333333333,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 1 · 2025-06-25-to-2025-07-01-partial · raw 47,717 · 2026 adjusted 48,512.28"
+                },
+                {
+                  "x": 2,
+                  "y": 106382.98333333332,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 2 · 2025-07-02-to-2025-07-08 · raw 104,639 · 2026 adjusted 106,382.98"
+                },
+                {
+                  "x": 3,
+                  "y": 68159.36666666667,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 3 · 2025-07-09-to-2025-07-15 · raw 67,042 · 2026 adjusted 68,159.37"
+                },
+                {
+                  "x": 4,
+                  "y": 28155.566666666666,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 4 · 2025-07-16-to-2025-07-22 · raw 27,694 · 2026 adjusted 28,155.57"
+                },
+                {
+                  "x": 5,
+                  "y": 18711.75,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 5 · 2025-07-23-to-2025-07-29 · raw 18,405 · 2026 adjusted 18,711.75"
+                },
+                {
+                  "x": 6,
+                  "y": 13746.349999999999,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 6 · 2025-07-30-to-2025-08-05 · raw 13,521 · 2026 adjusted 13,746.35"
+                },
+                {
+                  "x": 7,
+                  "y": 10731.933333333332,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 7 · 2025-08-06-to-2025-08-12 · raw 10,556 · 2026 adjusted 10,731.93"
+                },
+                {
+                  "x": 8,
+                  "y": 9592.25,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 8 · 2025-08-13-to-2025-08-19 · raw 9,435 · 2026 adjusted 9,592.25"
+                },
+                {
+                  "x": 9,
+                  "y": 9641.05,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 9 · 2025-08-20-to-2025-08-26 · raw 9,483 · 2026 adjusted 9,641.05"
+                },
+                {
+                  "x": 10,
+                  "y": 8793.15,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 10 · 2025-08-27-to-2025-09-02 · raw 8,649 · 2026 adjusted 8,793.15"
+                },
+                {
+                  "x": 11,
+                  "y": 6636.799999999999,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 11 · 2025-09-03-to-2025-09-09 · raw 6,528 · 2026 adjusted 6,636.80"
+                },
+                {
+                  "x": 12,
+                  "y": 5638.433333333333,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 12 · 2025-09-10-to-2025-09-16 · raw 5,546 · 2026 adjusted 5,638.43"
+                },
+                {
+                  "x": 13,
+                  "y": 5333.433333333333,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 13 · 2025-09-17-to-2025-09-23 · raw 5,246 · 2026 adjusted 5,333.43"
+                },
+                {
+                  "x": 14,
+                  "y": 4851.533333333333,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 14 · 2025-09-24-to-2025-09-30 · raw 4,772 · 2026 adjusted 4,851.53"
+                },
+                {
+                  "x": 15,
+                  "y": 5064.016666666666,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 15 · 2025-10-01-to-2025-10-07 · raw 4,981 · 2026 adjusted 5,064.02"
+                },
+                {
+                  "x": 16,
+                  "y": 4846.45,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 16 · 2025-10-08-to-2025-10-14 · raw 4,767 · 2026 adjusted 4,846.45"
+                },
+                {
+                  "x": 17,
+                  "y": 4547.55,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 17 · 2025-10-15-to-2025-10-21 · raw 4,473 · 2026 adjusted 4,547.55"
+                },
+                {
+                  "x": 18,
+                  "y": 4438.766666666666,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 18 · 2025-10-22-to-2025-10-28 · raw 4,366 · 2026 adjusted 4,438.77"
+                },
+                {
+                  "x": 19,
+                  "y": 4270.0,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 19 · 2025-10-29-to-2025-11-04 · raw 4,200 · 2026 adjusted 4,270.00"
+                },
+                {
+                  "x": 20,
+                  "y": 4544.5,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 20 · 2025-11-05-to-2025-11-11 · raw 4,470 · 2026 adjusted 4,544.50"
+                },
+                {
+                  "x": 21,
+                  "y": 3829.7833333333333,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 21 · 2025-11-12-to-2025-11-18 · raw 3,767 · 2026 adjusted 3,829.78"
+                },
+                {
+                  "x": 22,
+                  "y": 3392.6166666666663,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 22 · 2025-11-19-to-2025-11-25 · raw 3,337 · 2026 adjusted 3,392.62"
+                },
+                {
+                  "x": 23,
+                  "y": 3556.2999999999997,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 23 · 2025-11-26-to-2025-12-02 · raw 3,498 · 2026 adjusted 3,556.30"
+                },
+                {
+                  "x": 24,
+                  "y": 3506.483333333333,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 24 · 2025-12-03-to-2025-12-09 · raw 3,449 · 2026 adjusted 3,506.48"
+                },
+                {
+                  "x": 25,
+                  "y": 3255.3666666666663,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 25 · 2025-12-10-to-2025-12-16 · raw 3,202 · 2026 adjusted 3,255.37"
+                },
+                {
+                  "x": 26,
+                  "y": 3037.7999999999997,
+                  "tooltip": "Ironheart 01 · Africa60 uploaders · week 26 · 2025-12-17-to-2025-12-23 · raw 2,988 · 2026 adjusted 3,037.80"
+                }
+              ]
+            },
+            {
+              "name": "Eyes of Wakanda 01",
+              "color": "#4d405d",
+              "dash": "8 3 2 3",
+              "points": [
+                {
+                  "x": 1,
+                  "y": 11660.15,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 1 · 2025-08-01-to-2025-08-07-partial · raw 11,469 · 2026 adjusted 11,660.15"
+                },
+                {
+                  "x": 2,
+                  "y": 9376.716666666665,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 2 · 2025-08-08-to-2025-08-14 · raw 9,223 · 2026 adjusted 9,376.72"
+                },
+                {
+                  "x": 3,
+                  "y": 5871.25,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 3 · 2025-08-15-to-2025-08-21 · raw 5,775 · 2026 adjusted 5,871.25"
+                },
+                {
+                  "x": 4,
+                  "y": 4010.7499999999995,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 4 · 2025-08-22-to-2025-08-28 · raw 3,945 · 2026 adjusted 4,010.75"
+                },
+                {
+                  "x": 5,
+                  "y": 2963.583333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 5 · 2025-08-29-to-2025-09-04 · raw 2,915 · 2026 adjusted 2,963.58"
+                },
+                {
+                  "x": 6,
+                  "y": 2248.8666666666663,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 6 · 2025-09-05-to-2025-09-11 · raw 2,212 · 2026 adjusted 2,248.87"
+                },
+                {
+                  "x": 7,
+                  "y": 1926.5833333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 7 · 2025-09-12-to-2025-09-18 · raw 1,895 · 2026 adjusted 1,926.58"
+                },
+                {
+                  "x": 8,
+                  "y": 1934.7166666666665,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 8 · 2025-09-19-to-2025-09-25 · raw 1,903 · 2026 adjusted 1,934.72"
+                },
+                {
+                  "x": 9,
+                  "y": 1779.1666666666665,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 9 · 2025-09-26-to-2025-10-02 · raw 1,750 · 2026 adjusted 1,779.17"
+                },
+                {
+                  "x": 10,
+                  "y": 1850.3333333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 10 · 2025-10-03-to-2025-10-09 · raw 1,820 · 2026 adjusted 1,850.33"
+                },
+                {
+                  "x": 11,
+                  "y": 1734.4333333333332,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 11 · 2025-10-10-to-2025-10-16 · raw 1,706 · 2026 adjusted 1,734.43"
+                },
+                {
+                  "x": 12,
+                  "y": 1546.35,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 12 · 2025-10-17-to-2025-10-23 · raw 1,521 · 2026 adjusted 1,546.35"
+                },
+                {
+                  "x": 13,
+                  "y": 1390.8,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 13 · 2025-10-24-to-2025-10-30 · raw 1,368 · 2026 adjusted 1,390.80"
+                },
+                {
+                  "x": 14,
+                  "y": 1279.9833333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 14 · 2025-10-31-to-2025-11-06 · raw 1,259 · 2026 adjusted 1,279.98"
+                },
+                {
+                  "x": 15,
+                  "y": 1240.3333333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 15 · 2025-11-07-to-2025-11-13 · raw 1,220 · 2026 adjusted 1,240.33"
+                },
+                {
+                  "x": 16,
+                  "y": 1061.3999999999999,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 16 · 2025-11-14-to-2025-11-20 · raw 1,044 · 2026 adjusted 1,061.40"
+                },
+                {
+                  "x": 17,
+                  "y": 1086.8166666666666,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 17 · 2025-11-21-to-2025-11-27 · raw 1,069 · 2026 adjusted 1,086.82"
+                },
+                {
+                  "x": 18,
+                  "y": 1031.9166666666665,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 18 · 2025-11-28-to-2025-12-04 · raw 1,015 · 2026 adjusted 1,031.92"
+                },
+                {
+                  "x": 19,
+                  "y": 912.9666666666666,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 19 · 2025-12-05-to-2025-12-11 · raw 898 · 2026 adjusted 912.97"
+                },
+                {
+                  "x": 20,
+                  "y": 867.2166666666666,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 20 · 2025-12-12-to-2025-12-18 · raw 853 · 2026 adjusted 867.22"
+                },
+                {
+                  "x": 21,
+                  "y": 741.15,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 21 · 2025-12-19-to-2025-12-25 · raw 729 · 2026 adjusted 741.15"
+                },
+                {
+                  "x": 22,
+                  "y": 719.8,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 22 · 2025-12-26-to-2026-01-01 · raw 708 · 2026 adjusted 719.80"
+                },
+                {
+                  "x": 23,
+                  "y": 722.8499999999999,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 23 · 2026-01-02-to-2026-01-08 · raw 711 · 2026 adjusted 722.85"
+                },
+                {
+                  "x": 24,
+                  "y": 668.9666666666666,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 24 · 2026-01-09-to-2026-01-15 · raw 658 · 2026 adjusted 668.97"
+                },
+                {
+                  "x": 25,
+                  "y": 689.3,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 25 · 2026-01-16-to-2026-01-22 · raw 678 · 2026 adjusted 689.30"
+                },
+                {
+                  "x": 26,
+                  "y": 621.1833333333333,
+                  "tooltip": "Eyes of Wakanda 01 · Africa60 uploaders · week 26 · 2026-01-23-to-2026-01-29 · raw 611 · 2026 adjusted 621.18"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

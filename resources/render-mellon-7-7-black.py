@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Render the four Mellon 7.7 reports in the existing Black-led Jekyll site.
 
-Only matplotlib is required beyond the standard library. These are statistical
-charts, not cartography. All figure and table values come from the JSON ledger.
+Static comparisons use matplotlib. Weekly line graphs use a C++20 compiler,
+RapidJSON and Izzi. All figure and table values come from the JSON ledgers.
 """
 import argparse
 import gzip
@@ -102,8 +102,9 @@ def save_figure(site, fig, name, heading, description):
 
 
 class Reports:
-    def __init__(self, data, names, genres, site):
+    def __init__(self, data, names, genres, site, weekly_m4=None, graphs=None):
         self.d, self.o, self.names, self.genres, self.site = data, data['objects'], names, genres, site
+        self.weekly_m4, self.graphs = weekly_m4, graphs
 
     def country(self, code): return f'{self.names.get(code, code)} ({code})'
     def object(self, key): return link(title(key), self.o[key]['audit_url']) + f'<br><code>{esc(key)}</code>'
@@ -390,6 +391,10 @@ Relative to Wakanda Forever, Ironheart's largest shared-country full-window shar
 3. Use “circulation share increased” rather than “the fandom grew.” Repeated torrent participation, network location, platform availability and differing observation stages prevent an inference about unique fans or their retention across releases.
 
 '''
+        if self.weekly_m4:
+            from mellon_7_7_weekly_report import render_weekly
+            section = render_weekly(self, self.weekly_m4, self.graphs, table, figure, disclosure, number, title)
+            text = text.replace('## Matching the elapsed observation window', section+'## Matching the elapsed observation window')
         return text+self.methods(keys)
 
     def charts(self):
@@ -436,13 +441,28 @@ def main():
     ap.add_argument('--input',type=Path,required=True);ap.add_argument('--site',type=Path,required=True)
     ap.add_argument('--language-config',type=Path,required=True);ap.add_argument('--genre-config',type=Path,required=True)
     ap.add_argument('--country-names',type=Path,required=True)
+    ap.add_argument('--weekly-m4',type=Path)
+    ap.add_argument('--izzi',type=Path)
     args=ap.parse_args();raw=args.input.read_bytes();data=json.loads(gzip.decompress(raw) if args.input.suffix=='.gz' else raw)
     names={v['alpha-3']:v['name'] for v in json.loads(args.country_names.read_text())}
     for folder in ['docs','resources','data']:(args.site/folder).mkdir(exist_ok=True)
-    reports=Reports(data,names,json.loads(args.genre_config.read_text()),args.site)
+    weekly_path=args.weekly_m4 or args.site/'data/mellon-7.7-wakanda-weekly.json'
+    weekly=json.loads(weekly_path.read_text()) if weekly_path.exists() else None
+    graphs=None
+    if weekly:
+        if not args.izzi:ap.error('--izzi is required to render weekly M4 graphs')
+        from izzi_weekly_graphs import IzziWeeklyGraphs
+        graphs=IzziWeeklyGraphs(args.izzi)
+    reports=Reports(data,names,json.loads(args.genre_config.read_text()),args.site,weekly,graphs)
     reports.charts()
     for (name,_),method in zip(PAGES,[reports.francophone,reports.anglophone,reports.romance,reports.wakanda]):
         (args.site/'docs'/f'{name}.md').write_text(method().rstrip()+'\n')
+    if graphs:
+        graphs.save_ledger(args.site/'data/mellon-7.7-weekly-graphs.json')
+        (args.site/'data/mellon-7.7-wakanda-weekly.json').write_text(json.dumps(weekly,ensure_ascii=False,separators=(',',':'))+'\n')
+        (args.site/'data/itu-2026-provisional-7.7.json').write_text(json.dumps(weekly['itu_policy'],indent=2)+'\n')
+        for filename in ['extend-mellon-7-7-weekly.py','mellon_7_7_weekly_report.py','izzi_weekly_graphs.py','izzi-weekly-graphs.cc']:
+            shutil.copyfile(Path(__file__).with_name(filename),args.site/'resources'/filename)
     css='''/* Mellon 7.7 analytical pages; existing site typography remains in use. */
 main { overflow-wrap: anywhere; }
 main code { white-space: normal; overflow-wrap: anywhere; }
@@ -478,7 +498,7 @@ details { margin: 1.3rem 0; }
     if '<!-- BEGIN mellon-7.7 -->' in content:content=re.sub(r'<!-- BEGIN mellon-7.7 -->.*?<!-- END mellon-7.7 -->\n',block,content,flags=re.S)
     else:content=content.replace('- [Black-Led](docs/black.html)\n','- [Black-Led](docs/black.html)\n\n'+block)
     index.write_text(content)
-    print('Rendered four reports, four SVG charts, JSON evidence, and index links.')
+    print(f'Rendered four reports, {5 if graphs else 4} SVG charts, JSON evidence, and index links.')
 
 
 if __name__=='__main__':main()
