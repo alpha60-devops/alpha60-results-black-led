@@ -22,7 +22,9 @@ event as a file or archive. *Sharing* means the BitTorrent peer-to-peer file
 sharing protocol. This is part of the long-term [Alpha60](https://alpha60.co/)
 project.
 
-## Black-led
+## Historical curated Black-led roster
+
+The definition and list in this section describe the original curated roster. The Round 3 analyses below use the current published slice definitions.
 
 Definition: Texts produced by US production companies (co-productions are acceptable as long as one major partner is a US company) that feature African American characters, actors, creators, and/or storylines. A text does not need all four (Black characters, actors, creators, and/or storylines) to qualify.
 
@@ -40,6 +42,19 @@ Sample dates: 2017 to 2026
 
 ## Results, Commentary
 - [Black-Led](docs/black.html)
+
+<!-- BEGIN mellon-7.7 -->
+
+### Round 3 analyses — Mellon 7.7
+
+These four studies use the [current Round 3 Black-led and African-led-global slices](https://alpha60-devops.github.io/alpha60-results/docs/slices.html). M3 covers all 382 confirmed Black-led media objects, a broader cohort than the historical curated roster above.
+
+- [Francophone countries: Lupin and Black Panther](docs/francophone.html)
+- [Anglophone countries and USA production](docs/anglophone.html)
+- [Romance and Africa60: the full Black-led cohort](docs/romance-genre.html)
+- [Black Panther, Ironheart and Eyes of Wakanda in Africa60](docs/wakanda-forever.html)
+
+<!-- END mellon-7.7 -->
 <div style="height: 50px;"></div>
 
 

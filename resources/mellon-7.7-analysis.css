@@ -1,0 +1,16 @@
+/* Mellon 7.7 analytical pages; existing site typography remains in use. */
+main { overflow-wrap: anywhere; }
+main code { white-space: normal; overflow-wrap: anywhere; }
+.analysis-table-scroll { overflow-x: auto; max-width: 100%; margin: 1.5rem 0; }
+.analysis-table-scroll table { width: 100%; min-width: 720px; margin: 0; border-collapse: collapse; }
+.analysis-table-scroll caption { text-align: left; font-weight: 700; margin-bottom: .6rem; }
+.analysis-table-scroll th, .analysis-table-scroll td { padding: .6rem; text-align: left; vertical-align: top; border-bottom: 1px solid #d0d7de; }
+.analysis-table-scroll thead { background: #f1f4f7; }
+.analysis-table-scroll tbody th { font-weight: 400; }
+.analysis-table-scroll tbody tr:nth-child(even) { background: #f8f9fa; }
+.analysis-figure { margin: 2rem 0; }
+.analysis-chart-scroll { overflow-x: auto; max-width: 100%; }
+.analysis-chart-scroll img { display: block; width: 100%; height: auto; min-width: 700px; }
+.analysis-figure figcaption { margin-top: .7rem; line-height: 1.5; }
+.analysis-table-scroll:focus-visible, .analysis-chart-scroll:focus-visible, summary:focus-visible { outline: 3px solid #175b8c; outline-offset: 2px; }
+details { margin: 1.3rem 0; }
