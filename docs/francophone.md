@@ -198,4 +198,3 @@ python3 calculate-mellon-7-7-black.py --input calculations/cumulative.json --sou
 - [black-panther-wakanda-forever: cumulative aggregate GeoJSON](https://github.com/alpha60-devops/alpha60-results-2023/blob/188eac9b11645cc48caa174c7785c554bf972402/data/geojson.cumulative/black-panther-wakanda-forever-cumulative-aggregate.geojson.gz); [sample audit](https://alpha60-devops.github.io/alpha60-results-2023/docs/itemized/black-panther-wakanda-forever-sample-cache-audit.html).
 
 </details>
-

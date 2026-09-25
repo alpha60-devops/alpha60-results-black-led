@@ -442,7 +442,7 @@ def main():
     reports=Reports(data,names,json.loads(args.genre_config.read_text()),args.site)
     reports.charts()
     for (name,_),method in zip(PAGES,[reports.francophone,reports.anglophone,reports.romance,reports.wakanda]):
-        (args.site/'docs'/f'{name}.md').write_text(method())
+        (args.site/'docs'/f'{name}.md').write_text(method().rstrip()+'\n')
     css='''/* Mellon 7.7 analytical pages; existing site typography remains in use. */
 main { overflow-wrap: anywhere; }
 main code { white-space: normal; overflow-wrap: anywhere; }

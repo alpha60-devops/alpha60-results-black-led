@@ -302,4 +302,3 @@ python3 calculate-mellon-7-7-black.py --input calculations/cumulative.json --sou
 - [eyes-of-wakanda-01: cumulative aggregate GeoJSON](https://github.com/alpha60-devops/alpha60-results-2025/blob/3f07b93850efbd8bd77d9bdf020ec04401bf4ac5/data/geojson.cumulative/eyes-of-wakanda-01-cumulative-aggregate.geojson.gz); [sample audit](https://alpha60-devops.github.io/alpha60-results-2025/docs/itemized/eyes-of-wakanda-01-sample-cache-audit.html).
 
 </details>
-
